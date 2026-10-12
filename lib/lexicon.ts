@@ -1,4 +1,5 @@
-import seedData from "@/data/lexicon.json";
+import seedBase from "@/data/lexicon.json";
+import seedNew from "@/data/lexicon-new.json";
 import { getPool } from "./db";
 
 /* ============ 类型 ============ */
@@ -54,7 +55,15 @@ interface SeedShape {
   concepts: Concept[];
 }
 
-const seed = seedData as SeedShape;
+const seedBaseTyped = seedBase as SeedShape;
+const seedNewTyped = seedNew as { concepts: Concept[] };
+
+/** 内置数据：lexicon.json（30）+ lexicon-new.json（73）合并 */
+const seed: SeedShape = {
+  domains: seedBaseTyped.domains,
+  lineages: seedBaseTyped.lineages,
+  concepts: [...seedBaseTyped.concepts, ...seedNewTyped.concepts],
+};
 
 const byIndex = (a: { indexNo: number }, b: { indexNo: number }) =>
   a.indexNo - b.indexNo;

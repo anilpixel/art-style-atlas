@@ -1,1 +1,499 @@
-[{"aliases":"木炭画","color":"黑白灰","composition":"明暗阶调构图","domainSlug":"illustration","era":"文艺复兴至今","features":"欧洲最古老的干性绘画媒介之一，文艺复兴以来一直是绘画基础训练的核心工具，达·芬奇、米开朗基罗、伦勃朗均为素描大师。炭黑线条从浅灰到浓黑跨度极大，笔触易擦拭晕染，擅长表现丰富的明暗阶调与体积感，是黑白灰单色表现的典型语言。","image":"/images/styles/charcoal-drawing.jpg","keyPoints":["炭黑线条可轻可重，易擦拭晕染，明暗过渡细腻","擅长表现体积感与戏剧性光影，黑白灰层次丰富","笔触松动自由，常带速写般的即兴感"],"light":"强烈明暗对比","lineageSlug":"hand-drawn-media","medium":"炭笔","mediumCategory":"素描","nameCn":"炭笔素描","nameEn":"Charcoal Drawing","promptTemplate":"[主体]，炭笔素描，黑白灰单色，丰富的明暗阶调，易晕染的炭黑线条，纸面颗粒质感","relatedSlugs":["pastel-drawing","realism"],"slug":"charcoal-drawing","technique":"擦拭晕染","texture":"炭粉颗粒","type":"绘画媒介"},{"aliases":"色粉画","color":"柔和粉彩","composition":"柔焦式构图","domainSlug":"illustration","era":"16世纪至今","features":"由粉末颜料与黏合剂制成棒状，自文艺复兴起被艺术家使用，18世纪在法国盛极一时，成为当时肖像画的主流媒介之一。色彩最接近天然干颜料本身，呈现柔和的雾状质感与细腻笔触，多用于肖像和风景题材，轻盈梦幻。","image":"/images/styles/pastel-drawing.jpg","keyPoints":["色彩柔和朦胧，带有雾状的粉质质感","笔触轻柔细腻，色彩过渡如晕染般自然","多用于肖像与风景，氛围温柔梦幻"],"light":"柔和漫射光","lineageSlug":"hand-drawn-media","medium":"粉彩","mediumCategory":"绘画","nameCn":"粉彩绘画","nameEn":"Pastel Drawing","promptTemplate":"[主体]，粉彩绘画，柔和雾状质感，粉嫩色彩，细腻轻柔的笔触，梦幻氛围","relatedSlugs":["charcoal-drawing","watercolor"],"slug":"pastel-drawing","technique":"干擦混色","texture":"粉质雾感","type":"绘画媒介"},{"aliases":"拼贴蒙太奇","color":"拼贴杂色","composition":"碎片并置构图","domainSlug":"illustration","era":"1916年至今","features":"1916年由柏林达达主义者发明，是将多张照片剪切、粘贴、重叠拼成全新图像的技法，最初用于政治讽刺与反战宣传。视觉上碎片化图像并置错位拼接，画面常带剪切边缘和尺度冲突，数字时代演变为Photoshop合成艺术，超现实而锋利。","image":"/images/styles/photomontage.jpg","keyPoints":["多张照片剪切拼贴，碎片并置产生尺度与语义冲突","保留剪切边缘与错位痕迹，刻意暴露人工痕迹","超现实拼贴逻辑，常带政治讽刺或梦境色彩"],"light":"","lineageSlug":"collage-print","medium":"拼贴","mediumCategory":"版画","nameCn":"照片蒙太奇","nameEn":"Photomontage","promptTemplate":"[主体]，照片蒙太奇拼贴，多张照片碎片并置，剪切边缘，尺度冲突，达达主义超现实感","relatedSlugs":["screenprint","punk-flyer"],"slug":"photomontage","technique":"剪切拼贴","texture":"纸张拼贴痕","type":"拼贴技法"},{"aliases":"网版印刷","color":"平实饱和色块","composition":"套色分层构图","domainSlug":"illustration","era":"20世纪至今","features":"源于中国的雕版与镂空版技法，1910年代感光制版成熟后成为现代丝网印刷，1962年沃霍尔的《玛丽莲双联画》将其推上波普舞台。网版刮印、一次只印一色，多色需套印，色块平实饱和、边缘锐利，带有手工套印的颗粒感与错位魅力。","image":"/images/styles/screenprint.jpg","keyPoints":["一色一版套印，色块平实饱和，边缘锐利","手工套印常有轻微错位与颗粒，富有人情味","波普艺术的标志性语言，适合肖像与海报"],"light":"","lineageSlug":"collage-print","medium":"丝网版画","mediumCategory":"版画","nameCn":"丝网印刷","nameEn":"Screen Printing","promptTemplate":"[主体]，丝网印刷海报，平实饱和的色块，锐利边缘，轻微套印错位，波普艺术感","relatedSlugs":["photomontage","woodcut-print","psychedelic-poster"],"slug":"screenprint","technique":"网版套印","texture":"油墨颗粒","type":"版画技法"},{"aliases":"木版画","color":"黑白对比","composition":"刀刻线条构图","domainSlug":"illustration","era":"7世纪至今","features":"凸版印刷技法，在木板上刻除空白部分、保留凸起线条上墨印刷。中国唐朝已用于印书印画，15世纪下半叶在欧洲广泛流行，浮世绘是最著名的日本木刻形式。黑白对比强烈，线条粗犷有力、带有刀刻肌理，套色木刻则色彩浓重、层次分明。","image":"/images/styles/woodcut-print.jpg","keyPoints":["刀刻线条粗犷有力，带有木纹肌理","黑白对比强烈，或以浓重套色表现","构图概括有力，装饰性强"],"light":"","lineageSlug":"collage-print","medium":"木刻版画","mediumCategory":"版画","nameCn":"木刻版画","nameEn":"Woodcut Print","promptTemplate":"[主体]，木刻版画，粗犷刀刻线条，强烈黑白对比，木纹肌理，装饰性构图","relatedSlugs":["screenprint","ukiyo-e"],"slug":"woodcut-print","technique":"凸版刻制","texture":"刀刻肌理","type":"版画技法"},{"aliases":"昭和复古动漫","color":"粉蓝霓虹配色","composition":"复古辉光构图","domainSlug":"comics-anime","era":"1980年代","features":"定位1980年代动漫美学的风格标签：粉蓝霓虹配色、city-pop质感、复古辉光，与蒸汽波文化同源。赛璐珞手绘质感、高饱和对比色和复古滤镜感，画面常带胶片颗粒与VHS怀旧氛围，是AI创作者社区固化的可复现风格。","image":"/images/styles/80s-retro-anime.jpg","keyPoints":["粉蓝霓虹配色，高饱和对比，复古辉光","赛璐珞手绘质感叠加胶片颗粒与VHS噪点","city-pop式的都市夜景与复古未来感"],"light":"霓虹辉光","lineageSlug":"anime-coloring","medium":"赛璐珞","mediumCategory":"动漫","nameCn":"80年代复古动漫风","nameEn":"80s Retro Anime","promptTemplate":"[主体]，80年代复古动漫风，粉蓝霓虹配色，赛璐珞质感，胶片颗粒，VHS怀旧氛围","relatedSlugs":["anime","90s-ova-aesthetic","cel-shading"],"slug":"80s-retro-anime","technique":"赛璐珞上色","texture":"胶片颗粒","type":"动漫风格"},{"aliases":"厚涂","color":"厚重浓郁","composition":"体积感构图","domainSlug":"comics-anime","era":"2000年代至今","features":"2000年代日本pixiv插画圈兴起的数字绘画上色技法，不依赖线稿、以逐层叠加的笔触直接塑造形体。色彩厚重、体积感强、带有油画般的笔触纹理，光滑渲染加细致光照，常用于动漫风格插画和游戏原画，是数字绘画的主流画法之一。","image":"/images/styles/atsu-nuri-thick-paint.jpg","keyPoints":["弱化线稿，以叠加笔触直接塑造体积","色彩厚重浓郁，光影细致，有油画质感","笔触纹理可见，画面完成度高"],"light":"细致的体积光","lineageSlug":"anime-coloring","medium":"数字绘画","mediumCategory":"动漫","nameCn":"厚涂画法","nameEn":"Atsu-nuri / Thick Paint","promptTemplate":"[主体]，动漫厚涂画法，厚重笔触塑造体积，浓郁色彩，细致光影，油画般质感","relatedSlugs":["anime","90s-ova-aesthetic"],"slug":"atsu-nuri-thick-paint","technique":"数字厚涂","texture":"笔触肌理","type":"上色技法"},{"aliases":"OVA美学","color":"有限调色盘","composition":"电影感构图","domainSlug":"comics-anime","era":"1980–90年代","features":"1980至90年代日本OVA时代的视觉语言：胶片颗粒、赛璐珞上色、独特的有限调色盘，常带VHS录像带的怀旧感。代表作如《阿基拉》《攻壳机动队》剧场版的顶级作画水准，是AI提示词社区反复出现的风格标签，电影感极强。","image":"/images/styles/90s-ova-aesthetic.jpg","keyPoints":["胶片颗粒与赛璐珞质感，有限而独特的调色盘","作画精细，电影化的光影与构图","VHS时代的怀旧氛围，略带粗粝感"],"light":"电影化光影","lineageSlug":"anime-coloring","medium":"赛璐珞","mediumCategory":"动漫","nameCn":"90年代OVA质感","nameEn":"90s OVA Aesthetic","promptTemplate":"[主体]，90年代OVA动漫质感，胶片颗粒，赛璐珞上色，电影感构图，VHS怀旧氛围","relatedSlugs":["anime","80s-retro-anime","cel-animation"],"slug":"90s-ova-aesthetic","technique":"赛璐珞作画","texture":"胶片颗粒","type":"动漫风格"},{"aliases":"超扁平艺术","color":"鲜艳波点色","composition":"平面拼贴构图","domainSlug":"comics-anime","era":"2000年至今","features":"村上隆2000年前后创立的后现代艺术运动，受日本动漫与御宅文化影响，主张抹平高雅艺术与大众文化的界限。视觉上极度扁平，卡通化形象配鲜艳波点与笑脸符号，拼贴感的平面构成，是动漫美学进入当代艺术殿堂的标志。","image":"/images/styles/superflat.jpg","keyPoints":["极度扁平，拒绝透视与体积感","卡通形象、波点、笑脸等御宅符号拼贴","色彩鲜艳刺眼，平面构成感强"],"light":"","lineageSlug":"anime-eras","medium":"综合材料","mediumCategory":"动漫","nameCn":"超扁平","nameEn":"Superflat","promptTemplate":"[主体]，超扁平风格，极度扁平无透视，卡通形象配波点笑脸，鲜艳拼贴平面构成","relatedSlugs":["anime","pop-subculture"],"slug":"superflat","technique":"平面拼贴","texture":"光滑平面","type":"艺术运动"},{"aliases":"剧画风","color":"阴郁厚重","composition":"电影化分镜","domainSlug":"comics-anime","era":"1950年代至今","features":"1950年代辰巳嘉裕创造的名词，指比主流漫画更写实、符号化程度更低的绘画风格，与漫画等于搞笑轻松的刻板印象划清界限。视觉上写实比例、阴郁厚重的线条、电影化的分镜，风格后被主流漫画吸收，是日本漫画的成人写实一脉。","image":"/images/styles/gekiga.jpg","keyPoints":["写实人体比例，线条阴郁厚重","电影化的分镜与光影，氛围凝重","题材成人化，拒绝卡通式的轻松感"],"light":"阴郁戏剧光","lineageSlug":"anime-eras","medium":"墨水","mediumCategory":"漫画","nameCn":"剧画","nameEn":"Gekiga","promptTemplate":"[主体]，日本剧画风格，写实比例，阴郁厚重的线条，电影化分镜，凝重氛围","relatedSlugs":["anime","manga"],"slug":"gekiga","technique":"写实线条","texture":"墨水厚重感","type":"漫画风格"},{"aliases":"有限作画","color":"简化色块","composition":"定格姿态构图","domainSlug":"comics-anime","era":"1960年代至今","features":"以低成本商业运作为目的的动画制作技法：重复使用原画、循环动画、角色静止、降低帧数。1960年代随电视动画普及而成熟，是电视动画时代的标志性美学。动作顿挫感、角色静止时背景层叠推进、夸张的定格姿态，反而形成独特的韵律美学。","image":"/images/styles/limited-animation.jpg","keyPoints":["动作顿挫，帧数低，有独特的顿挫韵律","角色静止摆夸张姿态，背景层叠推进","造型简化，色块平涂，效率优先的美学"],"light":"","lineageSlug":"anime-eras","medium":"赛璐珞","mediumCategory":"动漫","nameCn":"日本有限动画","nameEn":"Limited Animation","promptTemplate":"[主体]，日本有限动画风格，低帧顿挫感，夸张定格姿态，简化色块，电视动画美学","relatedSlugs":["cel-animation","anime"],"slug":"limited-animation","technique":"有限作画","texture":"赛璐珞平涂","type":"动画技法"},{"aliases":"包豪斯设计","color":"原色几何","composition":"非对称网格构图","domainSlug":"graphic-design","era":"1919–1933","features":"德国包豪斯学校将功能主义引入平面设计，对现代排印影响深远。以无衬线字体为主、常全用小写，几何构成与非对称网格布局，强调形式追随功能、去除装饰。红黄蓝三原色配黑白灰，是现代主义设计的源头语言。","image":"/images/styles/bauhaus-typography.jpg","keyPoints":["无衬线字体，常全小写，字形几何化","红黄蓝三原色与黑白灰，色块几何构成","非对称网格布局，形式追随功能"],"light":"","lineageSlug":"swiss-modernist","medium":"印刷","mediumCategory":"平面设计","nameCn":"包豪斯排印","nameEn":"Bauhaus Typography","promptTemplate":"[主体]，包豪斯平面设计，无衬线小写字体，红黄蓝几何色块，非对称网格，功能主义","relatedSlugs":["swiss-style","ulm-school"],"slug":"bauhaus-typography","technique":"网格排印","texture":"印刷平滑","type":"设计风格"},{"aliases":"乌尔姆学派","color":"理性灰调","composition":"模块化系统构图","domainSlug":"graphic-design","era":"1953–1968","features":"1953至1968年德国乌尔姆设计学院，被视为包豪斯的继承者与当时最激进的设计教育机构。在包豪斯基础上引入社会学、心理学与符号学，排印更偏系统化、模块化与信息设计，风格冷静理性，是系统化设计思维的典范。","image":"/images/styles/ulm-school.jpg","keyPoints":["比包豪斯更系统化、模块化的排印","信息设计优先，冷静理性的视觉语言","网格严谨，装饰为零，功能至上"],"light":"","lineageSlug":"swiss-modernist","medium":"印刷","mediumCategory":"平面设计","nameCn":"乌尔姆设计学院","nameEn":"Ulm School of Design","promptTemplate":"[主体]，乌尔姆学派平面设计，系统化模块网格，冷静理性的信息排版，无装饰","relatedSlugs":["bauhaus-typography","swiss-style"],"slug":"ulm-school","technique":"系统化网格","texture":"印刷平滑","type":"设计风格"},{"aliases":"瑞士朋克排印","color":"多彩混排","composition":"打破网格构图","domainSlug":"graphic-design","era":"1970年代至今","features":"1970年代初由沃尔夫冈·魏因加特在巴塞尔开创，又称瑞士朋克排印，是对国际主义排印严格网格的反叛。打破网格约束，字间距不一、同一词内字重混搭、文字倾斜排布，阶梯状粗黑标题与多字号多色彩并置，仍保留无衬线字体底色。","image":"/images/styles/swiss-new-wave.jpg","keyPoints":["打破网格，文字倾斜、错位、阶梯式排列","同一词内混搭字重字号，字间距不一","保留无衬线底色，叛逆但仍有秩序感"],"light":"","lineageSlug":"swiss-modernist","medium":"印刷","mediumCategory":"平面设计","nameCn":"瑞士新浪潮排印","nameEn":"Swiss New Wave Typography","promptTemplate":"[主体]，瑞士新浪潮排印，打破网格的倾斜文字，混搭字重字号，阶梯式粗黑标题","relatedSlugs":["swiss-style","punk-flyer"],"slug":"swiss-new-wave","technique":"解构排印","texture":"印刷平滑","type":"设计风格"},{"aliases":"朋克拼贴","color":"黑白复印","composition":"拼贴冲突构图","domainSlug":"graphic-design","era":"1970年代至今","features":"1970年代末兴起于英美朋克亚文化，常见于演出传单、专辑封面与小志。1980年代复印机普及让这种美学大规模传播。从报刊剪贴拼贴图像、赎金信式拼贴字母，黑白复印颗粒粗糙，刻意粗糙、反商业，是DIY精神的视觉宣言。","image":"/images/styles/punk-flyer.jpg","keyPoints":["报刊剪贴拼贴，赎金信式拼贴字母","黑白复印颗粒，粗糙边缘","刻意粗糙、反商业的DIY态度"],"light":"","lineageSlug":"counterculture","medium":"复印拼贴","mediumCategory":"平面设计","nameCn":"朋克传单美学","nameEn":"Punk Flyer Aesthetic","promptTemplate":"[主体]，朋克传单美学，报刊剪贴拼贴，赎金信式字母，黑白复印颗粒，DIY粗糙感","relatedSlugs":["zine-culture","photomontage","swiss-new-wave"],"slug":"punk-flyer","technique":"剪贴复印","texture":"复印颗粒","type":"亚文化美学"},{"aliases":"街头涂鸦","color":"高对比荧光色","composition":"墙面爆发构图","domainSlug":"graphic-design","era":"1970年代至今","features":"现代涂鸦始于1970年代初的纽约地铁与费城，由街头签名发展为大型墙面绘画，随后扩散全球。喷漆绘制的风格化字母、高对比配色与描边阴影，从简单的标签到精细的整幅壁画，带有街头即兴感，是城市亚文化的视觉语言。","image":"/images/styles/graffiti.jpg","keyPoints":["喷漆风格化字母，wildstyle式交错缠绕","荧光高对比配色，粗描边与投影","墙面尺度，街头即兴感"],"light":"","lineageSlug":"counterculture","medium":"喷漆","mediumCategory":"街头艺术","nameCn":"涂鸦","nameEn":"Graffiti","promptTemplate":"[主体]，街头涂鸦艺术，喷漆风格化字母，荧光高对比配色，粗描边，墙面质感","relatedSlugs":["punk-flyer","zine-culture"],"slug":"graffiti","technique":"喷漆","texture":"喷漆雾化颗粒","type":"街头艺术"},{"aliases":"小志美学","color":"黑白复印","composition":"DIY拼贴排版","domainSlug":"graphic-design","era":"1970年代至今","features":"Zine是非商业、手工制作的小批量出版物，1970年代朋克浪潮中成为亚文化的主要发声渠道，通常复印发行。DIY拼贴排版、手写体与打字机字体混排、黑白复印质感，无视专业出版规范，呈现自信而粗粝的地下气质。","image":"/images/styles/zine-culture.jpg","keyPoints":["手写体与打字机字体混排，拼贴式版式","黑白复印质感，粗糙边缘","反专业规范，地下出版物气质"],"light":"","lineageSlug":"counterculture","medium":"复印","mediumCategory":"出版物","nameCn":"独立杂志文化","nameEn":"Zine Culture","promptTemplate":"[主体]，独立杂志小志美学，手写体打字机混排，DIY拼贴版式，黑白复印质感","relatedSlugs":["punk-flyer","graffiti"],"slug":"zine-culture","technique":"手工拼贴","texture":"复印粗糙","type":"亚文化美学"}]
+[
+  {
+    "aliases": "木炭画",
+    "color": "黑白灰",
+    "composition": "明暗阶调构图",
+    "domainSlug": "illustration",
+    "era": "文艺复兴至今",
+    "features": "欧洲最古老的干性绘画媒介之一，文艺复兴以来一直是绘画基础训练的核心工具，达·芬奇、米开朗基罗、伦勃朗均为素描大师。炭黑线条从浅灰到浓黑跨度极大，笔触易擦拭晕染，擅长表现丰富的明暗阶调与体积感，是黑白灰单色表现的典型语言。",
+    "image": "/images/styles/charcoal-drawing.jpg",
+    "keyPoints": [
+      "炭黑线条可轻可重，易擦拭晕染，明暗过渡细腻",
+      "擅长表现体积感与戏剧性光影，黑白灰层次丰富",
+      "笔触松动自由，常带速写般的即兴感"
+    ],
+    "light": "强烈明暗对比",
+    "lineageSlug": "hand-drawn-media",
+    "medium": "炭笔",
+    "mediumCategory": "素描",
+    "nameCn": "炭笔素描",
+    "nameEn": "Charcoal Drawing",
+    "promptTemplate": "[主体]，炭笔素描，黑白灰单色，丰富的明暗阶调，易晕染的炭黑线条，纸面颗粒质感",
+    "relatedSlugs": [
+      "pastel-drawing",
+      "realism"
+    ],
+    "slug": "charcoal-drawing",
+    "technique": "擦拭晕染",
+    "texture": "炭粉颗粒",
+    "type": "绘画媒介"
+  },
+  {
+    "aliases": "色粉画",
+    "color": "柔和粉彩",
+    "composition": "柔焦式构图",
+    "domainSlug": "illustration",
+    "era": "16世纪至今",
+    "features": "由粉末颜料与黏合剂制成棒状，自文艺复兴起被艺术家使用，18世纪在法国盛极一时，成为当时肖像画的主流媒介之一。色彩最接近天然干颜料本身，呈现柔和的雾状质感与细腻笔触，多用于肖像和风景题材，轻盈梦幻。",
+    "image": "/images/styles/pastel-drawing.jpg",
+    "keyPoints": [
+      "色彩柔和朦胧，带有雾状的粉质质感",
+      "笔触轻柔细腻，色彩过渡如晕染般自然",
+      "多用于肖像与风景，氛围温柔梦幻"
+    ],
+    "light": "柔和漫射光",
+    "lineageSlug": "hand-drawn-media",
+    "medium": "粉彩",
+    "mediumCategory": "绘画",
+    "nameCn": "粉彩绘画",
+    "nameEn": "Pastel Drawing",
+    "promptTemplate": "[主体]，粉彩绘画，柔和雾状质感，粉嫩色彩，细腻轻柔的笔触，梦幻氛围",
+    "relatedSlugs": [
+      "charcoal-drawing",
+      "watercolor"
+    ],
+    "slug": "pastel-drawing",
+    "technique": "干擦混色",
+    "texture": "粉质雾感",
+    "type": "绘画媒介"
+  },
+  {
+    "aliases": "拼贴蒙太奇",
+    "color": "拼贴杂色",
+    "composition": "碎片并置构图",
+    "domainSlug": "illustration",
+    "era": "1916年至今",
+    "features": "1916年由柏林达达主义者发明，是将多张照片剪切、粘贴、重叠拼成全新图像的技法，最初用于政治讽刺与反战宣传。视觉上碎片化图像并置错位拼接，画面常带剪切边缘和尺度冲突，数字时代演变为Photoshop合成艺术，超现实而锋利。",
+    "image": "/images/styles/photomontage.jpg",
+    "keyPoints": [
+      "多张照片剪切拼贴，碎片并置产生尺度与语义冲突",
+      "保留剪切边缘与错位痕迹，刻意暴露人工痕迹",
+      "超现实拼贴逻辑，常带政治讽刺或梦境色彩"
+    ],
+    "light": "",
+    "lineageSlug": "collage-print",
+    "medium": "拼贴",
+    "mediumCategory": "版画",
+    "nameCn": "照片蒙太奇",
+    "nameEn": "Photomontage",
+    "promptTemplate": "[主体]，照片蒙太奇拼贴，多张照片碎片并置，剪切边缘，尺度冲突，达达主义超现实感",
+    "relatedSlugs": [
+      "screenprint",
+      "punk-flyer"
+    ],
+    "slug": "photomontage",
+    "technique": "剪切拼贴",
+    "texture": "纸张拼贴痕",
+    "type": "拼贴技法"
+  },
+  {
+    "aliases": "网版印刷",
+    "color": "平实饱和色块",
+    "composition": "套色分层构图",
+    "domainSlug": "illustration",
+    "era": "20世纪至今",
+    "features": "源于中国的雕版与镂空版技法，1910年代感光制版成熟后成为现代丝网印刷，1962年沃霍尔的《玛丽莲双联画》将其推上波普舞台。网版刮印、一次只印一色，多色需套印，色块平实饱和、边缘锐利，带有手工套印的颗粒感与错位魅力。",
+    "image": "/images/styles/screenprint.jpg",
+    "keyPoints": [
+      "一色一版套印，色块平实饱和，边缘锐利",
+      "手工套印常有轻微错位与颗粒，富有人情味",
+      "波普艺术的标志性语言，适合肖像与海报"
+    ],
+    "light": "",
+    "lineageSlug": "collage-print",
+    "medium": "丝网版画",
+    "mediumCategory": "版画",
+    "nameCn": "丝网印刷",
+    "nameEn": "Screen Printing",
+    "promptTemplate": "[主体]，丝网印刷海报，平实饱和的色块，锐利边缘，轻微套印错位，波普艺术感",
+    "relatedSlugs": [
+      "photomontage",
+      "woodcut-print",
+      "psychedelic-poster"
+    ],
+    "slug": "screenprint",
+    "technique": "网版套印",
+    "texture": "油墨颗粒",
+    "type": "版画技法"
+  },
+  {
+    "aliases": "木版画",
+    "color": "黑白对比",
+    "composition": "刀刻线条构图",
+    "domainSlug": "illustration",
+    "era": "7世纪至今",
+    "features": "凸版印刷技法，在木板上刻除空白部分、保留凸起线条上墨印刷。中国唐朝已用于印书印画，15世纪下半叶在欧洲广泛流行，浮世绘是最著名的日本木刻形式。黑白对比强烈，线条粗犷有力、带有刀刻肌理，套色木刻则色彩浓重、层次分明。",
+    "image": "/images/styles/woodcut-print.jpg",
+    "keyPoints": [
+      "刀刻线条粗犷有力，带有木纹肌理",
+      "黑白对比强烈，或以浓重套色表现",
+      "构图概括有力，装饰性强"
+    ],
+    "light": "",
+    "lineageSlug": "collage-print",
+    "medium": "木刻版画",
+    "mediumCategory": "版画",
+    "nameCn": "木刻版画",
+    "nameEn": "Woodcut Print",
+    "promptTemplate": "[主体]，木刻版画，粗犷刀刻线条，强烈黑白对比，木纹肌理，装饰性构图",
+    "relatedSlugs": [
+      "screenprint",
+      "ukiyo-e"
+    ],
+    "slug": "woodcut-print",
+    "technique": "凸版刻制",
+    "texture": "刀刻肌理",
+    "type": "版画技法"
+  },
+  {
+    "aliases": "昭和复古动漫",
+    "color": "粉蓝霓虹配色",
+    "composition": "复古辉光构图",
+    "domainSlug": "comics-anime",
+    "era": "1980年代",
+    "features": "定位1980年代动漫美学的风格标签：粉蓝霓虹配色、city-pop质感、复古辉光，与蒸汽波文化同源。赛璐珞手绘质感、高饱和对比色和复古滤镜感，画面常带胶片颗粒与VHS怀旧氛围，是AI创作者社区固化的可复现风格。",
+    "image": "/images/styles/80s-retro-anime.jpg",
+    "keyPoints": [
+      "粉蓝霓虹配色，高饱和对比，复古辉光",
+      "赛璐珞手绘质感叠加胶片颗粒与VHS噪点",
+      "city-pop式的都市夜景与复古未来感"
+    ],
+    "light": "霓虹辉光",
+    "lineageSlug": "anime-coloring",
+    "medium": "赛璐珞",
+    "mediumCategory": "动漫",
+    "nameCn": "80年代复古动漫风",
+    "nameEn": "80s Retro Anime",
+    "promptTemplate": "[主体]，80年代复古动漫风，粉蓝霓虹配色，赛璐珞质感，胶片颗粒，VHS怀旧氛围",
+    "relatedSlugs": [
+      "anime",
+      "90s-ova-aesthetic",
+      "cel-shading"
+    ],
+    "slug": "80s-retro-anime",
+    "technique": "赛璐珞上色",
+    "texture": "胶片颗粒",
+    "type": "动漫风格"
+  },
+  {
+    "aliases": "厚涂",
+    "color": "厚重浓郁",
+    "composition": "体积感构图",
+    "domainSlug": "comics-anime",
+    "era": "2000年代至今",
+    "features": "2000年代日本pixiv插画圈兴起的数字绘画上色技法，不依赖线稿、以逐层叠加的笔触直接塑造形体。色彩厚重、体积感强、带有油画般的笔触纹理，光滑渲染加细致光照，常用于动漫风格插画和游戏原画，是数字绘画的主流画法之一。",
+    "image": "/images/styles/atsu-nuri-thick-paint.jpg",
+    "keyPoints": [
+      "弱化线稿，以叠加笔触直接塑造体积",
+      "色彩厚重浓郁，光影细致，有油画质感",
+      "笔触纹理可见，画面完成度高"
+    ],
+    "light": "细致的体积光",
+    "lineageSlug": "anime-coloring",
+    "medium": "数字绘画",
+    "mediumCategory": "动漫",
+    "nameCn": "厚涂画法",
+    "nameEn": "Atsu-nuri / Thick Paint",
+    "promptTemplate": "[主体]，动漫厚涂画法，厚重笔触塑造体积，浓郁色彩，细致光影，油画般质感",
+    "relatedSlugs": [
+      "anime",
+      "90s-ova-aesthetic"
+    ],
+    "slug": "atsu-nuri-thick-paint",
+    "technique": "数字厚涂",
+    "texture": "笔触肌理",
+    "type": "上色技法"
+  },
+  {
+    "aliases": "OVA美学",
+    "color": "有限调色盘",
+    "composition": "电影感构图",
+    "domainSlug": "comics-anime",
+    "era": "1980–90年代",
+    "features": "1980至90年代日本OVA时代的视觉语言：胶片颗粒、赛璐珞上色、独特的有限调色盘，常带VHS录像带的怀旧感。代表作如《阿基拉》《攻壳机动队》剧场版的顶级作画水准，是AI提示词社区反复出现的风格标签，电影感极强。",
+    "image": "/images/styles/90s-ova-aesthetic.jpg",
+    "keyPoints": [
+      "胶片颗粒与赛璐珞质感，有限而独特的调色盘",
+      "作画精细，电影化的光影与构图",
+      "VHS时代的怀旧氛围，略带粗粝感"
+    ],
+    "light": "电影化光影",
+    "lineageSlug": "anime-coloring",
+    "medium": "赛璐珞",
+    "mediumCategory": "动漫",
+    "nameCn": "90年代OVA质感",
+    "nameEn": "90s OVA Aesthetic",
+    "promptTemplate": "[主体]，90年代OVA动漫质感，胶片颗粒，赛璐珞上色，电影感构图，VHS怀旧氛围",
+    "relatedSlugs": [
+      "anime",
+      "80s-retro-anime",
+      "cel-animation"
+    ],
+    "slug": "90s-ova-aesthetic",
+    "technique": "赛璐珞作画",
+    "texture": "胶片颗粒",
+    "type": "动漫风格"
+  },
+  {
+    "aliases": "超扁平艺术",
+    "color": "鲜艳波点色",
+    "composition": "平面拼贴构图",
+    "domainSlug": "comics-anime",
+    "era": "2000年至今",
+    "features": "村上隆2000年前后创立的后现代艺术运动，受日本动漫与御宅文化影响，主张抹平高雅艺术与大众文化的界限。视觉上极度扁平，卡通化形象配鲜艳波点与笑脸符号，拼贴感的平面构成，是动漫美学进入当代艺术殿堂的标志。",
+    "image": "/images/styles/superflat.jpg",
+    "keyPoints": [
+      "极度扁平，拒绝透视与体积感",
+      "卡通形象、波点、笑脸等御宅符号拼贴",
+      "色彩鲜艳刺眼，平面构成感强"
+    ],
+    "light": "",
+    "lineageSlug": "anime-eras",
+    "medium": "综合材料",
+    "mediumCategory": "动漫",
+    "nameCn": "超扁平",
+    "nameEn": "Superflat",
+    "promptTemplate": "[主体]，超扁平风格，极度扁平无透视，卡通形象配波点笑脸，鲜艳拼贴平面构成",
+    "relatedSlugs": [
+      "anime",
+      "limited-animation"
+    ],
+    "slug": "superflat",
+    "technique": "平面拼贴",
+    "texture": "光滑平面",
+    "type": "艺术运动"
+  },
+  {
+    "aliases": "剧画风",
+    "color": "阴郁厚重",
+    "composition": "电影化分镜",
+    "domainSlug": "comics-anime",
+    "era": "1950年代至今",
+    "features": "1950年代辰巳嘉裕创造的名词，指比主流漫画更写实、符号化程度更低的绘画风格，与漫画等于搞笑轻松的刻板印象划清界限。视觉上写实比例、阴郁厚重的线条、电影化的分镜，风格后被主流漫画吸收，是日本漫画的成人写实一脉。",
+    "image": "/images/styles/gekiga.jpg",
+    "keyPoints": [
+      "写实人体比例，线条阴郁厚重",
+      "电影化的分镜与光影，氛围凝重",
+      "题材成人化，拒绝卡通式的轻松感"
+    ],
+    "light": "阴郁戏剧光",
+    "lineageSlug": "anime-eras",
+    "medium": "墨水",
+    "mediumCategory": "漫画",
+    "nameCn": "剧画",
+    "nameEn": "Gekiga",
+    "promptTemplate": "[主体]，日本剧画风格，写实比例，阴郁厚重的线条，电影化分镜，凝重氛围",
+    "relatedSlugs": [
+      "anime",
+      "superflat"
+    ],
+    "slug": "gekiga",
+    "technique": "写实线条",
+    "texture": "墨水厚重感",
+    "type": "漫画风格"
+  },
+  {
+    "aliases": "有限作画",
+    "color": "简化色块",
+    "composition": "定格姿态构图",
+    "domainSlug": "comics-anime",
+    "era": "1960年代至今",
+    "features": "以低成本商业运作为目的的动画制作技法：重复使用原画、循环动画、角色静止、降低帧数。1960年代随电视动画普及而成熟，是电视动画时代的标志性美学。动作顿挫感、角色静止时背景层叠推进、夸张的定格姿态，反而形成独特的韵律美学。",
+    "image": "/images/styles/limited-animation.jpg",
+    "keyPoints": [
+      "动作顿挫，帧数低，有独特的顿挫韵律",
+      "角色静止摆夸张姿态，背景层叠推进",
+      "造型简化，色块平涂，效率优先的美学"
+    ],
+    "light": "",
+    "lineageSlug": "anime-eras",
+    "medium": "赛璐珞",
+    "mediumCategory": "动漫",
+    "nameCn": "日本有限动画",
+    "nameEn": "Limited Animation",
+    "promptTemplate": "[主体]，日本有限动画风格，低帧顿挫感，夸张定格姿态，简化色块，电视动画美学",
+    "relatedSlugs": [
+      "cel-animation",
+      "anime"
+    ],
+    "slug": "limited-animation",
+    "technique": "有限作画",
+    "texture": "赛璐珞平涂",
+    "type": "动画技法"
+  },
+  {
+    "aliases": "包豪斯设计",
+    "color": "原色几何",
+    "composition": "非对称网格构图",
+    "domainSlug": "graphic-design",
+    "era": "1919–1933",
+    "features": "德国包豪斯学校将功能主义引入平面设计，对现代排印影响深远。以无衬线字体为主、常全用小写，几何构成与非对称网格布局，强调形式追随功能、去除装饰。红黄蓝三原色配黑白灰，是现代主义设计的源头语言。",
+    "image": "/images/styles/bauhaus-typography.jpg",
+    "keyPoints": [
+      "无衬线字体，常全小写，字形几何化",
+      "红黄蓝三原色与黑白灰，色块几何构成",
+      "非对称网格布局，形式追随功能"
+    ],
+    "light": "",
+    "lineageSlug": "swiss-modernist",
+    "medium": "印刷",
+    "mediumCategory": "平面设计",
+    "nameCn": "包豪斯排印",
+    "nameEn": "Bauhaus Typography",
+    "promptTemplate": "[主体]，包豪斯平面设计，无衬线小写字体，红黄蓝几何色块，非对称网格，功能主义",
+    "relatedSlugs": [
+      "swiss-style",
+      "ulm-school"
+    ],
+    "slug": "bauhaus-typography",
+    "technique": "网格排印",
+    "texture": "印刷平滑",
+    "type": "设计风格"
+  },
+  {
+    "aliases": "乌尔姆学派",
+    "color": "理性灰调",
+    "composition": "模块化系统构图",
+    "domainSlug": "graphic-design",
+    "era": "1953–1968",
+    "features": "1953至1968年德国乌尔姆设计学院，被视为包豪斯的继承者与当时最激进的设计教育机构。在包豪斯基础上引入社会学、心理学与符号学，排印更偏系统化、模块化与信息设计，风格冷静理性，是系统化设计思维的典范。",
+    "image": "/images/styles/ulm-school.jpg",
+    "keyPoints": [
+      "比包豪斯更系统化、模块化的排印",
+      "信息设计优先，冷静理性的视觉语言",
+      "网格严谨，装饰为零，功能至上"
+    ],
+    "light": "",
+    "lineageSlug": "swiss-modernist",
+    "medium": "印刷",
+    "mediumCategory": "平面设计",
+    "nameCn": "乌尔姆设计学院",
+    "nameEn": "Ulm School of Design",
+    "promptTemplate": "[主体]，乌尔姆学派平面设计，系统化模块网格，冷静理性的信息排版，无装饰",
+    "relatedSlugs": [
+      "bauhaus-typography",
+      "swiss-style"
+    ],
+    "slug": "ulm-school",
+    "technique": "系统化网格",
+    "texture": "印刷平滑",
+    "type": "设计风格"
+  },
+  {
+    "aliases": "瑞士朋克排印",
+    "color": "多彩混排",
+    "composition": "打破网格构图",
+    "domainSlug": "graphic-design",
+    "era": "1970年代至今",
+    "features": "1970年代初由沃尔夫冈·魏因加特在巴塞尔开创，又称瑞士朋克排印，是对国际主义排印严格网格的反叛。打破网格约束，字间距不一、同一词内字重混搭、文字倾斜排布，阶梯状粗黑标题与多字号多色彩并置，仍保留无衬线字体底色。",
+    "image": "/images/styles/swiss-new-wave.jpg",
+    "keyPoints": [
+      "打破网格，文字倾斜、错位、阶梯式排列",
+      "同一词内混搭字重字号，字间距不一",
+      "保留无衬线底色，叛逆但仍有秩序感"
+    ],
+    "light": "",
+    "lineageSlug": "swiss-modernist",
+    "medium": "印刷",
+    "mediumCategory": "平面设计",
+    "nameCn": "瑞士新浪潮排印",
+    "nameEn": "Swiss New Wave Typography",
+    "promptTemplate": "[主体]，瑞士新浪潮排印，打破网格的倾斜文字，混搭字重字号，阶梯式粗黑标题",
+    "relatedSlugs": [
+      "swiss-style",
+      "punk-flyer"
+    ],
+    "slug": "swiss-new-wave",
+    "technique": "解构排印",
+    "texture": "印刷平滑",
+    "type": "设计风格"
+  },
+  {
+    "aliases": "朋克拼贴",
+    "color": "黑白复印",
+    "composition": "拼贴冲突构图",
+    "domainSlug": "graphic-design",
+    "era": "1970年代至今",
+    "features": "1970年代末兴起于英美朋克亚文化，常见于演出传单、专辑封面与小志。1980年代复印机普及让这种美学大规模传播。从报刊剪贴拼贴图像、赎金信式拼贴字母，黑白复印颗粒粗糙，刻意粗糙、反商业，是DIY精神的视觉宣言。",
+    "image": "/images/styles/punk-flyer.jpg",
+    "keyPoints": [
+      "报刊剪贴拼贴，赎金信式拼贴字母",
+      "黑白复印颗粒，粗糙边缘",
+      "刻意粗糙、反商业的DIY态度"
+    ],
+    "light": "",
+    "lineageSlug": "counterculture",
+    "medium": "复印拼贴",
+    "mediumCategory": "平面设计",
+    "nameCn": "朋克传单美学",
+    "nameEn": "Punk Flyer Aesthetic",
+    "promptTemplate": "[主体]，朋克传单美学，报刊剪贴拼贴，赎金信式字母，黑白复印颗粒，DIY粗糙感",
+    "relatedSlugs": [
+      "zine-culture",
+      "photomontage",
+      "swiss-new-wave"
+    ],
+    "slug": "punk-flyer",
+    "technique": "剪贴复印",
+    "texture": "复印颗粒",
+    "type": "亚文化美学"
+  },
+  {
+    "aliases": "街头涂鸦",
+    "color": "高对比荧光色",
+    "composition": "墙面爆发构图",
+    "domainSlug": "graphic-design",
+    "era": "1970年代至今",
+    "features": "现代涂鸦始于1970年代初的纽约地铁与费城，由街头签名发展为大型墙面绘画，随后扩散全球。喷漆绘制的风格化字母、高对比配色与描边阴影，从简单的标签到精细的整幅壁画，带有街头即兴感，是城市亚文化的视觉语言。",
+    "image": "/images/styles/graffiti.jpg",
+    "keyPoints": [
+      "喷漆风格化字母，wildstyle式交错缠绕",
+      "荧光高对比配色，粗描边与投影",
+      "墙面尺度，街头即兴感"
+    ],
+    "light": "",
+    "lineageSlug": "counterculture",
+    "medium": "喷漆",
+    "mediumCategory": "街头艺术",
+    "nameCn": "涂鸦",
+    "nameEn": "Graffiti",
+    "promptTemplate": "[主体]，街头涂鸦艺术，喷漆风格化字母，荧光高对比配色，粗描边，墙面质感",
+    "relatedSlugs": [
+      "punk-flyer",
+      "zine-culture"
+    ],
+    "slug": "graffiti",
+    "technique": "喷漆",
+    "texture": "喷漆雾化颗粒",
+    "type": "街头艺术"
+  },
+  {
+    "aliases": "小志美学",
+    "color": "黑白复印",
+    "composition": "DIY拼贴排版",
+    "domainSlug": "graphic-design",
+    "era": "1970年代至今",
+    "features": "Zine是非商业、手工制作的小批量出版物，1970年代朋克浪潮中成为亚文化的主要发声渠道，通常复印发行。DIY拼贴排版、手写体与打字机字体混排、黑白复印质感，无视专业出版规范，呈现自信而粗粝的地下气质。",
+    "image": "/images/styles/zine-culture.jpg",
+    "keyPoints": [
+      "手写体与打字机字体混排，拼贴式版式",
+      "黑白复印质感，粗糙边缘",
+      "反专业规范，地下出版物气质"
+    ],
+    "light": "",
+    "lineageSlug": "counterculture",
+    "medium": "复印",
+    "mediumCategory": "出版物",
+    "nameCn": "独立杂志文化",
+    "nameEn": "Zine Culture",
+    "promptTemplate": "[主体]，独立杂志小志美学，手写体打字机混排，DIY拼贴版式，黑白复印质感",
+    "relatedSlugs": [
+      "punk-flyer",
+      "graffiti"
+    ],
+    "slug": "zine-culture",
+    "technique": "手工拼贴",
+    "texture": "复印粗糙",
+    "type": "亚文化美学"
+  }
+]

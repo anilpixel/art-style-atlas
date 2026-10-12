@@ -1,6 +1,16 @@
 import { NextResponse } from "next/server";
 import { getPool, isDbConfigured } from "@/lib/db";
-import seed from "@/data/lexicon.json";
+import seedBase from "@/data/lexicon.json";
+import seedNew from "@/data/lexicon-new.json";
+
+const seed = {
+  domains: (seedBase as { domains: unknown[] }).domains,
+  lineages: (seedBase as { lineages: unknown[] }).lineages,
+  concepts: [
+    ...(seedBase as { concepts: unknown[] }).concepts,
+    ...(seedNew as { concepts: unknown[] }).concepts,
+  ],
+};
 
 export const instant = false;
 
