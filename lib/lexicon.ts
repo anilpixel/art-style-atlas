@@ -1,5 +1,6 @@
 import seedBase from "@/data/lexicon.json";
 import seedNew from "@/data/lexicon-new.json";
+import casesData from "@/data/cases.json";
 import { getPool } from "./db";
 
 /* ============ 类型 ============ */
@@ -58,7 +59,30 @@ interface SeedShape {
 const seedBaseTyped = seedBase as SeedShape;
 const seedNewTyped = seedNew as { concepts: Concept[] };
 
-/** 内置数据：lexicon.json（30）+ lexicon-new.json（73）合并 */
+export interface RealCase {
+  kind: "image" | "work";
+  title: string;
+  creator?: string;
+  year?: string;
+  img?: string;
+  url?: string;
+  license?: string;
+  note?: string;
+}
+
+const cases = casesData as Record<string, RealCase[]>;
+
+/** 真实案例：Wikimedia Commons 免费授权图片 + 代表作外链 */
+export function getConceptCases(slug: string): RealCase[] {
+  return cases[slug] ?? [];
+}
+
+/** 有真实案例的风格数量（首页/统计用） */
+export function getCasedConceptCount(): number {
+  return Object.keys(cases).length;
+}
+
+/** 内置数据：lexicon.json（30）+ lexicon-new.json（73+8）合并 */
 const seed: SeedShape = {
   domains: seedBaseTyped.domains,
   lineages: seedBaseTyped.lineages,

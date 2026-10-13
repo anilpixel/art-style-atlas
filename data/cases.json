@@ -1,0 +1,206 @@
+{
+  "ukiyo-e": [
+    {
+      "kind": "image",
+      "title": "神奈川冲浪里",
+      "creator": "葛饰北斋",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/c/ca/%27The_Great_Wave_off_Kanagawa%27_by_Hokusai%2C_Honolulu_Museum_of_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "url": "https://commons.wikimedia.org/wiki/File:%27The_Great_Wave_off_Kanagawa%27_by_Hokusai,_Honolulu_Museum_of_Art.jpg",
+      "license": "Public domain",
+      "year": "1831"
+    },
+    {
+      "kind": "image",
+      "title": "神奈川冲浪里（国会图书馆藏本）",
+      "creator": "葛饰北斋",
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Kanagawa_oki_nami_ura_LCCN2008661021.jpg/960px-Kanagawa_oki_nami_ura_LCCN2008661021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "url": "https://commons.wikimedia.org/wiki/File:Kanagawa_oki_nami_ura_LCCN2008661021.jpg",
+      "license": "Public domain",
+      "year": "1831"
+    }
+  ],
+  "baroque": [
+    {
+      "kind": "image",
+      "title": "圣约翰被斩首",
+      "creator": "卡拉瓦乔",
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Caravaggio_Beheading_of_Saint_John_the_Baptist.jpg/960px-Caravaggio_Beheading_of_Saint_John_the_Baptist.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "url": "https://commons.wikimedia.org/wiki/File:Caravaggio_Beheading_of_Saint_John_the_Baptist.jpg",
+      "license": "Public domain",
+      "year": "1608"
+    },
+    {
+      "kind": "image",
+      "title": "圣约翰被斩首（局部）",
+      "creator": "卡拉瓦乔",
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Michelangelo-Caravaggio_021_Beheading-of-St-John-the-Baptist_cropped.jpg/960px-Michelangelo-Caravaggio_021_Beheading-of-St-John-the-Baptist_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "url": "https://commons.wikimedia.org/wiki/File:Michelangelo-Caravaggio_021_Beheading-of-St-John-the-Baptist_cropped.jpg",
+      "license": "Public domain",
+      "year": "1608"
+    }
+  ],
+  "dunhuang": [
+    {
+      "kind": "image",
+      "title": "莫高窟第 409 窟壁画",
+      "creator": "佚名",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/7/73/Dunhuang_mogao_mural_cave_409.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "url": "https://commons.wikimedia.org/wiki/File:Dunhuang_mogao_mural_cave_409.jpg",
+      "license": "Public domain",
+      "year": "唐代"
+    },
+    {
+      "kind": "image",
+      "title": "莫高窟佛像壁画",
+      "creator": "佚名",
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Mural_of_Buddha_in_Mogao_Caves%2C_Dunhuang.jpg/960px-Mural_of_Buddha_in_Mogao_Caves%2C_Dunhuang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "url": "https://commons.wikimedia.org/wiki/File:Mural_of_Buddha_in_Mogao_Caves,_Dunhuang.jpg",
+      "license": "Public domain",
+      "year": "唐代"
+    }
+  ],
+  "woodcut-print": [
+    {
+      "kind": "image",
+      "title": "歌川国贞木刻版画",
+      "creator": "歌川国贞",
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Utagawa_Kunisada_-_Woodcut_-_Google_Art_Project.jpg/960px-Utagawa_Kunisada_-_Woodcut_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "url": "https://commons.wikimedia.org/wiki/File:Utagawa_Kunisada_-_Woodcut_-_Google_Art_Project.jpg",
+      "license": "Public domain",
+      "year": "19世纪"
+    },
+    {
+      "kind": "image",
+      "title": "木刻藏书票",
+      "creator": "迭戈·里维拉",
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Diego_Rivera_Woodcut-1916_Maximilian_Voloshin_Ex_libris.jpg/960px-Diego_Rivera_Woodcut-1916_Maximilian_Voloshin_Ex_libris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "url": "https://commons.wikimedia.org/wiki/File:Diego_Rivera_Woodcut-1916_Maximilian_Voloshin_Ex_libris.jpg",
+      "license": "Public domain",
+      "year": "1916"
+    }
+  ],
+  "cyberpunk": [
+    {
+      "kind": "image",
+      "title": "Boulevard Hotel (Neon sign), Miami Beach.jpg",
+      "creator": "Photograph:  Radomianin",
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Boulevard_Hotel_%28Neon_sign%29%2C_Miami_Beach.jpg/960px-Boulevard_Hotel_%28Neon_sign%29%2C_Miami_Beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "url": "https://commons.wikimedia.org/wiki/File:Boulevard_Hotel_(Neon_sign),_Miami_Beach.jpg",
+      "license": "Public domain"
+    },
+    {
+      "kind": "work",
+      "title": "银翼杀手",
+      "creator": "雷德利·斯科特",
+      "year": "1982",
+      "url": "https://zh.wikipedia.org/wiki/银翼杀手",
+      "note": "赛博朋克美学奠基之作"
+    },
+    {
+      "kind": "work",
+      "title": "攻壳机动队",
+      "creator": "押井守",
+      "year": "1995",
+      "url": "https://zh.wikipedia.org/wiki/攻壳机动队_(1995年电影)",
+      "note": "日式赛博朋克代表"
+    }
+  ],
+  "low-poly": [
+    {
+      "kind": "image",
+      "title": "Low poly 3D duck.png",
+      "creator": "Drummyfish",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Low_poly_3D_duck.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "url": "https://commons.wikimedia.org/wiki/File:Low_poly_3D_duck.png",
+      "license": "CC0"
+    },
+    {
+      "kind": "image",
+      "title": "Box truck low poly animation.png",
+      "creator": "Kurt Kaiser",
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Box_truck_low_poly_animation.png/960px-Box_truck_low_poly_animation.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "url": "https://commons.wikimedia.org/wiki/File:Box_truck_low_poly_animation.png",
+      "license": "CC0"
+    }
+  ],
+  "swiss-style": [
+    {
+      "kind": "image",
+      "title": "CH-000957-X-6776 Renggli.tif",
+      "creator": "Eduard Renggli",
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/CH-000957-X-6776_Renggli.tif/lossy-page1-960px-CH-000957-X-6776_Renggli.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "url": "https://commons.wikimedia.org/wiki/File:CH-000957-X-6776_Renggli.tif",
+      "license": "Public domain"
+    },
+    {
+      "kind": "image",
+      "title": "CH-NB Poster Collection SNL TMC 226.jpg",
+      "creator": "Jules-Ami Courvoisier (1884-1936)",
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/CH-NB_Poster_Collection_SNL_TMC_226.jpg/960px-CH-NB_Poster_Collection_SNL_TMC_226.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "url": "https://commons.wikimedia.org/wiki/File:CH-NB_Poster_Collection_SNL_TMC_226.jpg",
+      "license": "Public domain"
+    }
+  ],
+  "art-deco-architecture": [
+    {
+      "kind": "image",
+      "title": "Gladesville art deco building 001.jpg",
+      "creator": "Sardaka",
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Gladesville_art_deco_building_001.jpg/960px-Gladesville_art_deco_building_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "url": "https://commons.wikimedia.org/wiki/File:Gladesville_art_deco_building_001.jpg",
+      "license": "CC0"
+    },
+    {
+      "kind": "work",
+      "title": "克莱斯勒大厦",
+      "creator": "威廉·范·阿伦",
+      "year": "1930",
+      "url": "https://zh.wikipedia.org/wiki/克莱斯勒大厦",
+      "note": "装饰艺术建筑地标"
+    }
+  ],
+  "film-noir": [
+    {
+      "kind": "image",
+      "title": "BigComboTrailer.jpg",
+      "creator": "Allied Artists",
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/BigComboTrailer.jpg/960px-BigComboTrailer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "url": "https://commons.wikimedia.org/wiki/File:BigComboTrailer.jpg",
+      "license": "Public domain"
+    },
+    {
+      "kind": "work",
+      "title": "马耳他之鹰",
+      "creator": "约翰·休斯顿",
+      "year": "1941",
+      "url": "https://zh.wikipedia.org/wiki/马耳他之鹰_(1941年电影)",
+      "note": "黑色电影开山之作"
+    },
+    {
+      "kind": "work",
+      "title": "双重赔偿",
+      "creator": "比利·怀尔德",
+      "year": "1944",
+      "url": "https://zh.wikipedia.org/wiki/双重赔偿",
+      "note": "经典黑色电影"
+    }
+  ],
+  "pixel-art": [
+    {
+      "kind": "work",
+      "title": "星露谷物语",
+      "creator": "ConcernedApe",
+      "year": "2016",
+      "url": "https://zh.wikipedia.org/wiki/星露谷物语",
+      "note": "现代像素风代表"
+    },
+    {
+      "kind": "work",
+      "title": "铲子骑士",
+      "creator": "Yacht Club Games",
+      "year": "2014",
+      "url": "https://zh.wikipedia.org/wiki/铲子骑士",
+      "note": "复古像素平台跳跃"
+    }
+  ]
+}

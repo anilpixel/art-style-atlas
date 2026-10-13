@@ -5,7 +5,7 @@ import { connection } from "next/server";
 import type { Metadata } from "next";
 
 export const instant = false;
-import { getConcept } from "@/lib/lexicon";
+import { getConcept, getConceptCases, type RealCase } from "@/lib/lexicon";
 import { SITE_URL } from "@/lib/site";
 import CopyButton from "@/components/CopyButton";
 
@@ -63,6 +63,7 @@ export default async function ConceptPage({
   const related = (
     await Promise.all((c.relatedSlugs || []).map((s) => getConcept(s)))
   ).filter(Boolean);
+  const cases = getConceptCases(slug);
 
   return (
     <div className="mx-auto max-w-6xl px-6 py-12">
@@ -99,7 +100,7 @@ export default async function ConceptPage({
             )}
           </div>
           <p className="font-mono text-xs text-neutral-400 mt-3">
-            示例图 · {c.nameEn} —— 以 [主体] 替换为你自己的创作对象即可使用
+            AI 复现示意 · {c.nameEn} —— 以 [主体] 替换为你自己的创作对象即可使用
           </p>
         </div>
 
@@ -147,6 +148,66 @@ export default async function ConceptPage({
               ))}
             </ul>
           )}
+        </section>
+      )}
+
+      {/* 真实案例 */}
+      {cases.length > 0 && (
+        <section className="mt-14">
+          <h2 className="font-mono text-xs uppercase tracking-[0.25em] text-neutral-500 mb-2">
+            真实案例 · Real Cases
+          </h2>
+          <p className="text-sm text-neutral-500 mb-6">
+            真实作品，不是 AI 生成。图片来自 Wikimedia Commons（免费授权），点击查看来源与授权。
+          </p>
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
+            {cases.map((rc, idx) => (
+              <a
+                key={idx}
+                href={rc.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group border border-neutral-200 hover:border-neutral-900 transition-colors"
+              >
+                <div className="aspect-[4/3] bg-neutral-100 relative overflow-hidden flex items-center justify-center">
+                  {rc.kind === "image" && rc.img ? (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      src={rc.img}
+                      alt={rc.title}
+                      loading="lazy"
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                  ) : (
+                    <div className="p-6 text-center">
+                      <div className="font-bold text-lg leading-7">{rc.title}</div>
+                      {rc.note && (
+                        <div className="text-sm text-neutral-500 mt-2 leading-6">{rc.note}</div>
+                      )}
+                    </div>
+                  )}
+                </div>
+                <div className="p-4">
+                  <div className="font-bold group-hover:underline underline-offset-4 leading-6">
+                    {rc.title}
+                  </div>
+                  <div className="text-xs text-neutral-500 mt-1">
+                    {[rc.creator, rc.year].filter(Boolean).join(" · ")}
+                  </div>
+                  {rc.license && (
+                    <div className="inline-block font-mono text-[10px] uppercase tracking-wider border border-neutral-300 text-neutral-500 px-2 py-0.5 mt-2">
+                      {rc.license}
+                    </div>
+                  )}
+                  {rc.kind === "work" && (
+                    <div className="font-mono text-[10px] uppercase tracking-wider text-neutral-400 mt-2">
+                      代表作外链 ↗
+                    </div>
+                  )}
+                </div>
+              </a>
+            ))}
+          </div>
         </section>
       )}
 
