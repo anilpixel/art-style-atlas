@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Link from "next/link";
 import "./globals.css";
+import { SITE_URL } from "@/lib/site";
 
 const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({
@@ -10,8 +11,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "风格图谱 · Style Atlas",
   description: "艺术风格词典：按领域与谱系整理视觉风格，为 AI 绘画提供可复用的提示词参考。",
+  openGraph: {
+    title: "风格图谱 · Style Atlas",
+    description:
+      "艺术风格词典：按领域与谱系整理视觉风格，为 AI 绘画提供可复用的提示词参考。",
+    locale: "zh_CN",
+    type: "website",
+  },
 };
 
 export default function RootLayout({

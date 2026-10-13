@@ -2,10 +2,41 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { connection } from "next/server";
+import type { Metadata } from "next";
 
 export const instant = false;
 import { getConcept } from "@/lib/lexicon";
+import { SITE_URL } from "@/lib/site";
 import CopyButton from "@/components/CopyButton";
+
+// 每个词条页独立的 Title/Description：一页一需求词，
+// 方便"巴洛克风格 / baroque AI绘画"这类长尾词被搜索引擎命中。
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  await connection();
+  const { slug } = await params;
+  const c = await getConcept(slug);
+  if (!c) return {};
+  const lead =
+    c.features?.trim() || c.keyPoints?.[0]?.trim() || c.aliases?.trim() || "";
+  const description =
+    `${c.nameCn}（${c.nameEn}）${c.type ? ` · ${c.type}` : ""}${c.era ? ` · ${c.era}` : ""}` +
+    (lead ? `：${lead.slice(0, 120)}` : "——为 AI 绘画创作者整理的视觉风格参考。");
+  return {
+    title: `${c.nameCn} ${c.nameEn} | 风格图谱 Style Atlas`,
+    description,
+    alternates: { canonical: `${SITE_URL}/concept/${c.slug}` },
+    openGraph: {
+      title: `${c.nameCn} ${c.nameEn} | 风格图谱`,
+      description,
+      type: "article",
+      images: c.image ? [`${SITE_URL}${c.image}`] : undefined,
+    },
+  };
+}
 
 function MetaRow({ label, value }: { label: string; value: string }) {
   if (!value) return null;

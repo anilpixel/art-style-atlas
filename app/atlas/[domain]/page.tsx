@@ -2,11 +2,35 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { connection } from "next/server";
+import type { Metadata } from "next";
 
 export const instant = false;
 import { getDomainDetail } from "@/lib/lexicon";
+import { SITE_URL } from "@/lib/site";
 
 const pad = (n: number) => String(n).padStart(2, "0");
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ domain: string }>;
+}): Promise<Metadata> {
+  await connection();
+  const { domain: slug } = await params;
+  const detail = await getDomainDetail(slug);
+  if (!detail) return {};
+  const { domain, lineages } = detail;
+  const lineageNames = lineages.map((l) => l.nameCn).join("、");
+  return {
+    title: `${domain.nameCn} ${domain.nameEn} | 风格图谱 Style Atlas`,
+    description: `「${domain.nameCn}（${domain.nameEn}）」领域的视觉风格词条：${lineageNames}，每个风格含关键特征、AI 绘画提示词与示例图。`,
+    alternates: { canonical: `${SITE_URL}/atlas/${domain.slug}` },
+    openGraph: {
+      title: `${domain.nameCn} ${domain.nameEn} | 风格图谱`,
+      type: "website",
+    },
+  };
+}
 
 export default async function DomainPage({
   params,
