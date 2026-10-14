@@ -56,7 +56,7 @@
 
 ### Phase 4 变现
 - [x] P4-1 风格简报 PDF 导出（免费版带水印）（2026-10-14：新增 /api/brief/[slug]（pdfkit 服务端生成 A4 简报：头部 + 一眼看懂 + 适合用途 + 真实案例图 + 提示词 + Viblab + 来源 + 相关风格；每页斜向"免费版 FREE"水印 + 页脚）；中文字体方案：Noto Sans SC 按风格子集化（scripts/make_brief_fonts.py → data/brief-fonts/<slug>.json，WOFF base64，111 个全部 <90KB，路由懒加载；文案中文字符必须全在脚本 FIXED 里，改文案要重跑）；词条页新增 BriefPdfButton 下载按钮。教训：pageAdded 回调里调 doc.text() 会重入 LineWrapper（this._wrapper 复用）导致 Maximum call stack size exceeded，改用 bufferPages: true + 内容画完后 switchToPage 逐页补水印。tsc+build 通过，已部署 dpl_Ddw1G4wdrw4BTs6m63fGLTjH8xDx READY；线上 /api/brief/baroque 200（6 页，水印/中文/案例图/页脚正常）+ /concept/baroque 200；无数据变更，未 force seed）
-- [ ] P4-2 付费简报包（真实案例 + 提示词 + 教程链接）
+- [x] P4-2 付费简报包（真实案例 + 提示词 + 教程链接）（2026-10-14：`/api/brief/[slug]?tier=paid` 完整版：全部真实案例（标注收录数）、无水印、"推荐教程"区块（data/tutorials.json：Blender 官方手册 Toon 文档 / The Met 浮世绘专论 / The Met 水彩技法，全部验链；Viblab 实战指南合并入内，免费版 Viblab 区块不再单独渲染；无数据风格自动隐藏该区块，不硬凑）；支付链路（P4-3）上线前返回 402（`BRIEF_PAID_PREVIEW=1` 内部预览）；词条页新增完整版对比区（全部案例/去水印/推荐教程/提示词，未编造价格）；字体脚本 FIXED +12 字符并重跑 111 子集（最大 65.6KB，均 <90KB）；tsc+build 通过；本地 next start 验 PDF（无水印/教程链接/页脚/中文无缺字，目检通过）；已部署 dpl_5YyBGzMZPCjuSmE4gFq3PEDQwhPr READY；线上 `?tier=paid` 402、免费版 200、词条页 200、首页 200。待 P4-3：支付链路 + 定价（需用户决策））
 - [ ] P4-3 支付与下载链路
 
 ## 迭代纪律（cron 每次遵守）

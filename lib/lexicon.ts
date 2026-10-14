@@ -148,6 +148,22 @@ export function getViblabLink(slug: string): ViblabLink | null {
   return m[slug] ?? null;
 }
 
+/* ============ 推荐教程（P4-2：付费简报包的教程链接） ============ */
+
+import tutorialsData from "@/data/tutorials.json";
+
+export interface TutorialLink {
+  title: string;
+  url: string;
+  publisher: string;
+}
+
+/** 站外教程链接：只收录验链通过的权威链接，无数据的风格返回 []（调用方隐藏区块，不硬凑） */
+export function getTutorials(slug: string): TutorialLink[] {
+  const m = tutorialsData as unknown as Record<string, TutorialLink[]>;
+  return m[slug] ?? [];
+}
+
 /* ============ 策展合集（P2-4：可分享的编辑精选清单） ============ */
 
 import collectionsData from "@/data/collections.json";

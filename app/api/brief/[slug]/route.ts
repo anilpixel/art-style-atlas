@@ -4,15 +4,19 @@ import {
   getConcept,
   getConceptCases,
   getFinderUseCases,
+  getTutorials,
   getViblabLink,
   type ConceptFull,
   type RealCase,
+  type TutorialLink,
   type ViblabLink,
 } from "@/lib/lexicon";
 import { getBriefFontLoader } from "@/data/brief-fonts";
 import { SITE_URL, VIBLAB_URL } from "@/lib/site";
 
 // P4-1：风格简报 PDF 导出（免费版，带水印）。
+// P4-2：付费完整版 ?tier=paid —— 全部真实案例、无水印、推荐教程；
+//   支付链路（P4-3）上线前返回 402，内部预览用 BRIEF_PAID_PREVIEW=1。
 // 服务端用 pdfkit 生成：中文用按需子集化的 Noto Sans SC（data/brief-fonts/<slug>.json，
 // 由 scripts/make_brief_fonts.py 生成，单文件 < 90KB 以满足 Vercel 上传 argv 上限）。
 // 文案中的中文字符必须全部出现在该脚本的 FIXED 列表里，改文案要同步重跑脚本。
@@ -46,9 +50,11 @@ async function fetchImage(url: string): Promise<Buffer | null> {
 }
 
 interface BriefInput {
+  tier: "free" | "paid";
   cases: RealCase[];
   images: Map<number, Buffer>;
   viblab: ViblabLink | null;
+  tutorials: TutorialLink[];
   useCases: { nameCn: string; note: string }[];
   relatedNames: string[];
 }
@@ -64,9 +70,9 @@ function buildPdf(
       margins: M,
       bufferPages: true,
       info: {
-        Title: `${c.nameCn} ${c.nameEn} — 风格简报（免费版）`,
+        Title: `${c.nameCn} ${c.nameEn} — 风格简报（${input.tier === "paid" ? "完整版" : "免费版"}）`,
         Author: "风格图谱 Style Atlas",
-        Subject: `风格图谱免费版简报：${c.nameCn}`,
+        Subject: `风格图谱${input.tier === "paid" ? "完整版" : "免费版"}简报：${c.nameCn}`,
       },
     });
     doc.registerFont(FONT, fontBuf);
@@ -97,7 +103,11 @@ function buildPdf(
     // ---------- 头部 ----------
     doc.font(FONT).fontSize(10).fillColor(FAINT).text("风格图谱 Style Atlas");
     doc.moveDown(0.25);
-    doc.fontSize(10).fillColor(FREE_RED).text("风格简报 · 免费版");
+    if (input.tier === "paid") {
+      doc.fontSize(10).fillColor(INK).text("风格简报 · 完整版");
+    } else {
+      doc.fontSize(10).fillColor(FREE_RED).text("风格简报 · 免费版");
+    }
     doc.moveDown(0.5);
     doc.fontSize(26).fillColor(INK).text(c.nameCn);
     doc.fontSize(12).fillColor(GRAY).text(c.nameEn);
@@ -150,6 +160,10 @@ function buildPdf(
     if (input.cases.length > 0) {
       h2("真实案例");
       body("真实作品，非 AI 生成。图源 Wikimedia Commons（免费授权）。", 9, GRAY);
+      if (input.tier === "paid") {
+        doc.moveDown(0.25);
+        body(`共收录 ${input.cases.length} 条真实案例。`, 9, GRAY);
+      }
       doc.moveDown(0.5);
       input.cases.forEach((rc, i) => {
         const img = input.images.get(i);
@@ -206,8 +220,21 @@ function buildPdf(
       body("把 [主体] 换成你的创作对象即可用。", 9, GRAY);
     }
 
-    // ---------- Viblab 实战（仅 6 个 1:1 对应的游戏词条） ----------
-    if (input.viblab) {
+    // ---------- 推荐教程（P4-2 付费版：站外权威教程 + Viblab 实战指南合并；无数据时隐藏） ----------
+    if (input.tier === "paid" && input.tutorials.length > 0) {
+      h2("推荐教程");
+      input.tutorials.forEach((t) => {
+        doc.moveDown(0.3);
+        body(`· ${t.title}`, 10);
+        if (t.publisher) body(t.publisher, 9, GRAY);
+        doc.moveDown(0.15);
+        linkLine("链接：", t.url);
+      });
+      doc.moveDown(0.3);
+    }
+
+    // ---------- Viblab 实战（仅免费版；仅 6 个 1:1 对应的游戏词条。付费版已并入推荐教程） ----------
+    if (input.tier === "free" && input.viblab) {
       const vl = input.viblab;
       h2("Viblab 实战");
       body(`在 Viblab 把${c.nameCn}做成可玩游戏：`, 10);
@@ -241,11 +268,21 @@ function buildPdf(
 
     // ---------- 结尾：完整版预告 + 回链 ----------
     doc.moveDown(1.6);
-    doc
-      .font(FONT)
-      .fontSize(9)
-      .fillColor(FAINT)
-      .text("完整版（去水印）即将上线，敬请期待。", { align: "center" });
+    if (input.tier === "paid") {
+      doc
+        .font(FONT)
+        .fontSize(9)
+        .fillColor(FAINT)
+        .text("风格图谱 Style Atlas 出品", { align: "center" });
+    } else {
+      doc
+        .font(FONT)
+        .fontSize(9)
+        .fillColor(FAINT)
+        .text("完整版（全部案例 · 去水印 · 推荐教程）即将上线，敬请期待。", {
+          align: "center",
+        });
+    }
     doc.moveDown(0.6);
     const backUrl = `${SITE_URL}/concept/${c.slug}`;
     doc.font(FONT).fontSize(8).fillColor(LINK).text(backUrl, {
@@ -253,26 +290,31 @@ function buildPdf(
       link: backUrl,
     });
 
-    // 每页铬：内容全部画完后，逐页补斜向"免费版 FREE"水印 + 页脚。
-    // 不能在 pageAdded 里画：handler 内再调 doc.text() 会重入 pdfkit 的
-    // LineWrapper（this._wrapper 复用）导致 Maximum call stack size exceeded。
+    // 页脚：内容全部画完后，逐页补页脚；免费版再加斜向"免费版 FREE"水印
+    // （完整版无水印）。不能在 pageAdded 里画：handler 内再调 doc.text() 会重入
+    // pdfkit 的 LineWrapper（this._wrapper 复用）导致 Maximum call stack size exceeded。
     const { count } = doc.bufferedPageRange();
     for (let i = 0; i < count; i++) {
       doc.switchToPage(i);
       const pw = doc.page.width;
       const ph = doc.page.height;
-      doc.save();
-      doc.opacity(0.07);
-      doc.fillColor(INK);
-      doc.font(FONT).fontSize(72);
-      doc.rotate(30, { origin: [pw / 2, ph / 2] });
-      doc.text("免费版 FREE", 0, ph / 2 - 60, { width: pw, align: "center" });
-      doc.restore();
+      if (input.tier === "free") {
+        doc.save();
+        doc.opacity(0.07);
+        doc.fillColor(INK);
+        doc.font(FONT).fontSize(72);
+        doc.rotate(30, { origin: [pw / 2, ph / 2] });
+        doc.text("免费版 FREE", 0, ph / 2 - 60, { width: pw, align: "center" });
+        doc.restore();
+      }
       doc.save();
       doc.font(FONT).fontSize(8).fillColor(FAINT);
-      doc.text("风格图谱 · 免费版（含水印）", M.left, ph - 38, {
-        width: pw - M.left - M.right,
-      });
+      doc.text(
+        input.tier === "paid" ? "风格图谱 · 完整版" : "风格图谱 · 免费版（含水印）",
+        M.left,
+        ph - 38,
+        { width: pw - M.left - M.right }
+      );
       doc.text(`第 ${i + 1} 页`, M.left, ph - 38, {
         width: pw - M.left - M.right,
         align: "right",
@@ -289,20 +331,50 @@ function buildPdf(
 }
 
 export async function GET(
-  _req: Request,
+  req: Request,
   { params }: { params: Promise<{ slug: string }> }
 ) {
   await connection();
   const { slug } = await params;
+  const tier: "free" | "paid" =
+    new URL(req.url).searchParams.get("tier") === "paid" ? "paid" : "free";
 
   const c = await getConcept(slug);
   if (!c) return new Response("style not found", { status: 404 });
+
+  // P4-2：完整版在支付链路（P4-3）上线前不开放下载；内部预览用 BRIEF_PAID_PREVIEW=1。
+  if (tier === "paid" && process.env.BRIEF_PAID_PREVIEW !== "1") {
+    return new Response("完整版简报即将上线，敬请期待。", { status: 402 });
+  }
+
   const loader = getBriefFontLoader(slug);
   if (!loader)
     return new Response("brief font not available", { status: 500 });
 
-  const cases = getConceptCases(slug).slice(0, 6);
+  const allCases = getConceptCases(slug);
+  const cases = tier === "paid" ? allCases : allCases.slice(0, 6);
   const viblab = getViblabLink(slug);
+  // 付费版推荐教程 = 站外权威教程 + Viblab 实战指南/实战页合并（避免与 Viblab 实战区块重复）
+  const tutorials: TutorialLink[] =
+    tier === "paid"
+      ? [
+          ...getTutorials(slug),
+          ...(viblab
+            ? [
+                ...viblab.guides.map((g) => ({
+                  title: g.label,
+                  url: `${VIBLAB_URL}/guides/${g.slug}`,
+                  publisher: "Viblab",
+                })),
+                {
+                  title: `${viblab.styleName} 实战页`,
+                  url: `${VIBLAB_URL}/styles/${viblab.styleSlug}`,
+                  publisher: "Viblab",
+                },
+              ]
+            : []),
+        ]
+      : [];
   const useCases: { nameCn: string; note: string }[] = [];
   for (const uc of getFinderUseCases()) {
     const hit = uc.styles.find((s) => s.slug === slug);
@@ -312,11 +384,11 @@ export async function GET(
     await Promise.all((c.relatedSlugs || []).map((s) => getConcept(s)))
   ).filter((r): r is ConceptFull => !!r);
 
-  // 字体子集与案例图并行加载
+  // 字体子集与案例图并行加载（付费版案例更多，多取几张图）
   const imageJobs = cases
     .map((rc, i) => ({ rc, i }))
     .filter(({ rc }) => rc.kind === "image" && rc.img)
-    .slice(0, 4);
+    .slice(0, tier === "paid" ? 8 : 4);
   const [fontMod, ...imgBufs] = await Promise.all([
     loader(),
     ...imageJobs.map(({ rc }) => fetchImage(rc.img!)),
@@ -328,9 +400,11 @@ export async function GET(
   });
 
   const pdf = await buildPdf(c, Buffer.from(fontMod.default.font, "base64"), {
+    tier,
     cases,
     images,
-    viblab,
+    viblab: tier === "paid" ? null : viblab,
+    tutorials,
     useCases,
     relatedNames: related.map((r) => r.nameCn),
   });
@@ -338,7 +412,7 @@ export async function GET(
   return new Response(new Uint8Array(pdf), {
     headers: {
       "Content-Type": "application/pdf",
-      "Content-Disposition": `attachment; filename="${slug}-brief-free.pdf"`,
+      "Content-Disposition": `attachment; filename="${slug}-brief-${tier === "paid" ? "full" : "free"}.pdf"`,
       "Cache-Control": "public, max-age=86400",
     },
   });

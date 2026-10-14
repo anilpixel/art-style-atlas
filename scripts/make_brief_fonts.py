@@ -60,6 +60,14 @@ FIXED = [
     "页",
     "、",
     "完整版（去水印）即将上线，敬请期待。",
+    # ---- P4-2 付费完整版新增文案 ----
+    "风格简报 · 完整版",
+    "推荐教程",
+    "共收录",
+    "条真实案例。",
+    "风格图谱 · 完整版",
+    "完整版（全部案例 · 去水印 · 推荐教程）即将上线，敬请期待。",
+    "风格图谱 Style Atlas 出品",
 ]
 
 
@@ -88,6 +96,7 @@ def main():
         cases.update(load_json(fn))
 
     viblab = load_json("viblab-links.json")
+    tutorials = load_json("tutorials.json")
     finder = load_json("finder.json").get("useCases", [])
     # slug -> [(useCaseNameCn, note)]
     slug_usecases: dict[str, list[tuple[str, str]]] = {}
@@ -138,6 +147,10 @@ def main():
             for g in vl.get("guides", []):
                 chars.update(g.get("label", ""))
                 chars.update(g.get("note", ""))
+        # P4-2：付费版推荐教程的标题/来源也要进子集（站外教程 + Viblab 指南合并渲染）
+        for t in tutorials.get(slug, []) if isinstance(tutorials, dict) else []:
+            chars.update(t.get("title", ""))
+            chars.update(t.get("publisher", ""))
         for rs in c.get("relatedSlugs") or []:
             r = by_slug.get(rs)
             if r:
