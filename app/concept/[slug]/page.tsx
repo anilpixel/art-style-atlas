@@ -10,6 +10,7 @@ import { JsonLd, breadcrumbJsonLd } from "@/lib/seo";
 import { SITE_URL, VIBLAB_URL } from "@/lib/site";
 import CopyButton from "@/components/CopyButton";
 import ShareCardButton from "@/components/ShareCardButton";
+import BriefPdfButton from "@/components/BriefPdfButton";
 
 // 每个词条页独立的 Title/Description：一页一需求词，
 // 方便"巴洛克风格 / baroque AI绘画"这类长尾词被搜索引擎命中。
@@ -288,6 +289,11 @@ export default async function ConceptPage({
       {/* 一键分享卡（P3-2）：看完真实案例、决定采用风格后，自然的下一步就是分享 */}
       <section className="mt-10 sm:mt-14 max-w-3xl">
         <ShareCardButton slug={c.slug} nameCn={c.nameCn} />
+      </section>
+
+      {/* 风格简报 PDF（P4-1）：分享之后，把完整简报发给搭档/画师对齐。免费版含水印。 */}
+      <section className="mt-6 sm:mt-8 max-w-3xl">
+        <BriefPdfButton slug={c.slug} nameCn={c.nameCn} />
       </section>
 
       {/* 完整特征描述：默认折叠（渐进披露） */}

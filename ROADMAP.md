@@ -55,7 +55,7 @@
 - [x] P3-3 与 Viblab 互链（游戏风格词条 ↔ Viblab 指南）（2026-10-14：6 个游戏风格词条 pixel-art/low-poly/voxel-art/ps1-lowfi/hd-2d/toon-shading 新增 Viblab 互链区块；Viblab 侧 6 个风格页回链；线上 6 页 200 且互链渲染正常）
 
 ### Phase 4 变现
-- [ ] P4-1 风格简报 PDF 导出（免费版带水印）
+- [x] P4-1 风格简报 PDF 导出（免费版带水印）（2026-10-14：新增 /api/brief/[slug]（pdfkit 服务端生成 A4 简报：头部 + 一眼看懂 + 适合用途 + 真实案例图 + 提示词 + Viblab + 来源 + 相关风格；每页斜向"免费版 FREE"水印 + 页脚）；中文字体方案：Noto Sans SC 按风格子集化（scripts/make_brief_fonts.py → data/brief-fonts/<slug>.json，WOFF base64，111 个全部 <90KB，路由懒加载；文案中文字符必须全在脚本 FIXED 里，改文案要重跑）；词条页新增 BriefPdfButton 下载按钮。教训：pageAdded 回调里调 doc.text() 会重入 LineWrapper（this._wrapper 复用）导致 Maximum call stack size exceeded，改用 bufferPages: true + 内容画完后 switchToPage 逐页补水印。tsc+build 通过，已部署 dpl_Ddw1G4wdrw4BTs6m63fGLTjH8xDx READY；线上 /api/brief/baroque 200（6 页，水印/中文/案例图/页脚正常）+ /concept/baroque 200；无数据变更，未 force seed）
 - [ ] P4-2 付费简报包（真实案例 + 提示词 + 教程链接）
 - [ ] P4-3 支付与下载链路
 
