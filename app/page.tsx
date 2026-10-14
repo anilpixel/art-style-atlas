@@ -6,6 +6,8 @@ import {
   getFeaturedConcepts,
   getConceptCount,
   getFinderUseCases,
+  getCollections,
+  getCollectionCoverImage,
 } from "@/lib/lexicon";
 import SearchBox from "@/components/SearchBox";
 
@@ -22,6 +24,7 @@ export default async function Home() {
   const conceptCount = getConceptCount();
   const totalLineages = domains.reduce((s, d) => s + d.lineageCount, 0);
   const useCases = getFinderUseCases();
+  const collections = getCollections();
 
   return (
     <main className="min-h-screen bg-white text-neutral-900">
@@ -81,6 +84,71 @@ export default async function Home() {
                 </span>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 策展合集 */}
+      <section className="border-b border-neutral-200 bg-white">
+        <div className="mx-auto max-w-6xl px-6 py-14">
+          <div className="mb-6 flex items-end justify-between">
+            <div>
+              <p className="font-mono text-xs uppercase tracking-[0.3em] text-neutral-400">
+                Collections
+              </p>
+              <h2 className="mt-2 text-2xl font-black tracking-tight">策展合集</h2>
+              <p className="mt-2 max-w-2xl text-sm leading-7 text-neutral-600">
+                編輯精選嘅主題清單——一條 link 就可以分享畀隊友、畫師或者甲方。
+              </p>
+            </div>
+            <Link
+              href="/collections"
+              className="text-sm font-medium text-neutral-600 underline-offset-4 hover:text-black hover:underline"
+            >
+              全部合集 →
+            </Link>
+          </div>
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {collections.map((c) => {
+              const cover = getCollectionCoverImage(c.slug);
+              return (
+                <Link
+                  key={c.slug}
+                  href={`/collections/${c.slug}`}
+                  className="group overflow-hidden border border-neutral-200 bg-white transition-all hover:-translate-y-1 hover:shadow-lg"
+                >
+                  <div className="relative aspect-[16/9] overflow-hidden bg-neutral-100">
+                    {cover.src &&
+                      (cover.isAi ? (
+                        <Image
+                          src={cover.src}
+                          alt={c.nameCn}
+                          fill
+                          sizes="(max-width: 768px) 100vw, 33vw"
+                          className="object-cover transition-transform duration-300 group-hover:scale-105"
+                        />
+                      ) : (
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img
+                          src={cover.src}
+                          alt={c.nameCn}
+                          loading="lazy"
+                          className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                        />
+                      ))}
+                    <span className="absolute bottom-3 right-3 bg-neutral-950/85 px-2 py-1 font-mono text-[11px] text-white">
+                      {c.styles.length} 種風格
+                    </span>
+                  </div>
+                  <div className="p-4">
+                    <p className="font-bold text-neutral-900 group-hover:underline group-hover:underline-offset-4">
+                      {c.nameCn}
+                    </p>
+                    <p className="mt-1 text-sm text-neutral-500">{c.tagline}</p>
+                  </div>
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>

@@ -2,7 +2,13 @@
 
 import { useState } from "react";
 
-export default function CopyButton({ text }: { text: string }) {
+export default function CopyButton({
+  text,
+  label = "复制提示词",
+}: {
+  text: string;
+  label?: string;
+}) {
   const [done, setDone] = useState(false);
 
   return (
@@ -23,7 +29,7 @@ export default function CopyButton({ text }: { text: string }) {
       }}
       className="px-5 h-10 text-sm border border-neutral-900 bg-neutral-900 text-white hover:bg-neutral-700 transition-colors"
     >
-      {done ? "已复制 ✓" : "复制提示词"}
+      {done ? "已复制 ✓" : label}
     </button>
   );
 }

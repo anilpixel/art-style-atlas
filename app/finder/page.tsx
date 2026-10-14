@@ -7,6 +7,8 @@ import {
   getFinderUseCases,
   getFinderCardImage,
   getConcept,
+  getCollection,
+  USECASE_COLLECTION,
   type FinderStyle,
 } from "@/lib/lexicon";
 
@@ -78,6 +80,8 @@ export default async function FinderPage({
   const { u } = await searchParams;
   const useCases = getFinderUseCases();
   const active = (u && getFinderUseCase(u)) || useCases[0];
+  const relatedSlug = USECASE_COLLECTION[active.key];
+  const related = relatedSlug ? getCollection(relatedSlug) : null;
 
   return (
     <main className="min-h-screen bg-white text-neutral-900">
@@ -134,6 +138,25 @@ export default async function FinderPage({
             <FinderCard key={s.slug} style={s} />
           ))}
         </div>
+        {related && (
+          <Link
+            href={`/collections/${related.slug}`}
+            className="group mt-10 flex items-center justify-between gap-6 border border-neutral-900 bg-neutral-950 p-6 text-white transition-colors hover:bg-neutral-800"
+          >
+            <div>
+              <p className="font-mono text-xs uppercase tracking-[0.3em] text-neutral-400">
+                延伸閱讀 · 策展合集
+              </p>
+              <p className="mt-2 text-xl font-black tracking-tight">
+                {related.nameCn}
+              </p>
+              <p className="mt-1 text-sm text-neutral-400">{related.tagline}</p>
+            </div>
+            <span className="shrink-0 text-2xl transition-transform group-hover:translate-x-1">
+              →
+            </span>
+          </Link>
+        )}
         <div className="mt-12 flex flex-wrap gap-4">
           <Link
             href="/explore"

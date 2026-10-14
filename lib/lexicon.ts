@@ -126,6 +126,53 @@ export function getFinderCardImage(slug: string): { src: string; isAi: boolean }
   return { src: concept?.image ?? "", isAi: true };
 }
 
+/* ============ 策展合集（P2-4：可分享的编辑精选清单） ============ */
+
+import collectionsData from "@/data/collections.json";
+
+export interface CollectionStyle {
+  slug: string;
+  note: string;
+}
+
+export interface ArtCollection {
+  slug: string;
+  nameCn: string;
+  nameEn: string;
+  tagline: string;
+  audience: string;
+  intro: string[];
+  styles: CollectionStyle[];
+}
+
+/** 策展合集：data/collections.json，纯构建时数据（不进 DB，不需 seed） */
+export function getCollections(): ArtCollection[] {
+  return (collectionsData as { collections: ArtCollection[] }).collections;
+}
+
+export function getCollection(slug: string): ArtCollection | null {
+  return getCollections().find((c) => c.slug === slug) ?? null;
+}
+
+/** 合集封面：取首个风格的卡片图（真实案例优先） */
+export function getCollectionCoverImage(slug: string): {
+  src: string;
+  isAi: boolean;
+} {
+  const c = getCollection(slug);
+  const first = c?.styles[0]?.slug ?? "";
+  return first ? getFinderCardImage(first) : { src: "", isAi: true };
+}
+
+/** 用途 key → 对应策展合集（finder 页延伸阅读用） */
+export const USECASE_COLLECTION: Record<string, string> = {
+  horror: "horror-game-styles",
+  "pixel-retro": "pixel-retro-styles",
+  "cozy-cute": "cozy-game-styles",
+  scifi: "future-punk-styles",
+  "east-asian": "chinese-aesthetic-styles",
+};
+
 /** 内置数据：lexicon.json（30）+ lexicon-new.json（40）+ lexicon-new2.json（41）合并 */
 const seed: SeedShape = {
   domains: seedBaseTyped.domains,
