@@ -1,773 +1,1169 @@
 {
- "ukiyo-e": [
+ "anime": [
   {
-   "kind": "image",
-   "title": "神奈川冲浪里",
-   "creator": "葛饰北斋",
-   "img": "https://upload.wikimedia.org/wikipedia/commons/c/ca/%27The_Great_Wave_off_Kanagawa%27_by_Hokusai%2C_Honolulu_Museum_of_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "url": "https://commons.wikimedia.org/wiki/File:%27The_Great_Wave_off_Kanagawa%27_by_Hokusai,_Honolulu_Museum_of_Art.jpg",
-   "license": "Public domain",
-   "year": "1831"
-  },
-  {
-   "kind": "image",
-   "title": "神奈川冲浪里（国会图书馆藏本）",
-   "creator": "葛饰北斋",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Kanagawa_oki_nami_ura_LCCN2008661021.jpg/960px-Kanagawa_oki_nami_ura_LCCN2008661021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Kanagawa_oki_nami_ura_LCCN2008661021.jpg",
-   "license": "Public domain",
-   "year": "1831"
-  }
- ],
- "baroque": [
-  {
-   "kind": "image",
-   "title": "圣约翰被斩首",
-   "creator": "卡拉瓦乔",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Caravaggio_Beheading_of_Saint_John_the_Baptist.jpg/960px-Caravaggio_Beheading_of_Saint_John_the_Baptist.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Caravaggio_Beheading_of_Saint_John_the_Baptist.jpg",
-   "license": "Public domain",
-   "year": "1608"
-  },
-  {
-   "kind": "image",
-   "title": "圣约翰被斩首（局部）",
-   "creator": "卡拉瓦乔",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Michelangelo-Caravaggio_021_Beheading-of-St-John-the-Baptist_cropped.jpg/960px-Michelangelo-Caravaggio_021_Beheading-of-St-John-the-Baptist_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Michelangelo-Caravaggio_021_Beheading-of-St-John-the-Baptist_cropped.jpg",
-   "license": "Public domain",
-   "year": "1608"
-  }
- ],
- "dunhuang": [
-  {
-   "kind": "image",
-   "title": "莫高窟第 409 窟壁画",
-   "creator": "佚名",
-   "img": "https://upload.wikimedia.org/wikipedia/commons/7/73/Dunhuang_mogao_mural_cave_409.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "url": "https://commons.wikimedia.org/wiki/File:Dunhuang_mogao_mural_cave_409.jpg",
-   "license": "Public domain",
-   "year": "唐代"
-  },
-  {
-   "kind": "image",
-   "title": "莫高窟佛像壁画",
-   "creator": "佚名",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Mural_of_Buddha_in_Mogao_Caves%2C_Dunhuang.jpg/960px-Mural_of_Buddha_in_Mogao_Caves%2C_Dunhuang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Mural_of_Buddha_in_Mogao_Caves,_Dunhuang.jpg",
-   "license": "Public domain",
-   "year": "唐代"
-  }
- ],
- "woodcut-print": [
-  {
-   "kind": "image",
-   "title": "歌川国贞木刻版画",
-   "creator": "歌川国贞",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Utagawa_Kunisada_-_Woodcut_-_Google_Art_Project.jpg/960px-Utagawa_Kunisada_-_Woodcut_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Utagawa_Kunisada_-_Woodcut_-_Google_Art_Project.jpg",
-   "license": "Public domain",
-   "year": "19世纪"
-  },
-  {
-   "kind": "image",
-   "title": "木刻藏书票",
-   "creator": "迭戈·里维拉",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Diego_Rivera_Woodcut-1916_Maximilian_Voloshin_Ex_libris.jpg/960px-Diego_Rivera_Woodcut-1916_Maximilian_Voloshin_Ex_libris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Diego_Rivera_Woodcut-1916_Maximilian_Voloshin_Ex_libris.jpg",
-   "license": "Public domain",
-   "year": "1916"
-  }
- ],
- "cyberpunk": [
-  {
-   "kind": "image",
-   "title": "Boulevard Hotel (Neon sign), Miami Beach.jpg",
-   "creator": "Photograph:  Radomianin",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Boulevard_Hotel_%28Neon_sign%29%2C_Miami_Beach.jpg/960px-Boulevard_Hotel_%28Neon_sign%29%2C_Miami_Beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Boulevard_Hotel_(Neon_sign),_Miami_Beach.jpg",
-   "license": "Public domain"
-  },
-  {
+   "creator": "宫崎骏",
    "kind": "work",
-   "title": "银翼杀手",
-   "creator": "雷德利·斯科特",
-   "year": "1982",
-   "url": "https://zh.wikipedia.org/wiki/银翼杀手",
-   "note": "赛博朋克美学奠基之作"
+   "note": "吉卜力赛璐璐动画巅峰",
+   "title": "千与千寻",
+   "url": "https://zh.wikipedia.org/wiki/千与千寻",
+   "year": "2001"
   },
   {
+   "creator": "新海诚",
    "kind": "work",
-   "title": "攻壳机动队",
-   "creator": "押井守",
-   "year": "1995",
-   "url": "https://zh.wikipedia.org/wiki/攻壳机动队_(1995年电影)",
-   "note": "日式赛博朋克代表"
-  }
- ],
- "low-poly": [
-  {
-   "kind": "image",
-   "title": "Low poly 3D duck.png",
-   "creator": "Drummyfish",
-   "img": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Low_poly_3D_duck.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "url": "https://commons.wikimedia.org/wiki/File:Low_poly_3D_duck.png",
-   "license": "CC0"
-  },
-  {
-   "kind": "image",
-   "title": "Box truck low poly animation.png",
-   "creator": "Kurt Kaiser",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Box_truck_low_poly_animation.png/960px-Box_truck_low_poly_animation.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Box_truck_low_poly_animation.png",
-   "license": "CC0"
-  }
- ],
- "swiss-style": [
-  {
-   "kind": "image",
-   "title": "CH-000957-X-6776 Renggli.tif",
-   "creator": "Eduard Renggli",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/CH-000957-X-6776_Renggli.tif/lossy-page1-960px-CH-000957-X-6776_Renggli.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:CH-000957-X-6776_Renggli.tif",
-   "license": "Public domain"
-  },
-  {
-   "kind": "image",
-   "title": "CH-NB Poster Collection SNL TMC 226.jpg",
-   "creator": "Jules-Ami Courvoisier (1884-1936)",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/CH-NB_Poster_Collection_SNL_TMC_226.jpg/960px-CH-NB_Poster_Collection_SNL_TMC_226.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:CH-NB_Poster_Collection_SNL_TMC_226.jpg",
-   "license": "Public domain"
+   "note": "新海诚式光影美学代表",
+   "title": "你的名字。",
+   "url": "https://zh.wikipedia.org/wiki/你的名字。",
+   "year": "2016"
   }
  ],
  "art-deco-architecture": [
   {
-   "kind": "image",
-   "title": "Gladesville art deco building 001.jpg",
    "creator": "Sardaka",
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Gladesville_art_deco_building_001.jpg/960px-Gladesville_art_deco_building_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Gladesville_art_deco_building_001.jpg",
-   "license": "CC0"
+   "kind": "image",
+   "license": "CC0",
+   "title": "Gladesville art deco building 001.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Gladesville_art_deco_building_001.jpg"
   },
   {
-   "kind": "work",
-   "title": "克莱斯勒大厦",
    "creator": "威廉·范·阿伦",
-   "year": "1930",
+   "kind": "work",
+   "note": "装饰艺术建筑地标",
+   "title": "克莱斯勒大厦",
    "url": "https://zh.wikipedia.org/wiki/克莱斯勒大厦",
-   "note": "装饰艺术建筑地标"
-  }
- ],
- "film-noir": [
-  {
-   "kind": "image",
-   "title": "BigComboTrailer.jpg",
-   "creator": "Allied Artists",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/BigComboTrailer.jpg/960px-BigComboTrailer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:BigComboTrailer.jpg",
-   "license": "Public domain"
-  },
-  {
-   "kind": "work",
-   "title": "马耳他之鹰",
-   "creator": "约翰·休斯顿",
-   "year": "1941",
-   "url": "https://zh.wikipedia.org/wiki/马耳他之鹰_(1941年电影)",
-   "note": "黑色电影开山之作"
-  },
-  {
-   "kind": "work",
-   "title": "双重赔偿",
-   "creator": "比利·怀尔德",
-   "year": "1944",
-   "url": "https://zh.wikipedia.org/wiki/双重赔偿",
-   "note": "经典黑色电影"
-  }
- ],
- "pixel-art": [
-  {
-   "kind": "work",
-   "title": "星露谷物语",
-   "creator": "ConcernedApe",
-   "year": "2016",
-   "url": "https://zh.wikipedia.org/wiki/星露谷物语",
-   "note": "现代像素风代表"
-  },
-  {
-   "kind": "work",
-   "title": "铲子骑士",
-   "creator": "Yacht Club Games",
-   "year": "2014",
-   "url": "https://zh.wikipedia.org/wiki/铲子骑士",
-   "note": "复古像素平台跳跃"
-  }
- ],
- "mannerism": [
-  {
-   "kind": "image",
-   "title": "长颈圣母",
-   "creator": "帕米贾尼诺",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Girolamo_Francesco_Maria_Mazzola_-_Madonna_with_the_Long_Neck.jpg/960px-Girolamo_Francesco_Maria_Mazzola_-_Madonna_with_the_Long_Neck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Girolamo_Francesco_Maria_Mazzola_-_Madonna_with_the_Long_Neck.jpg",
-   "license": "Public domain",
-   "year": "1535–1540"
-  },
-  {
-   "kind": "image",
-   "title": "长颈圣母（局部）",
-   "creator": "帕米贾尼诺",
-   "img": "https://upload.wikimedia.org/wikipedia/commons/0/03/Parmigianino_Madonna_Long_Neck_-_Detail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "url": "https://commons.wikimedia.org/wiki/File:Parmigianino_Madonna_Long_Neck_-_Detail.jpg",
-   "license": "Public domain",
-   "year": "1535–1540"
-  }
- ],
- "impressionism": [
-  {
-   "kind": "image",
-   "title": "日出·印象",
-   "creator": "克劳德·莫奈",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Claude_Monet%2C_Impression%2C_soleil_levant%2C_1872.jpg/960px-Claude_Monet%2C_Impression%2C_soleil_levant%2C_1872.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Claude_Monet,_Impression,_soleil_levant,_1872.jpg",
-   "license": "Public domain",
-   "year": "1872"
-  },
-  {
-   "kind": "image",
-   "title": "煎饼磨坊的舞会",
-   "creator": "皮埃尔-奥古斯特·雷诺阿",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Auguste_Renoir_-_Dance_at_Le_Moulin_de_la_Galette_%28ex_Whitney_collection%29.jpg/960px-Auguste_Renoir_-_Dance_at_Le_Moulin_de_la_Galette_%28ex_Whitney_collection%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Auguste_Renoir_-_Dance_at_Le_Moulin_de_la_Galette_(ex_Whitney_collection).jpg",
-   "license": "Public domain",
-   "year": "1876"
-  }
- ],
- "blue-green-landscape": [
-  {
-   "kind": "image",
-   "title": "千里江山图（全卷）",
-   "creator": "王希孟",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Wang_Ximeng._A_Thousand_Li_of_Rivers_and_Mountains._%28Complete%2C_51%2C3x1191%2C5_cm%29._1113._Palace_museum%2C_Beijing.jpg/960px-Wang_Ximeng._A_Thousand_Li_of_Rivers_and_Mountains._%28Complete%2C_51%2C3x1191%2C5_cm%29._1113._Palace_museum%2C_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Wang_Ximeng._A_Thousand_Li_of_Rivers_and_Mountains._(Complete,_51,3x1191,5_cm)._1113._Palace_museum,_Beijing.jpg",
-   "license": "Public domain",
-   "year": "北宋"
-  },
-  {
-   "kind": "image",
-   "title": "千里江山图（局部）",
-   "creator": "王希孟",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/A_Thousand_Li_of_Rivers_and_Mountains_Section_1.jpg/960px-A_Thousand_Li_of_Rivers_and_Mountains_Section_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:A_Thousand_Li_of_Rivers_and_Mountains_Section_1.jpg",
-   "license": "CC0",
-   "year": "北宋"
-  }
- ],
- "rococo": [
-  {
-   "kind": "image",
-   "title": "趁热打铁（捉迷藏）",
-   "creator": "让-奥诺雷·弗拉戈纳尔",
-   "img": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Fragonard_la_main_chaude_-_1775-80.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "url": "https://commons.wikimedia.org/wiki/File:Fragonard_la_main_chaude_-_1775-80.jpg",
-   "license": "Public domain",
-   "year": "1775–1780"
-  },
-  {
-   "kind": "image",
-   "title": "他们在想葡萄吗？",
-   "creator": "弗朗索瓦·布歇",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Fran%C3%A7ois_Boucher_-_Are_They_Thinking_about_the_Grape%3F_%28Pensent-ils_au_raisin%3F%29_-_Google_Art_Project.jpg/960px-Fran%C3%A7ois_Boucher_-_Are_They_Thinking_about_the_Grape%3F_%28Pensent-ils_au_raisin%3F%29_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Boucher_-_Are_They_Thinking_about_the_Grape%3F_(Pensent-ils_au_raisin%3F)_-_Google_Art_Project.jpg",
-   "license": "Public domain",
-   "year": "1747"
-  }
- ],
- "neoclassicism": [
-  {
-   "kind": "image",
-   "title": "马拉之死",
-   "creator": "雅克-路易·大卫",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Death_of_Marat_by_David.jpg/960px-Death_of_Marat_by_David.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Death_of_Marat_by_David.jpg",
-   "license": "Public domain",
-   "year": "1793"
-  },
-  {
-   "kind": "image",
-   "title": "马拉之死（局部）",
-   "creator": "雅克-路易·大卫",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Death_of_Marat_by_David_%28detail%29.jpg/960px-Death_of_Marat_by_David_%28detail%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Death_of_Marat_by_David_(detail).jpg",
-   "license": "Public domain",
-   "year": "1793"
-  }
- ],
- "post-impressionism": [
-  {
-   "kind": "image",
-   "title": "星月夜",
-   "creator": "文森特·梵高",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/960px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
-   "license": "Public domain",
-   "year": "1889"
-  },
-  {
-   "kind": "image",
-   "title": "黄房子（街道）",
-   "creator": "文森特·梵高",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Vincent_van_Gogh_-_The_yellow_house_%28%27The_street%27%29.jpg/960px-Vincent_van_Gogh_-_The_yellow_house_%28%27The_street%27%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_The_yellow_house_(%27The_street%27).jpg",
-   "license": "Public domain",
-   "year": "1888"
-  }
- ],
- "symbolism": [
-  {
-   "kind": "image",
-   "title": "朱庇特与塞墨勒",
-   "creator": "居斯塔夫·莫罗",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Jupiter_and_Semele_by_Gustave_Moreau.jpg/960px-Jupiter_and_Semele_by_Gustave_Moreau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Jupiter_and_Semele_by_Gustave_Moreau.jpg",
-   "license": "Public domain",
-   "year": "1894–1895"
-  },
-  {
-   "kind": "image",
-   "title": "独角兽",
-   "creator": "居斯塔夫·莫罗",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Gustave_Moreau_Les_Licornes.jpg/960px-Gustave_Moreau_Les_Licornes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Gustave_Moreau_Les_Licornes.jpg",
-   "license": "Public domain",
-   "year": "约1885"
-  }
- ],
- "shuimo-xieyi": [
-  {
-   "kind": "image",
-   "title": "荷花水鸟图",
-   "creator": "八大山人（朱耷）",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Bada_Shanren_-_Lotus_and_Ducks_-_Google_Art_Project.jpg/960px-Bada_Shanren_-_Lotus_and_Ducks_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Bada_Shanren_-_Lotus_and_Ducks_-_Google_Art_Project.jpg",
-   "license": "Public domain",
-   "year": "清代"
-  },
-  {
-   "kind": "image",
-   "title": "瓜果图",
-   "creator": "八大山人（朱耷）",
-   "img": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Melons_and_Brackens_by_Bada_Shanren%2C_ink_on_paper.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "url": "https://commons.wikimedia.org/wiki/File:Melons_and_Brackens_by_Bada_Shanren,_ink_on_paper.jpg",
-   "license": "Public domain",
-   "year": "清代"
-  }
- ],
- "art-nouveau-architecture": [
-  {
-   "kind": "image",
-   "title": "巴特罗之家",
-   "creator": "安东尼·高迪",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Casa_Batllo_Barcelona_%28219998303%29.jpeg/960px-Casa_Batllo_Barcelona_%28219998303%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Casa_Batllo_Barcelona_(219998303).jpeg",
-   "license": "CC0",
-   "year": "1904–1906"
-  },
-  {
-   "kind": "image",
-   "title": "巴特罗之家（立面）",
-   "creator": "安东尼·高迪",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Barcelona_-_Passeig_de_Gr%C3%A0cia_-_View_SW_%26_Up_on_Casa_Batll%C3%B3_1907_Antoni_Gaud%C3%AD.jpg/960px-Barcelona_-_Passeig_de_Gr%C3%A0cia_-_View_SW_%26_Up_on_Casa_Batll%C3%B3_1907_Antoni_Gaud%C3%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Passeig_de_Gr%C3%A0cia_-_View_SW_%26_Up_on_Casa_Batll%C3%B3_1907_Antoni_Gaud%C3%AD.jpg",
-   "license": "CC BY-SA 4.0",
-   "year": "1904–1906"
-  }
- ],
- "postmodern-architecture": [
-  {
-   "kind": "image",
-   "title": "文丘里母亲之家",
-   "creator": "罗伯特·文丘里",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/The_Vanna_Venturi_House%2C_one_of_the_first_prominent_works_of_the_postmodern_architecture_movement%2C_is_located_in_the_suburban_neighborhood_of_Chestnut_Hill_in_Philadelphia%2C_Pennsylvania_LCCN2011633216.tif/lossy-page1-960px-thumbnail.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:The_Vanna_Venturi_House,_one_of_the_first_prominent_works_of_the_postmodern_architecture_movement,_is_located_in_the_suburban_neighborhood_of_Chestnut_Hill_in_Philadelphia,_Pennsylvania_LCCN2011633216.tif",
-   "license": "Public domain",
-   "year": "1964"
-  },
-  {
-   "kind": "image",
-   "title": "文丘里母亲之家（另一视角）",
-   "creator": "罗伯特·文丘里",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/V_Venturi_H_1.JPG/960px-V_Venturi_H_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:V_Venturi_H_1.JPG",
-   "license": "Public domain",
-   "year": "1964"
-  }
- ],
- "graffiti": [
-  {
-   "kind": "image",
-   "title": "柏林 Bülowstraße 涂鸦肖像",
-   "creator": "佚名",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Graffiti_Portrait_B%C3%BClowstra%C3%9Fe_Berlin-Sch%C3%B6neberg.jpg/960px-Graffiti_Portrait_B%C3%BClowstra%C3%9Fe_Berlin-Sch%C3%B6neberg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Graffiti_Portrait_B%C3%BClowstra%C3%9Fe_Berlin-Sch%C3%B6neberg.jpg",
-   "license": "CC0",
-   "year": "2019"
-  },
-  {
-   "kind": "image",
-   "title": "文尼察街头涂鸦",
-   "creator": "佚名",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Graffiti_Vinnytsia_2022_G1.jpg/960px-Graffiti_Vinnytsia_2022_G1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Graffiti_Vinnytsia_2022_G1.jpg",
-   "license": "Public domain",
-   "year": "2022"
-  },
-  {
-   "kind": "work",
-   "title": "气球女孩",
-   "creator": "班克斯",
-   "year": "2002",
-   "url": "https://zh.wikipedia.org/wiki/班克斯",
-   "note": "涂鸦艺术最具代表性的符号"
-  }
- ],
- "watercolor": [
-  {
-   "kind": "image",
-   "title": "运河与船只",
-   "creator": "J.M.W. 特纳",
-   "img": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Canal_Scene_with_Shipping_-_ABDAG003696.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "url": "https://commons.wikimedia.org/wiki/File:Canal_Scene_with_Shipping_-_ABDAG003696.jpg",
-   "license": "Public domain",
-   "year": "约1820"
-  },
-  {
-   "kind": "image",
-   "title": "日出·马盖特捕鱼",
-   "creator": "J.M.W. 特纳",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/%28Barcelona%29_Sunrise_-_Whiting_Fishing_at_Margate_-_William_Turner_Tate_Britain.jpg/960px-%28Barcelona%29_Sunrise_-_Whiting_Fishing_at_Margate_-_William_Turner_Tate_Britain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:(Barcelona)_Sunrise_-_Whiting_Fishing_at_Margate_-_William_Turner_Tate_Britain.jpg",
-   "license": "Public domain",
-   "year": "约1835"
-  }
- ],
- "anime": [
-  {
-   "kind": "work",
-   "title": "千与千寻",
-   "creator": "宫崎骏",
-   "year": "2001",
-   "url": "https://zh.wikipedia.org/wiki/千与千寻",
-   "note": "吉卜力赛璐璐动画巅峰"
-  },
-  {
-   "kind": "work",
-   "title": "你的名字。",
-   "creator": "新海诚",
-   "year": "2016",
-   "url": "https://zh.wikipedia.org/wiki/你的名字。",
-   "note": "新海诚式光影美学代表"
-  }
- ],
- "toon-shading": [
-  {
-   "kind": "work",
-   "title": "塞尔达传说 风之律动",
-   "creator": "任天堂",
-   "year": "2002",
-   "url": "https://zh.wikipedia.org/wiki/薩爾達傳說_風之律動",
-   "note": "卡通渲染开山之作"
-  },
-  {
-   "kind": "work",
-   "title": "无主之地",
-   "creator": "Gearbox",
-   "year": "2009",
-   "url": "https://zh.wikipedia.org/wiki/無主之地",
-   "note": "美漫风卡通渲染"
-  }
- ],
- "german-expressionist-cinema": [
-  {
-   "kind": "work",
-   "title": "卡里加里博士的小屋",
-   "creator": "罗伯特·威恩",
-   "year": "1920",
-   "url": "https://zh.wikipedia.org/wiki/卡里加里博士的小屋",
-   "note": "表现主义电影开山之作"
-  },
-  {
-   "kind": "work",
-   "title": "大都会",
-   "creator": "弗里茨·朗",
-   "year": "1927",
-   "url": "https://zh.wikipedia.org/wiki/大都會_(1927年電影)",
-   "note": "科幻表现主义经典"
-  }
- ],
- "gouache": [
-  {
-   "kind": "image",
-   "title": "皇家烘焙公司水粉插画",
-   "creator": "Gertrude Alice Kay",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Gertrude_Alice_Kay%2C_Royal_Baking_Company%2C_gouache%2C_1923.jpg/960px-Gertrude_Alice_Kay%2C_Royal_Baking_Company%2C_gouache%2C_1923.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Gertrude_Alice_Kay,_Royal_Baking_Company,_gouache,_1923.jpg",
-   "license": "Public domain",
-   "year": "1923"
-  },
-  {
-   "kind": "image",
-   "title": "《街头历险》水粉封面",
-   "creator": "Gertrude Alice Kay",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Gertrude_Alice_Kay%2C_gouache%2C_cover_%2B_frontispiece_from_Adventures_in_Our_Street%2C_1925.jpg/960px-Gertrude_Alice_Kay%2C_gouache%2C_cover_%2B_frontispiece_from_Adventures_in_Our_Street%2C_1925.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Gertrude_Alice_Kay,_gouache,_cover_%2B_frontispiece_from_Adventures_in_Our_Street,_1925.jpg",
-   "license": "Public domain",
-   "year": "1925"
-  }
- ],
- "risograph": [
-  {
-   "kind": "image",
-   "title": "Garden Party（孔版印刷特写）",
-   "creator": "Cetrl",
-   "img": "https://upload.wikimedia.org/wikipedia/commons/2/27/Garden_Party%2C_close.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "url": "https://commons.wikimedia.org/wiki/File:Garden_Party,_close.jpg",
-   "license": "CC0"
-  },
-  {
-   "kind": "image",
-   "title": "Herr und Frau Rio 孔版海报",
-   "creator": "Kaethe17",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Risograph-herr-und-frau-rio-muc-2020.jpg/960px-Risograph-herr-und-frau-rio-muc-2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Risograph-herr-und-frau-rio-muc-2020.jpg",
-   "license": "CC BY-SA 4.0",
-   "year": "2020"
-  }
- ],
- "cel-shading": [
-  {
-   "kind": "image",
-   "title": "Blender 卡通着色渲染演示",
-   "creator": "SoylentGreen",
-   "img": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Blender3D_ToonMovie.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "url": "https://commons.wikimedia.org/wiki/File:Blender3D_ToonMovie.gif",
-   "license": "CC BY-SA 3.0"
-  },
-  {
-   "kind": "image",
-   "title": "卡通着色材质球示例",
-   "creator": "Blender Foundation",
-   "img": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Material-shader-toon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "url": "https://commons.wikimedia.org/wiki/File:Material-shader-toon.jpg",
-   "license": "CC BY-SA 4.0"
-  }
- ],
- "psychedelic-poster": [
-  {
-   "kind": "image",
-   "title": "迷幻之梦",
-   "creator": "David S. Soriano",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Overriding_the_Psychedelic_Dream_by_David_S._Soriano.png/960px-Overriding_the_Psychedelic_Dream_by_David_S._Soriano.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Overriding_the_Psychedelic_Dream_by_David_S._Soriano.png",
-   "license": "CC BY-SA 4.0"
-  },
-  {
-   "kind": "image",
-   "title": "泰坦之阳",
-   "creator": "Wombatterrorism",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Sun_of_the_titan.jpg/960px-Sun_of_the_titan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Sun_of_the_titan.jpg",
-   "license": "CC BY-SA 4.0"
+   "year": "1930"
   }
  ],
  "art-deco-graphic": [
   {
-   "kind": "image",
-   "title": "1930年代日本旅行海报",
    "creator": "日本政府铁道省",
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/1930s_Japan_Travel_Poster_-_01.jpg/960px-1930s_Japan_Travel_Poster_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:1930s_Japan_Travel_Poster_-_01.jpg",
+   "kind": "image",
    "license": "Public domain",
+   "title": "1930年代日本旅行海报",
+   "url": "https://commons.wikimedia.org/wiki/File:1930s_Japan_Travel_Poster_-_01.jpg",
    "year": "1930年代"
   },
   {
-   "kind": "image",
-   "title": "伊势丹新宿店开幕海报",
    "creator": "佚名",
    "img": "https://upload.wikimedia.org/wikipedia/commons/7/74/Isetan_Shinjuku_Opening_Poster_%281933%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "url": "https://commons.wikimedia.org/wiki/File:Isetan_Shinjuku_Opening_Poster_(1933).jpg",
+   "kind": "image",
    "license": "Public domain",
+   "title": "伊势丹新宿店开幕海报",
+   "url": "https://commons.wikimedia.org/wiki/File:Isetan_Shinjuku_Opening_Poster_(1933).jpg",
    "year": "1933"
   }
  ],
- "film-35mm": [
+ "art-nouveau-architecture": [
   {
+   "creator": "安东尼·高迪",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Casa_Batllo_Barcelona_%28219998303%29.jpeg/960px-Casa_Batllo_Barcelona_%28219998303%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "kind": "image",
-   "title": "库尔特·冯内古特肖像",
-   "creator": "Bernard Gotfryd",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Kurt_Vonnegut_by_Bernard_Gotfryd_%281965%29.jpg/960px-Kurt_Vonnegut_by_Bernard_Gotfryd_%281965%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Kurt_Vonnegut_by_Bernard_Gotfryd_(1965).jpg",
-   "license": "Public domain",
-   "year": "1965"
+   "license": "CC0",
+   "title": "巴特罗之家",
+   "url": "https://commons.wikimedia.org/wiki/File:Casa_Batllo_Barcelona_(219998303).jpeg",
+   "year": "1904–1906"
   },
   {
+   "creator": "安东尼·高迪",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Barcelona_-_Passeig_de_Gr%C3%A0cia_-_View_SW_%26_Up_on_Casa_Batll%C3%B3_1907_Antoni_Gaud%C3%AD.jpg/960px-Barcelona_-_Passeig_de_Gr%C3%A0cia_-_View_SW_%26_Up_on_Casa_Batll%C3%B3_1907_Antoni_Gaud%C3%AD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "kind": "image",
-   "title": "劳伦·白考尔肖像",
-   "creator": "Bernard Gotfryd",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Lauren_Bacall_by_Bernard_Gotfryd.jpg/960px-Lauren_Bacall_by_Bernard_Gotfryd.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Lauren_Bacall_by_Bernard_Gotfryd.jpg",
-   "license": "Public domain"
+   "license": "CC BY-SA 4.0",
+   "title": "巴特罗之家（立面）",
+   "url": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Passeig_de_Gr%C3%A0cia_-_View_SW_%26_Up_on_Casa_Batll%C3%B3_1907_Antoni_Gaud%C3%AD.jpg",
+   "year": "1904–1906"
   }
  ],
- "long-exposure": [
+ "art-nouveau-illustration": [
   {
+   "creator": "Alphonse Mucha",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Alphonse_Mucha_-_Lef%C3%A8vre-Utile%2C_Gaufrettes_vanille%2C_1898.jpg/960px-Alphonse_Mucha_-_Lef%C3%A8vre-Utile%2C_Gaufrettes_vanille%2C_1898.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "kind": "image",
-   "title": "济州岛城山日出峰蓝色时刻",
-   "creator": "Basile Morin",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Hydrangea_macrophylla_in_front_of_Seongsan_Ilchulbong_volcano_at_blue_hour_in_Jeju_Island_South_Korea.jpg/960px-Hydrangea_macrophylla_in_front_of_Seongsan_Ilchulbong_volcano_at_blue_hour_in_Jeju_Island_South_Korea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Hydrangea_macrophylla_in_front_of_Seongsan_Ilchulbong_volcano_at_blue_hour_in_Jeju_Island_South_Korea.jpg",
-   "license": "CC BY-SA 4.0"
+   "license": "Public domain",
+   "title": "《Lefèvre-Utile 饼干广告》（1898）",
+   "url": "https://commons.wikimedia.org/wiki/File:Alphonse_Mucha_-_Lef%C3%A8vre-Utile,_Gaufrettes_vanille,_1898.jpg",
+   "year": "1898"
   },
   {
+   "creator": "Alphonse Mucha",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Alfons_Mucha_0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
    "kind": "image",
-   "title": "琅勃拉邦普西山日落",
-   "creator": "Basile Morin",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/View_from_Mount_Phou_Si_at_sunset_in_Luang_Prabang_Laos_-_long_exposure.jpg/960px-View_from_Mount_Phou_Si_at_sunset_in_Luang_Prabang_Laos_-_long_exposure.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:View_from_Mount_Phou_Si_at_sunset_in_Luang_Prabang_Laos_-_long_exposure.jpg",
-   "license": "CC BY-SA 4.0"
+   "license": "Public domain",
+   "title": "《慕夏插画》",
+   "url": "https://commons.wikimedia.org/wiki/File:Alfons_Mucha_0.jpg"
+  },
+  {
+   "creator": "Alphonse Mucha",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Mucha_-_Bridges%2C_L25-11_-c.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《桥梁》系列插画",
+   "url": "https://commons.wikimedia.org/wiki/File:Mucha_-_Bridges,_L25-11_-c.jpg"
   }
  ],
- "hollywood-musical": [
+ "arts-and-crafts-illustration": [
   {
+   "creator": "Harry Clarke",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Harry_Clarke%2C_Born_of_a_thousand_storms.tif/lossy-page1-960px-Harry_Clarke%2C_Born_of_a_thousand_storms.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "kind": "image",
-   "title": "《落基山之春》电影海报",
-   "creator": "Republic Pictures",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Springtime_in_the_Rockies_1937_Poster.jpg/960px-Springtime_in_the_Rockies_1937_Poster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Springtime_in_the_Rockies_1937_Poster.jpg",
    "license": "Public domain",
-   "year": "1937"
+   "title": "《历经千场风暴》插画（哈利·克拉克）",
+   "url": "https://commons.wikimedia.org/wiki/File:Harry_Clarke,_Born_of_a_thousand_storms.tif"
   },
   {
+   "creator": "Ludwig Fahrenkrog",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Ludwig_Fahrenkrog_%281867-1952%29_Baldur_Drama_1908_book_illustration_drawing_Hakenkreuz_swastika_Germanic_mythology_heathenism_nationalist_neopaganism_V%C3%B6lkisch_etc_%28fa42_galleria.thule%29_No_known_copyright.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
    "kind": "image",
-   "title": "《落基山之春》剧照",
-   "creator": "20th Century Fox",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Cesar_Romero_and_Carmen_Miranda_in_Springtime_in_the_Rockies_%281942%29.jpg/960px-Cesar_Romero_and_Carmen_Miranda_in_Springtime_in_the_Rockies_%281942%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Cesar_Romero_and_Carmen_Miranda_in_Springtime_in_the_Rockies_(1942).jpg",
    "license": "Public domain",
-   "year": "1942"
+   "title": "《巴尔德戏剧》书籍插画（1908）",
+   "url": "https://commons.wikimedia.org/wiki/File:Ludwig_Fahrenkrog_(1867-1952)_Baldur_Drama_1908_book_illustration_drawing_Hakenkreuz_swastika_Germanic_mythology_heathenism_nationalist_neopaganism_V%C3%B6lkisch_etc_(fa42_galleria.thule)_No_known_copyright.jpg",
+   "year": "1908"
   }
  ],
- "three-strip-technicolor": [
+ "baroque": [
   {
+   "creator": "卡拉瓦乔",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Caravaggio_Beheading_of_Saint_John_the_Baptist.jpg/960px-Caravaggio_Beheading_of_Saint_John_the_Baptist.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "kind": "image",
-   "title": "特艺七彩工艺样片《十诫》",
-   "creator": "Technicolor",
-   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Technicolor_Ten_Commandments.jpg/960px-Technicolor_Ten_Commandments.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Technicolor_Ten_Commandments.jpg",
-   "license": "Public domain"
+   "license": "Public domain",
+   "title": "圣约翰被斩首",
+   "url": "https://commons.wikimedia.org/wiki/File:Caravaggio_Beheading_of_Saint_John_the_Baptist.jpg",
+   "year": "1608"
   },
   {
+   "creator": "卡拉瓦乔",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Michelangelo-Caravaggio_021_Beheading-of-St-John-the-Baptist_cropped.jpg/960px-Michelangelo-Caravaggio_021_Beheading-of-St-John-the-Baptist_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "kind": "image",
-   "title": "《百老汇淘金女郎》瑞典海报",
-   "creator": "Warner Bros.",
-   "img": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Gold_Diggers_of_Broadway_Swedish_poster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "url": "https://commons.wikimedia.org/wiki/File:Gold_Diggers_of_Broadway_Swedish_poster.jpg",
    "license": "Public domain",
-   "year": "1929"
+   "title": "圣约翰被斩首（局部）",
+   "url": "https://commons.wikimedia.org/wiki/File:Michelangelo-Caravaggio_021_Beheading-of-St-John-the-Baptist_cropped.jpg",
+   "year": "1608"
   }
  ],
- "voxel-art": [
+ "blue-green-landscape": [
   {
-   "kind": "work",
-   "title": "Crossy Road",
-   "creator": "Hipster Whale",
-   "year": "2014",
-   "url": "https://en.wikipedia.org/wiki/Crossy_Road",
-   "note": "体素风独立游戏代表作"
+   "creator": "王希孟",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Wang_Ximeng._A_Thousand_Li_of_Rivers_and_Mountains._%28Complete%2C_51%2C3x1191%2C5_cm%29._1113._Palace_museum%2C_Beijing.jpg/960px-Wang_Ximeng._A_Thousand_Li_of_Rivers_and_Mountains._%28Complete%2C_51%2C3x1191%2C5_cm%29._1113._Palace_museum%2C_Beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "千里江山图（全卷）",
+   "url": "https://commons.wikimedia.org/wiki/File:Wang_Ximeng._A_Thousand_Li_of_Rivers_and_Mountains._(Complete,_51,3x1191,5_cm)._1113._Palace_museum,_Beijing.jpg",
+   "year": "北宋"
   },
   {
-   "kind": "work",
-   "title": "Teardown",
-   "creator": "Tuxedo Labs",
-   "year": "2022",
-   "url": "https://en.wikipedia.org/wiki/Teardown_(video_game)",
-   "note": "全破坏体素沙盒"
+   "creator": "王希孟",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/A_Thousand_Li_of_Rivers_and_Mountains_Section_1.jpg/960px-A_Thousand_Li_of_Rivers_and_Mountains_Section_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC0",
+   "title": "千里江山图（局部）",
+   "url": "https://commons.wikimedia.org/wiki/File:A_Thousand_Li_of_Rivers_and_Mountains_Section_1.jpg",
+   "year": "北宋"
   }
  ],
  "cel-animation": [
   {
-   "kind": "image",
-   "title": "动画关键帧赛璐璐片示例",
    "creator": "BrentNewhall",
    "img": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Animation_example-key_cel.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "url": "https://commons.wikimedia.org/wiki/File:Animation_example-key_cel.png",
-   "license": "Public domain"
+   "kind": "image",
+   "license": "Public domain",
+   "title": "动画关键帧赛璐璐片示例",
+   "url": "https://commons.wikimedia.org/wiki/File:Animation_example-key_cel.png"
   },
   {
-   "kind": "image",
-   "title": "《小熊维尼历险记》标题字（赛璐璐时代）",
    "creator": "The Walt Disney Company",
    "img": "https://upload.wikimedia.org/wikipedia/commons/3/38/The_New_Adventures_of_Winnie_the_Pooh_text_logo.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-   "url": "https://commons.wikimedia.org/wiki/File:The_New_Adventures_of_Winnie_the_Pooh_text_logo.webp",
-   "license": "Public domain"
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《小熊维尼历险记》标题字（赛璐璐时代）",
+   "url": "https://commons.wikimedia.org/wiki/File:The_New_Adventures_of_Winnie_the_Pooh_text_logo.webp"
+  }
+ ],
+ "cel-shading": [
+  {
+   "creator": "SoylentGreen",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Blender3D_ToonMovie.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "CC BY-SA 3.0",
+   "title": "Blender 卡通着色渲染演示",
+   "url": "https://commons.wikimedia.org/wiki/File:Blender3D_ToonMovie.gif"
+  },
+  {
+   "creator": "Blender Foundation",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Material-shader-toon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "CC BY-SA 4.0",
+   "title": "卡通着色材质球示例",
+   "url": "https://commons.wikimedia.org/wiki/File:Material-shader-toon.jpg"
+  }
+ ],
+ "charcoal-drawing": [
+  {
+   "creator": "Leo Gestel",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Leo_Gestel%2C_Self_Portrait%2C_1913%2C_charcoal_and_white.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《自画像》（1913）炭笔",
+   "url": "https://commons.wikimedia.org/wiki/File:Leo_Gestel,_Self_Portrait,_1913,_charcoal_and_white.jpg",
+   "year": "1913"
+  },
+  {
+   "creator": "Théo van Rysselberghe",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Portret_van_Francis_Viel%C3%A9-Griffin%2C_Th%C3%A9o_van_Rysselberghe%2C_1903%2C_Koninklijk_Museum_voor_Schone_Kunsten_Gent%2C_1962-X.jpg/960px-Portret_van_Francis_Viel%C3%A9-Griffin%2C_Th%C3%A9o_van_Rysselberghe%2C_1903%2C_Koninklijk_Museum_voor_Schone_Kunsten_Gent%2C_1962-X.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《弗朗西斯肖像》（1903）炭笔",
+   "url": "https://commons.wikimedia.org/wiki/File:Portret_van_Francis_Viel%C3%A9-Griffin,_Th%C3%A9o_van_Rysselberghe,_1903,_Koninklijk_Museum_voor_Schone_Kunsten_Gent,_1962-X.jpg",
+   "year": "1903"
+  },
+  {
+   "creator": "John Vanderpoel",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Charcoal_Drawing_of_Young_Girl_on_Toned_Paper%2C_Vanderpoel.jpg/960px-Charcoal_Drawing_of_Young_Girl_on_Toned_Paper%2C_Vanderpoel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《色纸上的少女》炭笔",
+   "url": "https://commons.wikimedia.org/wiki/File:Charcoal_Drawing_of_Young_Girl_on_Toned_Paper,_Vanderpoel.jpg"
   }
  ],
  "clay-stop-motion": [
   {
-   "kind": "image",
-   "title": "海伦娜·史密斯-代顿黏土动画剧照",
    "creator": "Helena Smith-Dayton",
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Stills_from_Helena_Smith-Dayton_films_%281917-02_Popular_Science_Monthly_V_90_p._257%29.jpg/960px-Stills_from_Helena_Smith-Dayton_films_%281917-02_Popular_Science_Monthly_V_90_p._257%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Stills_from_Helena_Smith-Dayton_films_(1917-02_Popular_Science_Monthly_V_90_p._257).jpg",
+   "kind": "image",
    "license": "Public domain",
+   "title": "海伦娜·史密斯-代顿黏土动画剧照",
+   "url": "https://commons.wikimedia.org/wiki/File:Stills_from_Helena_Smith-Dayton_films_(1917-02_Popular_Science_Monthly_V_90_p._257).jpg",
    "year": "1917"
   },
   {
-   "kind": "image",
-   "title": "Gromit 黏土模型",
    "creator": "Humbledaisy",
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/GromitCrop2024.jpg/960px-GromitCrop2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:GromitCrop2024.jpg",
+   "kind": "image",
    "license": "CC BY-SA 4.0",
+   "title": "Gromit 黏土模型",
+   "url": "https://commons.wikimedia.org/wiki/File:GromitCrop2024.jpg",
    "year": "2024"
-  }
- ],
- "liquid-glass-ui": [
-  {
-   "kind": "work",
-   "title": "Liquid Glass",
-   "creator": "Apple",
-   "year": "2025",
-   "url": "https://en.wikipedia.org/wiki/Liquid_Glass",
-   "note": "苹果 2025 年统一设计语言，液态玻璃材质"
   }
  ],
  "claymorphic-ui": [
   {
-   "kind": "work",
-   "title": "Claymorphism",
    "creator": "Michał Malewicz（命名）",
-   "year": "2021",
+   "kind": "work",
+   "note": "2021 年命名的黏土拟态界面趋势",
+   "title": "Claymorphism",
    "url": "http://aesthetics.fandom.com/wiki/Claymorphism",
-   "note": "2021 年命名的黏土拟态界面趋势"
+   "year": "2021"
+  }
+ ],
+ "cyanotype": [
+  {
+   "creator": "Anna Atkins",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Anna_Atkins_Title_Page_of_Photographs_of_British_Algae_Cyanotype_Impressions_%28Detail%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《英国藻类：蓝晒法印相》扉页",
+   "url": "https://commons.wikimedia.org/wiki/File:Anna_Atkins_Title_Page_of_Photographs_of_British_Algae_Cyanotype_Impressions_(Detail).jpg",
+   "year": "1843"
+  },
+  {
+   "creator": "Anna Atkins",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Anna_Atkins_algae_cyanotype.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《藻类蓝晒》",
+   "url": "https://commons.wikimedia.org/wiki/File:Anna_Atkins_algae_cyanotype.jpg",
+   "year": "1840年代"
+  },
+  {
+   "creator": "Anna Atkins",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Anna_Atkins%2C_Ferns._Specimen_of_Cyanotype%2C_1840s%2C_NGA_136477.jpg/960px-Anna_Atkins%2C_Ferns._Specimen_of_Cyanotype%2C_1840s%2C_NGA_136477.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC0",
+   "title": "《蕨类标本蓝晒》",
+   "url": "https://commons.wikimedia.org/wiki/File:Anna_Atkins,_Ferns._Specimen_of_Cyanotype,_1840s,_NGA_136477.jpg",
+   "year": "1840年代"
+  }
+ ],
+ "cyberpunk": [
+  {
+   "creator": "Photograph:  Radomianin",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Boulevard_Hotel_%28Neon_sign%29%2C_Miami_Beach.jpg/960px-Boulevard_Hotel_%28Neon_sign%29%2C_Miami_Beach.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "Boulevard Hotel (Neon sign), Miami Beach.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:Boulevard_Hotel_(Neon_sign),_Miami_Beach.jpg"
+  },
+  {
+   "creator": "雷德利·斯科特",
+   "kind": "work",
+   "note": "赛博朋克美学奠基之作",
+   "title": "银翼杀手",
+   "url": "https://zh.wikipedia.org/wiki/银翼杀手",
+   "year": "1982"
+  },
+  {
+   "creator": "押井守",
+   "kind": "work",
+   "note": "日式赛博朋克代表",
+   "title": "攻壳机动队",
+   "url": "https://zh.wikipedia.org/wiki/攻壳机动队_(1995年电影)",
+   "year": "1995"
+  }
+ ],
+ "daguerreotype": [
+  {
+   "creator": "Charles Richard Meade",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Daguerreotype_portrait_of_Louis_Daguerre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "CC BY-SA 4.0",
+   "title": "《路易·达盖尔肖像》银版",
+   "url": "https://commons.wikimedia.org/wiki/File:Daguerreotype_portrait_of_Louis_Daguerre.jpg"
+  },
+  {
+   "creator": "Southworth & Hawes",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Unidentified_woman_c1850_daguerreotype_by_Southworth_%26_Hawes.jpg/960px-Unidentified_woman_c1850_daguerreotype_by_Southworth_%26_Hawes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《佚名女子肖像》银版（约1850）",
+   "url": "https://commons.wikimedia.org/wiki/File:Unidentified_woman_c1850_daguerreotype_by_Southworth_%26_Hawes.jpg",
+   "year": "约1850"
+  },
+  {
+   "creator": "佚名",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Frank_Schulenburg_Photographic_Collection_%E2%80%93_Daguerreotype_%E2%80%93_%28Julia_Shannon%29-5091.jpg/960px-Frank_Schulenburg_Photographic_Collection_%E2%80%93_Daguerreotype_%E2%80%93_%28Julia_Shannon%29-5091.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC0",
+   "title": "《朱莉娅·香农》银版",
+   "url": "https://commons.wikimedia.org/wiki/File:Frank_Schulenburg_Photographic_Collection_%E2%80%93_Daguerreotype_%E2%80%93_(Julia_Shannon)-5091.jpg",
+   "year": "19世纪"
+  }
+ ],
+ "dunhuang": [
+  {
+   "creator": "佚名",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/7/73/Dunhuang_mogao_mural_cave_409.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "莫高窟第 409 窟壁画",
+   "url": "https://commons.wikimedia.org/wiki/File:Dunhuang_mogao_mural_cave_409.jpg",
+   "year": "唐代"
+  },
+  {
+   "creator": "佚名",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Mural_of_Buddha_in_Mogao_Caves%2C_Dunhuang.jpg/960px-Mural_of_Buddha_in_Mogao_Caves%2C_Dunhuang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "莫高窟佛像壁画",
+   "url": "https://commons.wikimedia.org/wiki/File:Mural_of_Buddha_in_Mogao_Caves,_Dunhuang.jpg",
+   "year": "唐代"
+  }
+ ],
+ "film-35mm": [
+  {
+   "creator": "Bernard Gotfryd",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Kurt_Vonnegut_by_Bernard_Gotfryd_%281965%29.jpg/960px-Kurt_Vonnegut_by_Bernard_Gotfryd_%281965%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "库尔特·冯内古特肖像",
+   "url": "https://commons.wikimedia.org/wiki/File:Kurt_Vonnegut_by_Bernard_Gotfryd_(1965).jpg",
+   "year": "1965"
+  },
+  {
+   "creator": "Bernard Gotfryd",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Lauren_Bacall_by_Bernard_Gotfryd.jpg/960px-Lauren_Bacall_by_Bernard_Gotfryd.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "劳伦·白考尔肖像",
+   "url": "https://commons.wikimedia.org/wiki/File:Lauren_Bacall_by_Bernard_Gotfryd.jpg"
+  }
+ ],
+ "film-noir": [
+  {
+   "creator": "Allied Artists",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/BigComboTrailer.jpg/960px-BigComboTrailer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "BigComboTrailer.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:BigComboTrailer.jpg"
+  },
+  {
+   "creator": "约翰·休斯顿",
+   "kind": "work",
+   "note": "黑色电影开山之作",
+   "title": "马耳他之鹰",
+   "url": "https://zh.wikipedia.org/wiki/马耳他之鹰_(1941年电影)",
+   "year": "1941"
+  },
+  {
+   "creator": "比利·怀尔德",
+   "kind": "work",
+   "note": "经典黑色电影",
+   "title": "双重赔偿",
+   "url": "https://zh.wikipedia.org/wiki/双重赔偿",
+   "year": "1944"
+  }
+ ],
+ "german-expressionist-cinema": [
+  {
+   "creator": "罗伯特·威恩",
+   "kind": "work",
+   "note": "表现主义电影开山之作",
+   "title": "卡里加里博士的小屋",
+   "url": "https://zh.wikipedia.org/wiki/卡里加里博士的小屋",
+   "year": "1920"
+  },
+  {
+   "creator": "弗里茨·朗",
+   "kind": "work",
+   "note": "科幻表现主义经典",
+   "title": "大都会",
+   "url": "https://zh.wikipedia.org/wiki/大都會_(1927年電影)",
+   "year": "1927"
+  }
+ ],
+ "gongbi": [
+  {
+   "creator": "佚名",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Ming_herbal_%28painting%29%3B_Peacock_Wellcome_L0039441.jpg/960px-Ming_herbal_%28painting%29%3B_Peacock_Wellcome_L0039441.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY 4.0",
+   "title": "《明代本草工笔：孔雀》",
+   "url": "https://commons.wikimedia.org/wiki/File:Ming_herbal_(painting);_Peacock_Wellcome_L0039441.jpg",
+   "year": "明代"
+  },
+  {
+   "creator": "佚名",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Ming_herbal_%28painting%29%3B_Siberian_white_crane_Wellcome_L0039440.jpg/960px-Ming_herbal_%28painting%29%3B_Siberian_white_crane_Wellcome_L0039440.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY 4.0",
+   "title": "《明代本草工笔：白鹤》",
+   "url": "https://commons.wikimedia.org/wiki/File:Ming_herbal_(painting);_Siberian_white_crane_Wellcome_L0039440.jpg",
+   "year": "明代"
+  },
+  {
+   "creator": "佚名",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Ming_herbal_%28painting%29%3B_Stork_Wellcome_L0039448.jpg/960px-Ming_herbal_%28painting%29%3B_Stork_Wellcome_L0039448.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY 4.0",
+   "title": "《明代本草工笔：鹳》",
+   "url": "https://commons.wikimedia.org/wiki/File:Ming_herbal_(painting);_Stork_Wellcome_L0039448.jpg",
+   "year": "明代"
+  }
+ ],
+ "gouache": [
+  {
+   "creator": "Gertrude Alice Kay",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Gertrude_Alice_Kay%2C_Royal_Baking_Company%2C_gouache%2C_1923.jpg/960px-Gertrude_Alice_Kay%2C_Royal_Baking_Company%2C_gouache%2C_1923.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "皇家烘焙公司水粉插画",
+   "url": "https://commons.wikimedia.org/wiki/File:Gertrude_Alice_Kay,_Royal_Baking_Company,_gouache,_1923.jpg",
+   "year": "1923"
+  },
+  {
+   "creator": "Gertrude Alice Kay",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Gertrude_Alice_Kay%2C_gouache%2C_cover_%2B_frontispiece_from_Adventures_in_Our_Street%2C_1925.jpg/960px-Gertrude_Alice_Kay%2C_gouache%2C_cover_%2B_frontispiece_from_Adventures_in_Our_Street%2C_1925.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《街头历险》水粉封面",
+   "url": "https://commons.wikimedia.org/wiki/File:Gertrude_Alice_Kay,_gouache,_cover_%2B_frontispiece_from_Adventures_in_Our_Street,_1925.jpg",
+   "year": "1925"
+  }
+ ],
+ "graffiti": [
+  {
+   "creator": "佚名",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Graffiti_Portrait_B%C3%BClowstra%C3%9Fe_Berlin-Sch%C3%B6neberg.jpg/960px-Graffiti_Portrait_B%C3%BClowstra%C3%9Fe_Berlin-Sch%C3%B6neberg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC0",
+   "title": "柏林 Bülowstraße 涂鸦肖像",
+   "url": "https://commons.wikimedia.org/wiki/File:Graffiti_Portrait_B%C3%BClowstra%C3%9Fe_Berlin-Sch%C3%B6neberg.jpg",
+   "year": "2019"
+  },
+  {
+   "creator": "佚名",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Graffiti_Vinnytsia_2022_G1.jpg/960px-Graffiti_Vinnytsia_2022_G1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "文尼察街头涂鸦",
+   "url": "https://commons.wikimedia.org/wiki/File:Graffiti_Vinnytsia_2022_G1.jpg",
+   "year": "2022"
+  },
+  {
+   "creator": "班克斯",
+   "kind": "work",
+   "note": "涂鸦艺术最具代表性的符号",
+   "title": "气球女孩",
+   "url": "https://zh.wikipedia.org/wiki/班克斯",
+   "year": "2002"
+  }
+ ],
+ "hollywood-musical": [
+  {
+   "creator": "Republic Pictures",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Springtime_in_the_Rockies_1937_Poster.jpg/960px-Springtime_in_the_Rockies_1937_Poster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《落基山之春》电影海报",
+   "url": "https://commons.wikimedia.org/wiki/File:Springtime_in_the_Rockies_1937_Poster.jpg",
+   "year": "1937"
+  },
+  {
+   "creator": "20th Century Fox",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Cesar_Romero_and_Carmen_Miranda_in_Springtime_in_the_Rockies_%281942%29.jpg/960px-Cesar_Romero_and_Carmen_Miranda_in_Springtime_in_the_Rockies_%281942%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《落基山之春》剧照",
+   "url": "https://commons.wikimedia.org/wiki/File:Cesar_Romero_and_Carmen_Miranda_in_Springtime_in_the_Rockies_(1942).jpg",
+   "year": "1942"
+  }
+ ],
+ "impressionism": [
+  {
+   "creator": "克劳德·莫奈",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Claude_Monet%2C_Impression%2C_soleil_levant%2C_1872.jpg/960px-Claude_Monet%2C_Impression%2C_soleil_levant%2C_1872.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "日出·印象",
+   "url": "https://commons.wikimedia.org/wiki/File:Claude_Monet,_Impression,_soleil_levant,_1872.jpg",
+   "year": "1872"
+  },
+  {
+   "creator": "皮埃尔-奥古斯特·雷诺阿",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Auguste_Renoir_-_Dance_at_Le_Moulin_de_la_Galette_%28ex_Whitney_collection%29.jpg/960px-Auguste_Renoir_-_Dance_at_Le_Moulin_de_la_Galette_%28ex_Whitney_collection%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "煎饼磨坊的舞会",
+   "url": "https://commons.wikimedia.org/wiki/File:Auguste_Renoir_-_Dance_at_Le_Moulin_de_la_Galette_(ex_Whitney_collection).jpg",
+   "year": "1876"
+  }
+ ],
+ "liquid-glass-ui": [
+  {
+   "creator": "Apple",
+   "kind": "work",
+   "note": "苹果 2025 年统一设计语言，液态玻璃材质",
+   "title": "Liquid Glass",
+   "url": "https://en.wikipedia.org/wiki/Liquid_Glass",
+   "year": "2025"
+  }
+ ],
+ "long-exposure": [
+  {
+   "creator": "Basile Morin",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Hydrangea_macrophylla_in_front_of_Seongsan_Ilchulbong_volcano_at_blue_hour_in_Jeju_Island_South_Korea.jpg/960px-Hydrangea_macrophylla_in_front_of_Seongsan_Ilchulbong_volcano_at_blue_hour_in_Jeju_Island_South_Korea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY-SA 4.0",
+   "title": "济州岛城山日出峰蓝色时刻",
+   "url": "https://commons.wikimedia.org/wiki/File:Hydrangea_macrophylla_in_front_of_Seongsan_Ilchulbong_volcano_at_blue_hour_in_Jeju_Island_South_Korea.jpg"
+  },
+  {
+   "creator": "Basile Morin",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/View_from_Mount_Phou_Si_at_sunset_in_Luang_Prabang_Laos_-_long_exposure.jpg/960px-View_from_Mount_Phou_Si_at_sunset_in_Luang_Prabang_Laos_-_long_exposure.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY-SA 4.0",
+   "title": "琅勃拉邦普西山日落",
+   "url": "https://commons.wikimedia.org/wiki/File:View_from_Mount_Phou_Si_at_sunset_in_Luang_Prabang_Laos_-_long_exposure.jpg"
+  }
+ ],
+ "low-poly": [
+  {
+   "creator": "Drummyfish",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Low_poly_3D_duck.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "CC0",
+   "title": "Low poly 3D duck.png",
+   "url": "https://commons.wikimedia.org/wiki/File:Low_poly_3D_duck.png"
+  },
+  {
+   "creator": "Kurt Kaiser",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Box_truck_low_poly_animation.png/960px-Box_truck_low_poly_animation.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC0",
+   "title": "Box truck low poly animation.png",
+   "url": "https://commons.wikimedia.org/wiki/File:Box_truck_low_poly_animation.png"
+  }
+ ],
+ "mannerism": [
+  {
+   "creator": "帕米贾尼诺",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Girolamo_Francesco_Maria_Mazzola_-_Madonna_with_the_Long_Neck.jpg/960px-Girolamo_Francesco_Maria_Mazzola_-_Madonna_with_the_Long_Neck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "长颈圣母",
+   "url": "https://commons.wikimedia.org/wiki/File:Girolamo_Francesco_Maria_Mazzola_-_Madonna_with_the_Long_Neck.jpg",
+   "year": "1535–1540"
+  },
+  {
+   "creator": "帕米贾尼诺",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/0/03/Parmigianino_Madonna_Long_Neck_-_Detail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "长颈圣母（局部）",
+   "url": "https://commons.wikimedia.org/wiki/File:Parmigianino_Madonna_Long_Neck_-_Detail.jpg",
+   "year": "1535–1540"
+  }
+ ],
+ "neoclassicism": [
+  {
+   "creator": "雅克-路易·大卫",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Death_of_Marat_by_David.jpg/960px-Death_of_Marat_by_David.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "马拉之死",
+   "url": "https://commons.wikimedia.org/wiki/File:Death_of_Marat_by_David.jpg",
+   "year": "1793"
+  },
+  {
+   "creator": "雅克-路易·大卫",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Death_of_Marat_by_David_%28detail%29.jpg/960px-Death_of_Marat_by_David_%28detail%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "马拉之死（局部）",
+   "url": "https://commons.wikimedia.org/wiki/File:Death_of_Marat_by_David_(detail).jpg",
+   "year": "1793"
+  }
+ ],
+ "nihonga": [
+  {
+   "creator": "速水御舟",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Enbu_by_Hayami_Gyoshu.jpg/960px-Enbu_by_Hayami_Gyoshu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《炎舞》",
+   "url": "https://commons.wikimedia.org/wiki/File:Enbu_by_Hayami_Gyoshu.jpg"
+  },
+  {
+   "creator": "上村松园",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Jo-no-mai_by_Uemura_Shoen.jpg/960px-Jo-no-mai_by_Uemura_Shoen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《序之舞》",
+   "url": "https://commons.wikimedia.org/wiki/File:Jo-no-mai_by_Uemura_Shoen.jpg"
+  },
+  {
+   "creator": "菱田春草",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Hishida_Shuns%C5%8D_001.jpg/960px-Hishida_Shuns%C5%8D_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《菱田春草作》",
+   "url": "https://commons.wikimedia.org/wiki/File:Hishida_Shuns%C5%8D_001.jpg"
+  }
+ ],
+ "pastel-drawing": [
+  {
+   "creator": "Pierre-Auguste Renoir",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Bemberg_Fondation_Toulouse_-_Portrait_de_jeune_fille_-_Pierre-Auguste_Renoir_pastel_1879_56x43_Inv.2156.jpg/960px-Bemberg_Fondation_Toulouse_-_Portrait_de_jeune_fille_-_Pierre-Auguste_Renoir_pastel_1879_56x43_Inv.2156.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《少女肖像》粉彩（雷诺阿）",
+   "url": "https://commons.wikimedia.org/wiki/File:Bemberg_Fondation_Toulouse_-_Portrait_de_jeune_fille_-_Pierre-Auguste_Renoir_pastel_1879_56x43_Inv.2156.jpg"
+  },
+  {
+   "creator": "Edvard Munch",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/5/52/Edvard_Munch_-_Self-Portrait_with_Pastel_Stick_-_1943.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《手持粉彩棒的自画像》（1943）",
+   "url": "https://commons.wikimedia.org/wiki/File:Edvard_Munch_-_Self-Portrait_with_Pastel_Stick_-_1943.jpg",
+   "year": "1943"
+  },
+  {
+   "creator": "Élisabeth Louise Vigée Le Brun",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/1/10/The_pastel_portrait_of_a_baby.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "CC BY-SA 4.0",
+   "title": "《婴儿肖像》粉彩",
+   "url": "https://commons.wikimedia.org/wiki/File:The_pastel_portrait_of_a_baby.png"
+  }
+ ],
+ "photomontage": [
+  {
+   "creator": "Oscar Gustave Rejlander",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Oscar_Gustave_Rejlander%2C_The_Two_Ways_of_Life%2C_1857.jpg/960px-Oscar_Gustave_Rejlander%2C_The_Two_Ways_of_Life%2C_1857.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《人生的两条路》",
+   "url": "https://commons.wikimedia.org/wiki/File:Oscar_Gustave_Rejlander,_The_Two_Ways_of_Life,_1857.jpg",
+   "year": "1857"
+  },
+  {
+   "creator": "Oscar Gustave Rejlander",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Study_for_%22Two_Ways_of_Life%22_MET_DP-15143-001.jpg/960px-Study_for_%22Two_Ways_of_Life%22_MET_DP-15143-001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC0",
+   "title": "《人生的两条路》习作（大都会博物馆藏）",
+   "url": "https://commons.wikimedia.org/wiki/File:Study_for_%22Two_Ways_of_Life%22_MET_DP-15143-001.jpg"
+  },
+  {
+   "creator": "Hannah Höch",
+   "kind": "work",
+   "note": "达达派拼贴代表作，photomontage 一词的奠基之作",
+   "title": "《用达达厨房刀切开德国最后的魏玛啤酒肚文化时代》",
+   "url": "https://en.wikipedia.org/wiki/Hannah_Höch",
+   "year": "1919"
+  }
+ ],
+ "pixel-art": [
+  {
+   "creator": "ConcernedApe",
+   "kind": "work",
+   "note": "现代像素风代表",
+   "title": "星露谷物语",
+   "url": "https://zh.wikipedia.org/wiki/星露谷物语",
+   "year": "2016"
+  },
+  {
+   "creator": "Yacht Club Games",
+   "kind": "work",
+   "note": "复古像素平台跳跃",
+   "title": "铲子骑士",
+   "url": "https://zh.wikipedia.org/wiki/铲子骑士",
+   "year": "2014"
+  }
+ ],
+ "post-impressionism": [
+  {
+   "creator": "文森特·梵高",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/960px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "星月夜",
+   "url": "https://commons.wikimedia.org/wiki/File:Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+   "year": "1889"
+  },
+  {
+   "creator": "文森特·梵高",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Vincent_van_Gogh_-_The_yellow_house_%28%27The_street%27%29.jpg/960px-Vincent_van_Gogh_-_The_yellow_house_%28%27The_street%27%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "黄房子（街道）",
+   "url": "https://commons.wikimedia.org/wiki/File:Vincent_van_Gogh_-_The_yellow_house_(%27The_street%27).jpg",
+   "year": "1888"
+  }
+ ],
+ "postmodern-architecture": [
+  {
+   "creator": "罗伯特·文丘里",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/The_Vanna_Venturi_House%2C_one_of_the_first_prominent_works_of_the_postmodern_architecture_movement%2C_is_located_in_the_suburban_neighborhood_of_Chestnut_Hill_in_Philadelphia%2C_Pennsylvania_LCCN2011633216.tif/lossy-page1-960px-thumbnail.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "文丘里母亲之家",
+   "url": "https://commons.wikimedia.org/wiki/File:The_Vanna_Venturi_House,_one_of_the_first_prominent_works_of_the_postmodern_architecture_movement,_is_located_in_the_suburban_neighborhood_of_Chestnut_Hill_in_Philadelphia,_Pennsylvania_LCCN2011633216.tif",
+   "year": "1964"
+  },
+  {
+   "creator": "罗伯特·文丘里",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/V_Venturi_H_1.JPG/960px-V_Venturi_H_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "文丘里母亲之家（另一视角）",
+   "url": "https://commons.wikimedia.org/wiki/File:V_Venturi_H_1.JPG",
+   "year": "1964"
+  }
+ ],
+ "psychedelic-poster": [
+  {
+   "creator": "David S. Soriano",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Overriding_the_Psychedelic_Dream_by_David_S._Soriano.png/960px-Overriding_the_Psychedelic_Dream_by_David_S._Soriano.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY-SA 4.0",
+   "title": "迷幻之梦",
+   "url": "https://commons.wikimedia.org/wiki/File:Overriding_the_Psychedelic_Dream_by_David_S._Soriano.png"
+  },
+  {
+   "creator": "Wombatterrorism",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Sun_of_the_titan.jpg/960px-Sun_of_the_titan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY-SA 4.0",
+   "title": "泰坦之阳",
+   "url": "https://commons.wikimedia.org/wiki/File:Sun_of_the_titan.jpg"
+  }
+ ],
+ "realism": [
+  {
+   "creator": "Gustave Courbet",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Courbet_-_La_Rencontre_ou_Bonjour_M.Courbet%2C_1854%2C_868.1.23.jpg/960px-Courbet_-_La_Rencontre_ou_Bonjour_M.Courbet%2C_1854%2C_868.1.23.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《相遇（你好，库尔贝先生）》",
+   "url": "https://commons.wikimedia.org/wiki/File:Courbet_-_La_Rencontre_ou_Bonjour_M.Courbet,_1854,_868.1.23.jpg",
+   "year": "1854"
+  },
+  {
+   "creator": "Gustave Courbet",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/1/12/Courbet_La_source_de_la_Loire.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《卢瓦尔河之源》",
+   "url": "https://commons.wikimedia.org/wiki/File:Courbet_La_source_de_la_Loire.jpg"
+  },
+  {
+   "creator": "Gustave Courbet",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/The_Dead_Fox_%28Gustave_Courbet%29_-_Nationalmuseum_-_23398.tif/lossy-page1-960px-The_Dead_Fox_%28Gustave_Courbet%29_-_Nationalmuseum_-_23398.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《死去的狐狸》",
+   "url": "https://commons.wikimedia.org/wiki/File:The_Dead_Fox_(Gustave_Courbet)_-_Nationalmuseum_-_23398.tif"
+  }
+ ],
+ "rimpa": [
+  {
+   "creator": "俵屋宗达",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Wind-God-Fujin-and-Thunder-God-Raijin-by-Tawaraya-Sotatsu.png/960px-Wind-God-Fujin-and-Thunder-God-Raijin-by-Tawaraya-Sotatsu.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《风神雷神图屏风》",
+   "url": "https://commons.wikimedia.org/wiki/File:Wind-God-Fujin-and-Thunder-God-Raijin-by-Tawaraya-Sotatsu.png",
+   "year": "17世纪初"
+  },
+  {
+   "creator": "神坂雪佳",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Kamisaka%2C_Sekka_-_Flowers_of_the_Four_Seasons_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《四季花卉》（神坂雪佳）",
+   "url": "https://commons.wikimedia.org/wiki/File:Kamisaka,_Sekka_-_Flowers_of_the_Four_Seasons_1.jpg"
+  },
+  {
+   "creator": "琳派",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Rimpa-SpringLandscape.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《春景》（琳派）",
+   "url": "https://commons.wikimedia.org/wiki/File:Rimpa-SpringLandscape.jpg"
+  }
+ ],
+ "risograph": [
+  {
+   "creator": "Cetrl",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/2/27/Garden_Party%2C_close.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "CC0",
+   "title": "Garden Party（孔版印刷特写）",
+   "url": "https://commons.wikimedia.org/wiki/File:Garden_Party,_close.jpg"
+  },
+  {
+   "creator": "Kaethe17",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Risograph-herr-und-frau-rio-muc-2020.jpg/960px-Risograph-herr-und-frau-rio-muc-2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY-SA 4.0",
+   "title": "Herr und Frau Rio 孔版海报",
+   "url": "https://commons.wikimedia.org/wiki/File:Risograph-herr-und-frau-rio-muc-2020.jpg",
+   "year": "2020"
+  }
+ ],
+ "rococo": [
+  {
+   "creator": "让-奥诺雷·弗拉戈纳尔",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Fragonard_la_main_chaude_-_1775-80.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "趁热打铁（捉迷藏）",
+   "url": "https://commons.wikimedia.org/wiki/File:Fragonard_la_main_chaude_-_1775-80.jpg",
+   "year": "1775–1780"
+  },
+  {
+   "creator": "弗朗索瓦·布歇",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Fran%C3%A7ois_Boucher_-_Are_They_Thinking_about_the_Grape%3F_%28Pensent-ils_au_raisin%3F%29_-_Google_Art_Project.jpg/960px-Fran%C3%A7ois_Boucher_-_Are_They_Thinking_about_the_Grape%3F_%28Pensent-ils_au_raisin%3F%29_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "他们在想葡萄吗？",
+   "url": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Boucher_-_Are_They_Thinking_about_the_Grape%3F_(Pensent-ils_au_raisin%3F)_-_Google_Art_Project.jpg",
+   "year": "1747"
+  }
+ ],
+ "screenprint": [
+  {
+   "creator": "May Gilruth",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Fish%2C_serigraph.jpg/960px-Fish%2C_serigraph.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《鱼》丝网印刷",
+   "url": "https://commons.wikimedia.org/wiki/File:Fish,_serigraph.jpg"
+  },
+  {
+   "creator": "May Gilruth",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/The_Dance_%28serigraph%29.jpg/960px-The_Dance_%28serigraph%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《舞》丝网印刷",
+   "url": "https://commons.wikimedia.org/wiki/File:The_Dance_(serigraph).jpg"
+  },
+  {
+   "creator": "Alexey Parygin",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/A_Parygin_1987_Mad_House_serigraphy.jpg/960px-A_Parygin_1987_Mad_House_serigraphy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY-SA 4.0",
+   "title": "《疯人院》（1987）丝网版画",
+   "url": "https://commons.wikimedia.org/wiki/File:A_Parygin_1987_Mad_House_serigraphy.jpg",
+   "year": "1987"
+  }
+ ],
+ "shuimo-xieyi": [
+  {
+   "creator": "八大山人（朱耷）",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Bada_Shanren_-_Lotus_and_Ducks_-_Google_Art_Project.jpg/960px-Bada_Shanren_-_Lotus_and_Ducks_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "荷花水鸟图",
+   "url": "https://commons.wikimedia.org/wiki/File:Bada_Shanren_-_Lotus_and_Ducks_-_Google_Art_Project.jpg",
+   "year": "清代"
+  },
+  {
+   "creator": "八大山人（朱耷）",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Melons_and_Brackens_by_Bada_Shanren%2C_ink_on_paper.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "瓜果图",
+   "url": "https://commons.wikimedia.org/wiki/File:Melons_and_Brackens_by_Bada_Shanren,_ink_on_paper.jpg",
+   "year": "清代"
   }
  ],
  "solarpunk": [
   {
-   "kind": "image",
-   "title": "太阳朋克食堂",
    "creator": "The.lemonaut.ukr",
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Solarpunk_cafeteria.png/960px-Solarpunk_cafeteria.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Solarpunk_cafeteria.png",
-   "license": "CC BY 4.0"
+   "kind": "image",
+   "license": "CC BY 4.0",
+   "title": "太阳朋克食堂",
+   "url": "https://commons.wikimedia.org/wiki/File:Solarpunk_cafeteria.png"
   },
   {
-   "kind": "image",
-   "title": "更光明的未来：郊区加密",
    "creator": "Scandinavian101",
    "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Brighter_Future_-_Suburbs_Densification_-_Blue.jpeg/960px-Brighter_Future_-_Suburbs_Densification_-_Blue.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "url": "https://commons.wikimedia.org/wiki/File:Brighter_Future_-_Suburbs_Densification_-_Blue.jpeg",
-   "license": "CC BY-SA 4.0"
+   "kind": "image",
+   "license": "CC BY-SA 4.0",
+   "title": "更光明的未来：郊区加密",
+   "url": "https://commons.wikimedia.org/wiki/File:Brighter_Future_-_Suburbs_Densification_-_Blue.jpeg"
+  }
+ ],
+ "steampunk": [
+  {
+   "creator": "Pseudopanax",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Aethertractor_at_Steampunk_HQ.jpg/960px-Aethertractor_at_Steampunk_HQ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "蒸汽朋克 HQ：以太拖拉机",
+   "url": "https://commons.wikimedia.org/wiki/File:Aethertractor_at_Steampunk_HQ.jpg"
+  },
+  {
+   "creator": "ChiefRanger",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Steampunk-Computer.jpg/960px-Steampunk-Computer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY-SA 2.0",
+   "title": "蒸汽朋克改装电脑",
+   "url": "https://commons.wikimedia.org/wiki/File:Steampunk-Computer.jpg"
+  },
+  {
+   "creator": "Frank John-Lorenz",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Steampunk_Racer_Schrottkunst_20210612_190241.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "CC0",
+   "title": "废金属蒸汽朋克赛车（2021）",
+   "url": "https://commons.wikimedia.org/wiki/File:Steampunk_Racer_Schrottkunst_20210612_190241.jpg",
+   "year": "2021"
+  }
+ ],
+ "swiss-style": [
+  {
+   "creator": "Eduard Renggli",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/CH-000957-X-6776_Renggli.tif/lossy-page1-960px-CH-000957-X-6776_Renggli.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "CH-000957-X-6776 Renggli.tif",
+   "url": "https://commons.wikimedia.org/wiki/File:CH-000957-X-6776_Renggli.tif"
+  },
+  {
+   "creator": "Jules-Ami Courvoisier (1884-1936)",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/CH-NB_Poster_Collection_SNL_TMC_226.jpg/960px-CH-NB_Poster_Collection_SNL_TMC_226.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "CH-NB Poster Collection SNL TMC 226.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:CH-NB_Poster_Collection_SNL_TMC_226.jpg"
+  }
+ ],
+ "symbolism": [
+  {
+   "creator": "居斯塔夫·莫罗",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Jupiter_and_Semele_by_Gustave_Moreau.jpg/960px-Jupiter_and_Semele_by_Gustave_Moreau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "朱庇特与塞墨勒",
+   "url": "https://commons.wikimedia.org/wiki/File:Jupiter_and_Semele_by_Gustave_Moreau.jpg",
+   "year": "1894–1895"
+  },
+  {
+   "creator": "居斯塔夫·莫罗",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Gustave_Moreau_Les_Licornes.jpg/960px-Gustave_Moreau_Les_Licornes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "独角兽",
+   "url": "https://commons.wikimedia.org/wiki/File:Gustave_Moreau_Les_Licornes.jpg",
+   "year": "约1885"
+  }
+ ],
+ "three-strip-technicolor": [
+  {
+   "creator": "Technicolor",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Technicolor_Ten_Commandments.jpg/960px-Technicolor_Ten_Commandments.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "特艺七彩工艺样片《十诫》",
+   "url": "https://commons.wikimedia.org/wiki/File:Technicolor_Ten_Commandments.jpg"
+  },
+  {
+   "creator": "Warner Bros.",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Gold_Diggers_of_Broadway_Swedish_poster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《百老汇淘金女郎》瑞典海报",
+   "url": "https://commons.wikimedia.org/wiki/File:Gold_Diggers_of_Broadway_Swedish_poster.jpg",
+   "year": "1929"
+  }
+ ],
+ "toon-shading": [
+  {
+   "creator": "任天堂",
+   "kind": "work",
+   "note": "卡通渲染开山之作",
+   "title": "塞尔达传说 风之律动",
+   "url": "https://zh.wikipedia.org/wiki/薩爾達傳說_風之律動",
+   "year": "2002"
+  },
+  {
+   "creator": "Gearbox",
+   "kind": "work",
+   "note": "美漫风卡通渲染",
+   "title": "无主之地",
+   "url": "https://zh.wikipedia.org/wiki/無主之地",
+   "year": "2009"
+  }
+ ],
+ "ukiyo-e": [
+  {
+   "creator": "葛饰北斋",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/c/ca/%27The_Great_Wave_off_Kanagawa%27_by_Hokusai%2C_Honolulu_Museum_of_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "神奈川冲浪里",
+   "url": "https://commons.wikimedia.org/wiki/File:%27The_Great_Wave_off_Kanagawa%27_by_Hokusai,_Honolulu_Museum_of_Art.jpg",
+   "year": "1831"
+  },
+  {
+   "creator": "葛饰北斋",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Kanagawa_oki_nami_ura_LCCN2008661021.jpg/960px-Kanagawa_oki_nami_ura_LCCN2008661021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "神奈川冲浪里（国会图书馆藏本）",
+   "url": "https://commons.wikimedia.org/wiki/File:Kanagawa_oki_nami_ura_LCCN2008661021.jpg",
+   "year": "1831"
+  }
+ ],
+ "vienna-secession": [
+  {
+   "creator": "Gustav Klimt",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Klimt_-_Erstes_Ausstellungsplakat_der_Wiener_Secession_%28Theseus_und_Minotaurus%29.jpeg/960px-Klimt_-_Erstes_Ausstellungsplakat_der_Wiener_Secession_%28Theseus_und_Minotaurus%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "维也纳分离派首展海报（1898）",
+   "url": "https://commons.wikimedia.org/wiki/File:Klimt_-_Erstes_Ausstellungsplakat_der_Wiener_Secession_(Theseus_und_Minotaurus).jpeg",
+   "year": "1898"
+  },
+  {
+   "creator": "Gustav Klimt",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Gustav_Klimt_._Secession_-_XVIII_Ausstellung.jpg/960px-Gustav_Klimt_._Secession_-_XVIII_Ausstellung.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "第十八届分离派展览海报",
+   "url": "https://commons.wikimedia.org/wiki/File:Gustav_Klimt_._Secession_-_XVIII_Ausstellung.jpg"
+  },
+  {
+   "creator": "Gustav Klimt",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Klimt_-_Beethovenfries_-_Mittelwand.jpg/960px-Klimt_-_Beethovenfries_-_Mittelwand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《贝多芬横饰带》",
+   "url": "https://commons.wikimedia.org/wiki/File:Klimt_-_Beethovenfries_-_Mittelwand.jpg",
+   "year": "1902"
+  }
+ ],
+ "voxel-art": [
+  {
+   "creator": "Hipster Whale",
+   "kind": "work",
+   "note": "体素风独立游戏代表作",
+   "title": "Crossy Road",
+   "url": "https://en.wikipedia.org/wiki/Crossy_Road",
+   "year": "2014"
+  },
+  {
+   "creator": "Tuxedo Labs",
+   "kind": "work",
+   "note": "全破坏体素沙盒",
+   "title": "Teardown",
+   "url": "https://en.wikipedia.org/wiki/Teardown_(video_game)",
+   "year": "2022"
+  }
+ ],
+ "watercolor": [
+  {
+   "creator": "J.M.W. 特纳",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Canal_Scene_with_Shipping_-_ABDAG003696.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "运河与船只",
+   "url": "https://commons.wikimedia.org/wiki/File:Canal_Scene_with_Shipping_-_ABDAG003696.jpg",
+   "year": "约1820"
+  },
+  {
+   "creator": "J.M.W. 特纳",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/%28Barcelona%29_Sunrise_-_Whiting_Fishing_at_Margate_-_William_Turner_Tate_Britain.jpg/960px-%28Barcelona%29_Sunrise_-_Whiting_Fishing_at_Margate_-_William_Turner_Tate_Britain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "日出·马盖特捕鱼",
+   "url": "https://commons.wikimedia.org/wiki/File:(Barcelona)_Sunrise_-_Whiting_Fishing_at_Margate_-_William_Turner_Tate_Britain.jpg",
+   "year": "约1835"
+  }
+ ],
+ "woodcut-print": [
+  {
+   "creator": "歌川国贞",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Utagawa_Kunisada_-_Woodcut_-_Google_Art_Project.jpg/960px-Utagawa_Kunisada_-_Woodcut_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "歌川国贞木刻版画",
+   "url": "https://commons.wikimedia.org/wiki/File:Utagawa_Kunisada_-_Woodcut_-_Google_Art_Project.jpg",
+   "year": "19世纪"
+  },
+  {
+   "creator": "迭戈·里维拉",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Diego_Rivera_Woodcut-1916_Maximilian_Voloshin_Ex_libris.jpg/960px-Diego_Rivera_Woodcut-1916_Maximilian_Voloshin_Ex_libris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "木刻藏书票",
+   "url": "https://commons.wikimedia.org/wiki/File:Diego_Rivera_Woodcut-1916_Maximilian_Voloshin_Ex_libris.jpg",
+   "year": "1916"
+  }
+ ],
+ "yamato-e": [
+  {
+   "creator": "菱川师宣",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/NDL-DC_1288363_Yamato-e_tsukushi_0023_0000crd.jpg/960px-NDL-DC_1288363_Yamato-e_tsukushi_0023_0000crd.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《大和绘尽》（其廿三）",
+   "url": "https://commons.wikimedia.org/wiki/File:NDL-DC_1288363_Yamato-e_tsukushi_0023_0000crd.jpg",
+   "year": "17世纪"
+  },
+  {
+   "creator": "菱川师宣",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/%E5%A4%A7%E5%92%8C%E7%B5%B5%E3%81%A5%E3%81%8F%E3%81%97-Compendium_of_Yamato-e_Painting_Themes_%28Yamato-e_zukushi%29_MET_JIB84_001.jpg/960px-%E5%A4%A7%E5%92%8C%E7%B5%B5%E3%81%A5%E3%81%8F%E3%81%97-Compendium_of_Yamato-e_Painting_Themes_%28Yamato-e_zukushi%29_MET_JIB84_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC0",
+   "title": "《大和绘尽》（卷一）",
+   "url": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E5%92%8C%E7%B5%B5%E3%81%A5%E3%81%8F%E3%81%97-Compendium_of_Yamato-e_Painting_Themes_(Yamato-e_zukushi)_MET_JIB84_001.jpg",
+   "year": "17世纪"
   }
  ]
 }
