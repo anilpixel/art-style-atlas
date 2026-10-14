@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { getPool, isDbConfigured } from "@/lib/db";
 import seedBase from "@/data/lexicon.json";
 import seedNew from "@/data/lexicon-new.json";
+import seedNew2 from "@/data/lexicon-new2.json";
 
 const seed = {
   domains: (seedBase as { domains: unknown[] }).domains,
@@ -9,6 +10,7 @@ const seed = {
   concepts: [
     ...(seedBase as { concepts: unknown[] }).concepts,
     ...(seedNew as { concepts: unknown[] }).concepts,
+    ...(seedNew2 as { concepts: unknown[] }).concepts,
   ],
 };
 
@@ -48,6 +50,7 @@ CREATE TABLE IF NOT EXISTS concepts (
   prompt_template TEXT NOT NULL DEFAULT '',
   related_slugs JSONB NOT NULL DEFAULT '[]',
   image TEXT NOT NULL DEFAULT '',
+  source TEXT NOT NULL DEFAULT '',
   sort_order INTEGER NOT NULL DEFAULT 0
 );
 CREATE INDEX IF NOT EXISTS idx_lineages_domain ON lineages(domain_slug);
@@ -77,6 +80,10 @@ export async function POST(request: Request) {
 
     // 先建表（新库表可能还不存在），再查现有数据量
     await pool.query(SCHEMA);
+    // 已有库补列（P1-5 资料来源）：幂等
+    await pool.query(
+      `ALTER TABLE concepts ADD COLUMN IF NOT EXISTS source TEXT NOT NULL DEFAULT ''`
+    );
 
     const { rows } = await pool.sql`SELECT COUNT(*)::int AS n FROM concepts`;
     if (rows[0].n > 0 && !force) {
@@ -98,7 +105,7 @@ export async function POST(request: Request) {
         type: string; era: string; mediumCategory: string; medium: string;
         technique: string; color: string; light: string; composition: string; texture: string;
         features: string; keyPoints: string[]; promptTemplate: string;
-        relatedSlugs: string[]; image: string;
+        relatedSlugs: string[]; image: string; source?: string;
       }[];
     };
 
@@ -116,18 +123,18 @@ export async function POST(request: Request) {
     for (const c of data.concepts) {
       await pool.sql`INSERT INTO concepts
         (slug, lineage_slug, name_cn, name_en, aliases, type, era, medium_category, medium, technique, color,
-         light, composition, texture, features, key_points, prompt_template, related_slugs, image, sort_order)
+         light, composition, texture, features, key_points, prompt_template, related_slugs, image, source, sort_order)
         VALUES (${c.slug}, ${c.lineageSlug}, ${c.nameCn}, ${c.nameEn}, ${c.aliases ?? ""}, ${c.type ?? ""}, ${c.era ?? ""},
           ${c.mediumCategory ?? ""}, ${c.medium ?? ""}, ${c.technique ?? ""}, ${c.color ?? ""},
           ${c.light ?? ""}, ${c.composition ?? ""}, ${c.texture ?? ""},
           ${c.features ?? ""}, ${JSON.stringify(c.keyPoints ?? [])}, ${c.promptTemplate ?? ""}, ${JSON.stringify(c.relatedSlugs ?? [])},
-          ${c.image ?? ""}, ${i})
+          ${c.image ?? ""}, ${c.source ?? ""}, ${i})
         ON CONFLICT (slug) DO UPDATE SET lineage_slug=EXCLUDED.lineage_slug, name_cn=EXCLUDED.name_cn,
           name_en=EXCLUDED.name_en, aliases=EXCLUDED.aliases, type=EXCLUDED.type, era=EXCLUDED.era,
           medium_category=EXCLUDED.medium_category, medium=EXCLUDED.medium, technique=EXCLUDED.technique,
           color=EXCLUDED.color, light=EXCLUDED.light, composition=EXCLUDED.composition, texture=EXCLUDED.texture,
           features=EXCLUDED.features, key_points=EXCLUDED.key_points, prompt_template=EXCLUDED.prompt_template,
-          related_slugs=EXCLUDED.related_slugs, image=EXCLUDED.image, sort_order=EXCLUDED.sort_order`;
+          related_slugs=EXCLUDED.related_slugs, image=EXCLUDED.image, source=EXCLUDED.source, sort_order=EXCLUDED.sort_order`;
       i++;
     }
 

@@ -50,6 +50,33 @@ function MetaRow({ label, value }: { label: string; value: string }) {
   );
 }
 
+/** 资料来源：外链到词条撰写所依据的资料（多为 Wikipedia） */
+function SourceRow({ url }: { url?: string }) {
+  if (!url) return null;
+  let host = "";
+  try {
+    host = new URL(url).hostname.replace(/^www\./, "");
+  } catch {
+    return null;
+  }
+  const label = host.includes("wikipedia.org") ? "Wikipedia" : host;
+  return (
+    <div className="grid grid-cols-[88px_1fr] gap-4 py-3 border-b border-neutral-200 text-sm">
+      <span className="font-mono text-xs uppercase tracking-[0.15em] text-neutral-500 pt-0.5">
+        资料来源 SOURCE
+      </span>
+      <a
+        href={url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="underline underline-offset-4 hover:text-neutral-500"
+      >
+        {label} ↗
+      </a>
+    </div>
+  );
+}
+
 export default async function ConceptPage({
   params,
 }: {
@@ -100,6 +127,7 @@ export default async function ConceptPage({
           <MetaRow label="光线 LIGHT" value={c.light} />
           <MetaRow label="构图" value={c.composition} />
           <MetaRow label="质感" value={c.texture} />
+          <SourceRow url={c.source} />
         </div>
       </header>
 

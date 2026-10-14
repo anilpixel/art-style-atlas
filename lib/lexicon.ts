@@ -1,5 +1,6 @@
 import seedBase from "@/data/lexicon.json";
 import seedNew from "@/data/lexicon-new.json";
+import seedNew2 from "@/data/lexicon-new2.json";
 import casesData from "@/data/cases.json";
 import casesData2 from "@/data/cases2.json";
 import { getPool } from "./db";
@@ -42,6 +43,8 @@ export interface Concept {
   promptTemplate: string;
   relatedSlugs: string[];
   image: string;
+  /** 资料来源链接（Wikipedia 等） */
+  source?: string;
 }
 
 export interface ConceptFull extends Concept {
@@ -59,6 +62,7 @@ interface SeedShape {
 
 const seedBaseTyped = seedBase as SeedShape;
 const seedNewTyped = seedNew as { concepts: Concept[] };
+const seedNew2Typed = seedNew2 as { concepts: Concept[] };
 
 export interface RealCase {
   kind: "image" | "work";
@@ -86,11 +90,11 @@ export function getCasedConceptCount(): number {
   return Object.keys(cases).length;
 }
 
-/** 内置数据：lexicon.json（30）+ lexicon-new.json（73+8）合并 */
+/** 内置数据：lexicon.json（30）+ lexicon-new.json（40）+ lexicon-new2.json（41）合并 */
 const seed: SeedShape = {
   domains: seedBaseTyped.domains,
   lineages: seedBaseTyped.lineages,
-  concepts: [...seedBaseTyped.concepts, ...seedNewTyped.concepts],
+  concepts: [...seedBaseTyped.concepts, ...seedNewTyped.concepts, ...seedNew2Typed.concepts],
 };
 
 const byIndex = (a: { indexNo: number }, b: { indexNo: number }) =>
@@ -148,7 +152,7 @@ export async function getDomainDetail(slug: string): Promise<{
                c.medium_category AS "mediumCategory", c.medium, c.technique, c.color,
                c.light, c.composition, c.texture, c.aliases,
                c.features, c.key_points AS "keyPoints", c.prompt_template AS "promptTemplate",
-               c.related_slugs AS "relatedSlugs", c.image
+               c.related_slugs AS "relatedSlugs", c.image, c.source
         FROM concepts c JOIN lineages l ON l.slug = c.lineage_slug
         WHERE c.lineage_slug = ${l.slug} ORDER BY c.sort_order`;
       lineages.push({ ...l, concepts: cRes.rows as Concept[] });
@@ -194,7 +198,7 @@ export async function getConcept(slug: string): Promise<ConceptFull | null> {
              c.medium_category AS "mediumCategory", c.medium, c.technique, c.color,
              c.light, c.composition, c.texture, c.aliases,
              c.features, c.key_points AS "keyPoints", c.prompt_template AS "promptTemplate",
-             c.related_slugs AS "relatedSlugs", c.image,
+             c.related_slugs AS "relatedSlugs", c.image, c.source,
              l.name_cn AS "lineageNameCn", l.name_en AS "lineageNameEn",
              d.name_cn AS "domainNameCn", d.name_en AS "domainNameEn"
       FROM concepts c
@@ -216,7 +220,7 @@ export async function searchConcepts(q: string): Promise<Concept[]> {
              c.medium_category AS "mediumCategory", c.medium, c.technique, c.color,
              c.light, c.composition, c.texture, c.aliases,
              c.features, c.key_points AS "keyPoints", c.prompt_template AS "promptTemplate",
-             c.related_slugs AS "relatedSlugs", c.image
+             c.related_slugs AS "relatedSlugs", c.image, c.source
       FROM concepts c JOIN lineages l ON l.slug = c.lineage_slug
       WHERE c.name_cn ILIKE ${like} OR c.name_en ILIKE ${like} OR c.features ILIKE ${like}
       ORDER BY c.sort_order LIMIT 30`;
@@ -239,7 +243,7 @@ export async function getRandomConcept(): Promise<ConceptFull | null> {
              c.medium_category AS "mediumCategory", c.medium, c.technique, c.color,
              c.light, c.composition, c.texture, c.aliases,
              c.features, c.key_points AS "keyPoints", c.prompt_template AS "promptTemplate",
-             c.related_slugs AS "relatedSlugs", c.image,
+             c.related_slugs AS "relatedSlugs", c.image, c.source,
              l.name_cn AS "lineageNameCn", l.name_en AS "lineageNameEn",
              d.name_cn AS "domainNameCn", d.name_en AS "domainNameEn"
       FROM concepts c
@@ -314,7 +318,7 @@ async function getAllConceptsOrdered(): Promise<Concept[]> {
              c.medium_category AS "mediumCategory", c.medium, c.technique, c.color,
              c.light, c.composition, c.texture,
              c.features, c.key_points AS "keyPoints", c.prompt_template AS "promptTemplate",
-             c.related_slugs AS "relatedSlugs", c.image
+             c.related_slugs AS "relatedSlugs", c.image, c.source
       FROM concepts c JOIN lineages l ON l.slug = c.lineage_slug
       ORDER BY c.sort_order`;
     return rows as Concept[];

@@ -26,7 +26,8 @@
       "slug": "baroque",
       "technique": "罩染",
       "texture": "油画质感",
-      "type": "艺术运动"
+      "type": "艺术运动",
+      "source": "https://en.wikipedia.org/wiki/Baroque"
     },
     {
       "aliases": "样式主义",
@@ -54,7 +55,8 @@
       "slug": "mannerism",
       "technique": "罩染",
       "texture": "",
-      "type": "艺术运动"
+      "type": "艺术运动",
+      "source": "https://en.wikipedia.org/wiki/Mannerism"
     },
     {
       "aliases": "印象主义",
@@ -82,7 +84,8 @@
       "slug": "impressionism",
       "technique": "户外写生 · 可见笔触",
       "texture": "",
-      "type": "艺术运动"
+      "type": "艺术运动",
+      "source": "https://en.wikipedia.org/wiki/Impressionism"
     },
     {
       "aliases": "青绿山水画",
@@ -110,7 +113,8 @@
       "slug": "blue-green-landscape",
       "technique": "线描",
       "texture": "",
-      "type": "艺术传统"
+      "type": "艺术传统",
+      "source": "https://zh.wikipedia.org/wiki/%E9%9D%92%E7%B6%A0%E5%B1%B1%E6%B0%B4"
     },
     {
       "aliases": "浮世绘版画",
@@ -138,7 +142,8 @@
       "slug": "ukiyo-e",
       "technique": "木刻",
       "texture": "",
-      "type": "艺术传统"
+      "type": "艺术传统",
+      "source": "https://en.wikipedia.org/wiki/Ukiyo-e"
     },
     {
       "aliases": "敦煌石窟壁画",
@@ -166,7 +171,8 @@
       "slug": "dunhuang",
       "technique": "线描",
       "texture": "陈旧灰泥质感",
-      "type": "艺术传统"
+      "type": "艺术传统",
+      "source": "https://zh.wikipedia.org/wiki/%E6%95%A6%E7%85%8C%E5%A3%81%E7%94%BB"
     },
     {
       "aliases": "水粉画",
@@ -194,7 +200,8 @@
       "slug": "gouache",
       "technique": "可见笔触",
       "texture": "纸板纹理",
-      "type": "媒介"
+      "type": "媒介",
+      "source": "https://en.wikipedia.org/wiki/Gouache"
     },
     {
       "aliases": "水彩",
@@ -222,7 +229,8 @@
       "slug": "watercolor",
       "technique": "罩染 · 可见笔触",
       "texture": "冷压纸纹理",
-      "type": "媒介"
+      "type": "媒介",
+      "source": "https://en.wikipedia.org/wiki/Watercolor_painting"
     },
     {
       "aliases": "理想孔版印刷",
@@ -248,7 +256,8 @@
       "slug": "risograph",
       "technique": "孔版套色 · 网点印刷",
       "texture": "吸墨纸质感",
-      "type": "技法"
+      "type": "技法",
+      "source": "https://en.wikipedia.org/wiki/Risograph"
     },
     {
       "aliases": "赛璐璐着色",
@@ -278,7 +287,8 @@
       "slug": "cel-shading",
       "technique": "赛璐璐着色",
       "texture": "",
-      "type": "技法"
+      "type": "技法",
+      "source": "https://en.wikipedia.org/wiki/Cel_shading"
     },
     {
       "aliases": "日式动漫",
@@ -306,7 +316,8 @@
       "slug": "anime",
       "technique": "赛璐璐着色 · 线描",
       "texture": "",
-      "type": "艺术传统"
+      "type": "艺术传统",
+      "source": "https://en.wikipedia.org/wiki/Anime"
     },
     {
       "aliases": "国际字体风格 · 瑞士风格",
@@ -332,7 +343,8 @@
       "slug": "swiss-style",
       "technique": "排印与版式",
       "texture": "",
-      "type": "艺术传统"
+      "type": "艺术传统",
+      "source": "https://en.wikipedia.org/wiki/International_Typographic_Style"
     },
     {
       "aliases": "迷幻音乐海报",
@@ -358,7 +370,8 @@
       "slug": "psychedelic-poster",
       "technique": "线描 · 排印与版式",
       "texture": "",
-      "type": "审美风格"
+      "type": "审美风格",
+      "source": "https://en.wikipedia.org/wiki/Psychedelic_art"
     },
     {
       "aliases": "装饰艺术风格平面",
@@ -384,7 +397,8 @@
       "slug": "art-deco-graphic",
       "technique": "几何构成",
       "texture": "",
-      "type": "视觉语法"
+      "type": "视觉语法",
+      "source": "https://en.wikipedia.org/wiki/Art_Deco"
     },
     {
       "aliases": "135 胶片摄影",
@@ -410,7 +424,8 @@
       "slug": "film-35mm",
       "technique": "胶片曝光",
       "texture": "胶片颗粒",
-      "type": "媒介"
+      "type": "媒介",
+      "source": "https://en.wikipedia.org/wiki/135_film"
     },
     {
       "aliases": "慢门摄影",
@@ -436,7 +451,8 @@
       "slug": "long-exposure",
       "technique": "长曝光",
       "texture": "",
-      "type": "技法"
+      "type": "技法",
+      "source": "https://en.wikipedia.org/wiki/Long-exposure_photography"
     },
     {
       "aliases": "好莱坞歌舞片视觉",
@@ -462,7 +478,8 @@
       "slug": "hollywood-musical",
       "technique": "电影场面调度",
       "texture": "",
-      "type": "图像题材"
+      "type": "图像题材",
+      "source": "https://en.wikipedia.org/wiki/Musical_film"
     },
     {
       "aliases": "",
@@ -488,7 +505,8 @@
       "slug": "three-strip-technicolor",
       "technique": "化学显影与冲洗",
       "texture": "",
-      "type": "技法"
+      "type": "技法",
+      "source": "https://en.wikipedia.org/wiki/Three-strip_Technicolor"
     },
     {
       "aliases": "低面数三维",
@@ -517,7 +535,8 @@
       "slug": "low-poly",
       "technique": "低多边形",
       "texture": "",
-      "type": "视觉语法"
+      "type": "视觉语法",
+      "source": "https://en.wikipedia.org/wiki/Low_poly"
     },
     {
       "aliases": "体素画",
@@ -545,7 +564,8 @@
       "slug": "voxel-art",
       "technique": "体素",
       "texture": "",
-      "type": "媒介"
+      "type": "媒介",
+      "source": "https://en.wikipedia.org/wiki/Voxel"
     },
     {
       "aliases": "透明片动画",
@@ -573,7 +593,8 @@
       "slug": "cel-animation",
       "technique": "逐帧动画",
       "texture": "",
-      "type": "技法"
+      "type": "技法",
+      "source": "https://en.wikipedia.org/wiki/Cel_animation"
     },
     {
       "aliases": "黏土动画",
@@ -599,7 +620,8 @@
       "slug": "clay-stop-motion",
       "technique": "定格",
       "texture": "手塑软泥",
-      "type": "技法"
+      "type": "技法",
+      "source": "https://en.wikipedia.org/wiki/Claymation"
     },
     {
       "aliases": "液态玻璃界面",
@@ -627,7 +649,8 @@
       "slug": "liquid-glass-ui",
       "technique": "界面编排",
       "texture": "玻璃",
-      "type": "视觉语法"
+      "type": "视觉语法",
+      "source": "https://en.wikipedia.org/wiki/Liquid_Glass"
     },
     {
       "aliases": "黏土拟物界面",
@@ -655,7 +678,8 @@
       "slug": "claymorphic-ui",
       "technique": "界面编排",
       "texture": "哑光",
-      "type": "审美风格"
+      "type": "审美风格",
+      "source": "https://en.wikipedia.org/wiki/Neumorphism"
     },
     {
       "aliases": "赛博庞克",
@@ -683,7 +707,8 @@
       "slug": "cyberpunk",
       "technique": "数字笔刷绘制",
       "texture": "",
-      "type": "审美风格"
+      "type": "审美风格",
+      "source": "https://en.wikipedia.org/wiki/Cyberpunk"
     },
     {
       "aliases": "太阳能朋克",
@@ -711,7 +736,8 @@
       "slug": "solarpunk",
       "technique": "数字笔刷绘制",
       "texture": "",
-      "type": "审美风格"
+      "type": "审美风格",
+      "source": "https://en.wikipedia.org/wiki/Solarpunk"
     },
     {
       "aliases": "新艺术派建筑",
@@ -737,7 +763,8 @@
       "slug": "art-nouveau-architecture",
       "technique": "摄影取景与曝光",
       "texture": "",
-      "type": "艺术运动"
+      "type": "艺术运动",
+      "source": "https://en.wikipedia.org/wiki/Art_Nouveau_architecture"
     },
     {
       "aliases": "后现代主义建筑",
@@ -763,7 +790,8 @@
       "slug": "postmodern-architecture",
       "technique": "摄影取景与曝光",
       "texture": "",
-      "type": "审美风格"
+      "type": "审美风格",
+      "source": "https://en.wikipedia.org/wiki/Postmodern_architecture"
     },
     {
       "aliases": "",
@@ -789,7 +817,8 @@
       "slug": "playful-rounded-product",
       "technique": "基于物理的渲染",
       "texture": "",
-      "type": "审美风格"
+      "type": "审美风格",
+      "source": "https://en.wikipedia.org/wiki/Product_design"
     },
     {
       "aliases": "掐丝珐琅工艺",
@@ -815,7 +844,8 @@
       "slug": "cloisonne-enamel",
       "technique": "珐琅烧制",
       "texture": "亮面",
-      "type": "技法"
+      "type": "技法",
+      "source": "https://en.wikipedia.org/wiki/Cloisonn%C3%A9"
     }
   ],
   "domains": [

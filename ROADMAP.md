@@ -41,7 +41,7 @@
 - [x] P1-2 111 词条真实案例全量填充（分批，每批 ~15 个）—— 完成：2026-10-14 批次6+7，**111/111 词条全覆盖，共 293 条案例**（批次6：13 个 slug 46 条；批次7：13 个 slug 40 条；全部 wiki 外链 API 验链通过）。**运维教训**：合并后 cases.json 达 116KB，base64 后 ~155KB 超 Vercel upload_file 单参数 128KB 上限 → 拆为 `data/cases.json`（~54KB）+ `data/cases2.json`（~62KB），`lib/lexicon.ts` 合并读取。后续批次如再增长，保持单文件 <100KB。
 - [x] P1-3 词条页"真实案例"区块 UI（2026-10-14：真实图优先 + 授权标注 + 外链；AI 图改标"AI 复现示意"）
 - [x] P1-4 AI 示例图降级为"AI 复现示意"（标签 + 折叠）（2026-10-14：移除词条页 hero AI 大图，首屏只留风格名+元数据；AI 图移入页面底部原生 `<details>` 折叠区块，明确标注"AI 生成，非真实作品"；tsc+build 通过，已部署）
-- [ ] P1-5 每个词条标注资料来源链接
+- [x] P1-5 每个词条标注资料来源链接（2026-10-14：111/111 词条入库 `source`（URL），73+8 来自 candidates 文档、30 个原词条逐条经 Wikipedia API 核验修正（16 个 404 替换为正确条目，如 Watercolor_painting / 135_film / Low_poly / Claymation）；词条页元数据区新增"资料来源 SOURCE"外链行（Wikipedia/Medium/GitHub 等按 host 显示）；运维教训：source 加入后 lexicon-new.json 达 116KB、base64 后超 argv 上限 → 拆为 lexicon-new.json（40）+ lexicon-new2.json（41），lib/lexicon.ts 与 /api/seed 合并读取；concepts 表新增 source 列（ALTER IF NOT EXISTS）；tsc+build 通过，已部署、force seed 13/28/111、抽查 4 个词条页 + 图片 200）
 
 ### Phase 2 好用
 - [ ] P2-1 "按用途找风格" finder（恐怖/复古/可爱/科幻… → 推荐风格）

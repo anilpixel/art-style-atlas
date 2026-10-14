@@ -36,6 +36,7 @@ CREATE TABLE IF NOT EXISTS concepts (
   prompt_template TEXT NOT NULL DEFAULT '',
   related_slugs JSONB NOT NULL DEFAULT '[]',
   image TEXT NOT NULL DEFAULT '',
+  source TEXT NOT NULL DEFAULT '',
   sort_order INTEGER NOT NULL DEFAULT 0
 );
 
