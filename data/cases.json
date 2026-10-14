@@ -1,4 +1,56 @@
 {
+ "80s-retro-anime": [
+  {
+   "creator": "日升",
+   "kind": "work",
+   "note": "80 年代机甲动画美学源头",
+   "title": "《机动战士高达》",
+   "url": "https://zh.wikipedia.org/wiki/機動戰士GUNDAM",
+   "year": "1979"
+  },
+  {
+   "creator": "北条司",
+   "kind": "work",
+   "note": "80 年代都市动画代表",
+   "title": "《城市猎人》",
+   "url": "https://zh.wikipedia.org/wiki/城市猎人",
+   "year": "1987"
+  },
+  {
+   "creator": "鸟山明",
+   "kind": "work",
+   "note": "80 年代热血动画标杆",
+   "title": "《七龙珠》",
+   "url": "https://zh.wikipedia.org/wiki/七龙珠",
+   "year": "1986"
+  }
+ ],
+ "90s-ova-aesthetic": [
+  {
+   "creator": "大友克洋",
+   "kind": "work",
+   "note": "赛璐璐作画巅峰",
+   "title": "《Akira》",
+   "url": "https://zh.wikipedia.org/wiki/Akira",
+   "year": "1988"
+  },
+  {
+   "creator": "押井守",
+   "kind": "work",
+   "note": "90 年代 OVA 质感标杆",
+   "title": "《攻壳机动队》",
+   "url": "https://zh.wikipedia.org/wiki/攻殼機動隊_(1995年電影)",
+   "year": "1995"
+  },
+  {
+   "creator": "庵野秀明 / Gainax",
+   "kind": "work",
+   "note": "90 年代动画美学代表",
+   "title": "《新世纪福音战士》",
+   "url": "https://zh.wikipedia.org/wiki/新世纪福音战士",
+   "year": "1995"
+  }
+ ],
  "anime": [
   {
    "creator": "宫崎骏",
@@ -403,6 +455,24 @@
    "year": "1944"
   }
  ],
+ "gekiga": [
+  {
+   "creator": "白土三平",
+   "kind": "work",
+   "note": "剧画代表作",
+   "title": "白土三平《卡姆依传》",
+   "url": "https://zh.wikipedia.org/wiki/白土三平",
+   "year": "1964"
+  },
+  {
+   "creator": "辰巳嘉裕",
+   "kind": "work",
+   "note": "“剧画”一词提出者",
+   "title": "辰巳嘉裕（剧画开创者）",
+   "url": "https://zh.wikipedia.org/wiki/辰巳嘉裕",
+   "year": "1957–"
+  }
+ ],
  "german-expressionist-cinema": [
   {
    "creator": "罗伯特·威恩",
@@ -498,6 +568,24 @@
    "year": "2002"
   }
  ],
+ "hd-2d": [
+  {
+   "creator": "Square Enix / Acquire",
+   "kind": "work",
+   "note": "HD-2D 开创作",
+   "title": "《歧路旅人》",
+   "url": "https://zh.wikipedia.org/wiki/歧路旅人",
+   "year": "2018"
+  },
+  {
+   "creator": "Square Enix / Artdink",
+   "kind": "work",
+   "note": "HD-2D 战棋代表",
+   "title": "《三角战略》",
+   "url": "https://zh.wikipedia.org/wiki/三角戰略",
+   "year": "2022"
+  }
+ ],
  "hollywood-musical": [
   {
    "creator": "Republic Pictures",
@@ -538,6 +626,24 @@
    "year": "1876"
   }
  ],
+ "limited-animation": [
+  {
+   "creator": "虫制作",
+   "kind": "work",
+   "note": "首部 TV 有限动画",
+   "title": "《铁臂阿童木》",
+   "url": "https://zh.wikipedia.org/wiki/铁臂阿童木",
+   "year": "1963"
+  },
+  {
+   "creator": "Hanna-Barbera",
+   "kind": "work",
+   "note": "美式有限动画先驱",
+   "title": "《摩登原始人》",
+   "url": "https://zh.wikipedia.org/wiki/摩登原始人",
+   "year": "1960"
+  }
+ ],
  "liquid-glass-ui": [
   {
    "creator": "Apple",
@@ -546,6 +652,32 @@
    "title": "Liquid Glass",
    "url": "https://en.wikipedia.org/wiki/Liquid_Glass",
    "year": "2025"
+  }
+ ],
+ "literati-painting": [
+  {
+   "creator": "唐貽汾",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/%27Lighthearted_Paintings_Inspired_by_Old_Masters%27%2C_painting_by_T%27ang_I-fen.jpg/960px-%27Lighthearted_Paintings_Inspired_by_Old_Masters%27%2C_painting_by_T%27ang_I-fen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "唐貽汾《仿古山水》",
+   "url": "https://commons.wikimedia.org/wiki/File:%27Lighthearted_Paintings_Inspired_by_Old_Masters%27,_painting_by_T%27ang_I-fen.jpg"
+  },
+  {
+   "creator": "文原叔",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/%27Mountain_Retreats%27%2C_painting_by_Wen_Y%C3%BCan-shu.jpg/960px-%27Mountain_Retreats%27%2C_painting_by_Wen_Y%C3%BCan-shu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "文原叔《山居图》",
+   "url": "https://commons.wikimedia.org/wiki/File:%27Mountain_Retreats%27,_painting_by_Wen_Y%C3%BCan-shu.jpg"
+  },
+  {
+   "creator": "黄公望",
+   "kind": "work",
+   "note": "文人画巅峰之作",
+   "title": "《富春山居图》",
+   "url": "https://zh.wikipedia.org/wiki/富春山居图",
+   "year": "1347–1350"
   }
  ],
  "long-exposure": [
@@ -650,6 +782,58 @@
    "url": "https://commons.wikimedia.org/wiki/File:Hishida_Shuns%C5%8D_001.jpg"
   }
  ],
+ "npr": [
+  {
+   "creator": "Gearbox Software",
+   "kind": "work",
+   "note": "赛璐璐渲染标杆",
+   "title": "《无主之地》",
+   "url": "https://zh.wikipedia.org/wiki/无主之地_(游戏)",
+   "year": "2009"
+  },
+  {
+   "creator": "Smilebit",
+   "kind": "work",
+   "note": "早期 NPR 游戏代表",
+   "title": "《Jet Set Radio》",
+   "url": "https://zh.wikipedia.org/wiki/Jet_Set_Radio",
+   "year": "2000"
+  },
+  {
+   "creator": "Ubisoft",
+   "kind": "work",
+   "note": "漫画渲染 FPS",
+   "title": "《杀手13》",
+   "url": "https://zh.wikipedia.org/wiki/杀手13",
+   "year": "2003"
+  }
+ ],
+ "paper-craft-game": [
+  {
+   "creator": "Media Molecule",
+   "kind": "work",
+   "note": "纸艺世界标杆",
+   "title": "《撕纸小邮差》",
+   "url": "https://zh.wikipedia.org/wiki/撕纸小邮差",
+   "year": "2013"
+  },
+  {
+   "creator": "Good-Feel",
+   "kind": "work",
+   "note": "毛线/布艺质感代表",
+   "title": "《耀西的毛线世界》",
+   "url": "https://zh.wikipedia.org/wiki/耀西的毛線世界",
+   "year": "2015"
+  },
+  {
+   "creator": "Intelligent Systems",
+   "kind": "work",
+   "note": "纸片风格开创作",
+   "title": "《纸片马力欧》",
+   "url": "https://zh.wikipedia.org/wiki/纸片马力欧",
+   "year": "2000"
+  }
+ ],
  "pastel-drawing": [
   {
    "creator": "Pierre-Auguste Renoir",
@@ -675,6 +859,24 @@
    "license": "CC BY-SA 4.0",
    "title": "《婴儿肖像》粉彩",
    "url": "https://commons.wikimedia.org/wiki/File:The_pastel_portrait_of_a_baby.png"
+  }
+ ],
+ "pbr": [
+  {
+   "creator": "顽皮狗",
+   "kind": "work",
+   "note": "PBR 渲染标杆",
+   "title": "《神秘海域4：盗贼末路》",
+   "url": "https://zh.wikipedia.org/wiki/神秘海域4：盗贼末路",
+   "year": "2016"
+  },
+  {
+   "creator": "Rockstar Games",
+   "kind": "work",
+   "note": "PBR 开放世界标杆",
+   "title": "《碧血狂殺2》",
+   "url": "https://zh.wikipedia.org/wiki/碧血狂殺2",
+   "year": "2018"
   }
  ],
  "photomontage": [
@@ -760,6 +962,42 @@
    "title": "文丘里母亲之家（另一视角）",
    "url": "https://commons.wikimedia.org/wiki/File:V_Venturi_H_1.JPG",
    "year": "1964"
+  }
+ ],
+ "pre-rendered-bg": [
+  {
+   "creator": "Capcom",
+   "kind": "work",
+   "note": "预渲染背景开创者之一",
+   "title": "《生化危机》",
+   "url": "https://zh.wikipedia.org/wiki/生化危机_(1996年游戏)",
+   "year": "1996"
+  },
+  {
+   "creator": "Square",
+   "kind": "work",
+   "note": "预渲染背景 RPG 标杆",
+   "title": "《最终幻想VII》",
+   "url": "https://zh.wikipedia.org/wiki/最终幻想VII",
+   "year": "1997"
+  }
+ ],
+ "ps1-lowfi": [
+  {
+   "creator": "Team Silent / Konami",
+   "kind": "work",
+   "note": "PS1 时代恐怖标杆",
+   "title": "《寂静岭》",
+   "url": "https://zh.wikipedia.org/wiki/寂静岭_(游戏)",
+   "year": "1999"
+  },
+  {
+   "creator": "Haunted PS1",
+   "kind": "work",
+   "note": "PS1 复古恐怖游戏社群",
+   "title": "Haunted PS1",
+   "url": "https://en.wikipedia.org/wiki/Haunted_PS1",
+   "year": "2020–"
   }
  ],
  "psychedelic-poster": [
@@ -873,6 +1111,32 @@
    "year": "1747"
   }
  ],
+ "rotoscoping": [
+  {
+   "creator": "Ballistametalcraft",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/a/af/Rotoscoped_frames_of_Eadweard_Muybridge%27s_%27Horse_in_Motion%27_engraved_into_twenty_metal_discs.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "CC BY-SA 3.0",
+   "title": "转描自迈布里奇《奔马》的逐帧图",
+   "url": "https://commons.wikimedia.org/wiki/File:Rotoscoped_frames_of_Eadweard_Muybridge%27s_%27Horse_in_Motion%27_engraved_into_twenty_metal_discs.gif"
+  },
+  {
+   "creator": "Max Fleischer",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/US_patent_1242674_figure_3.png/960px-US_patent_1242674_figure_3.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "弗莱舍转描机专利图（1917）",
+   "url": "https://commons.wikimedia.org/wiki/File:US_patent_1242674_figure_3.png"
+  },
+  {
+   "creator": "理查德·林克莱特",
+   "kind": "work",
+   "note": "现代转描动画代表作",
+   "title": "《心機掃描》",
+   "url": "https://zh.wikipedia.org/wiki/心機掃描",
+   "year": "2006"
+  }
+ ],
  "screenprint": [
   {
    "creator": "May Gilruth",
@@ -920,6 +1184,24 @@
    "year": "清代"
   }
  ],
+ "silhouette-game": [
+  {
+   "creator": "Playdead",
+   "kind": "work",
+   "note": "剪影游戏开创作",
+   "title": "《地狱边境》",
+   "url": "https://zh.wikipedia.org/wiki/地狱边境",
+   "year": "2010"
+  },
+  {
+   "creator": "Playdead",
+   "kind": "work",
+   "note": "剪影叙事标杆",
+   "title": "《Inside》",
+   "url": "https://zh.wikipedia.org/wiki/Inside_(游戏)",
+   "year": "2016"
+  }
+ ],
  "solarpunk": [
   {
    "creator": "The.lemonaut.ukr",
@@ -965,6 +1247,32 @@
    "year": "2021"
   }
  ],
+ "superflat": [
+  {
+   "creator": "Ithaka Darin Pappas",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Takashi_Murakami_at_Galerie_Mars_Tokyo_1992._Photo_by_Ithaka_Darin_Pappas.jpg/960px-Takashi_Murakami_at_Galerie_Mars_Tokyo_1992._Photo_by_Ithaka_Darin_Pappas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY-SA 4.0",
+   "title": "村上隆与早期超扁平作品（1992 年东京个展）",
+   "url": "https://commons.wikimedia.org/wiki/File:Takashi_Murakami_at_Galerie_Mars_Tokyo_1992._Photo_by_Ithaka_Darin_Pappas.jpg"
+  },
+  {
+   "creator": "村上隆",
+   "kind": "work",
+   "note": "超扁平运动创始人",
+   "title": "村上隆",
+   "url": "https://zh.wikipedia.org/wiki/村上隆",
+   "year": "1962–"
+  },
+  {
+   "creator": "村上隆",
+   "kind": "work",
+   "note": "运动定义与代表艺术家",
+   "title": "Superflat（超扁平运动）",
+   "url": "https://en.wikipedia.org/wiki/Superflat",
+   "year": "2000"
+  }
+ ],
  "swiss-style": [
   {
    "creator": "Eduard Renggli",
@@ -1001,6 +1309,32 @@
    "title": "独角兽",
    "url": "https://commons.wikimedia.org/wiki/File:Gustave_Moreau_Les_Licornes.jpg",
    "year": "约1885"
+  }
+ ],
+ "tang-tomb-murals": [
+  {
+   "creator": "佚名（唐代画工）",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Court_Ladies_of_the_Tang.jpg/960px-Court_Ladies_of_the_Tang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "唐代墓室壁画《仕女图》",
+   "url": "https://commons.wikimedia.org/wiki/File:Court_Ladies_of_the_Tang.jpg"
+  },
+  {
+   "creator": "佚名（唐代画工）",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Figures_in_a_cortege%2C_tomb_of_Li_Xian%2C_Tang_Dynasty.jpg/960px-Figures_in_a_cortege%2C_tomb_of_Li_Xian%2C_Tang_Dynasty.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "章怀太子（李贤）墓《仪仗图》",
+   "url": "https://commons.wikimedia.org/wiki/File:Figures_in_a_cortege,_tomb_of_Li_Xian,_Tang_Dynasty.jpg"
+  },
+  {
+   "creator": "佚名（唐代画工）",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/3/35/Tang_court_playing_Polo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "唐代墓室壁画《马球图》",
+   "url": "https://commons.wikimedia.org/wiki/File:Tang_court_playing_Polo.jpg"
   }
  ],
  "three-strip-technicolor": [

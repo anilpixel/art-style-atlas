@@ -38,7 +38,7 @@
 
 ### Phase 1 真实化
 - [x] P1-1 真实案例数据模型 + Commons 管线脚本（2026-10-14：data/cases.json + scripts/fetch-commons-cases.py，10 个词条试点共 22 条案例）
-- [ ] P1-2 111 词条真实案例全量填充（分批，每批 ~15 个）—— 进展：2026-10-14 批次3完成，55/111 词条已有案例（+15：realism、gongbi、yamato-e、rimpa、nihonga、cyanotype、daguerreotype、photomontage、screenprint、charcoal-drawing、pastel-drawing、art-nouveau-illustration、vienna-secession、arts-and-crafts-illustration、steampunk；共 +43 条案例，其中 photomontage 加一条 kind=work 代表作外链 Hannah Höch《Cut with the Kitchen Knife》（已验链 en.wikipedia.org/wiki/Hannah_Höch）；共 124 条案例）。批次2：40/111（81 条案例）。
+- [ ] P1-2 111 词条真实案例全量填充（分批，每批 ~15 个）—— 进展：2026-10-14 批次4完成，70/111 词条已有案例（+15：pbr、npr、pre-rendered-bg、hd-2d、silhouette-game、paper-craft-game、ps1-lowfi、80s-retro-anime、90s-ova-aesthetic、superflat、gekiga、limited-animation、rotoscoping、literati-painting、tang-tomb-murals；共 +38 条案例；atsu-nuri-thick-paint 因 Commons 无可用厚涂示例（候选皆业余动漫插画，与概念错配，已目检剔除），改用 tang-tomb-murals；pbr/npr 无可用锚点图，仅收录代表作外链；全部 31 个 Wikipedia 外链经 API 验链；共 162 条案例）。批次3：55/111（124 条案例）。
 - [x] P1-3 词条页"真实案例"区块 UI（2026-10-14：真实图优先 + 授权标注 + 外链；AI 图改标"AI 复现示意"）
 - [ ] P1-4 AI 示例图降级为"AI 复现示意"（标签 + 折叠）（标签已改，折叠待做）
 - [ ] P1-5 每个词条标注资料来源链接
