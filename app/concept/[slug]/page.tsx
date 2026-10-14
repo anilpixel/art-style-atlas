@@ -67,67 +67,41 @@ export default async function ConceptPage({
 
   return (
     <div className="mx-auto max-w-6xl px-6 py-12">
-      {/* 面包屑 */}
-      <nav className="font-mono text-xs uppercase tracking-[0.2em] text-neutral-500 mb-8">
-        <Link href="/" className="hover:underline">
-          风格图谱
-        </Link>
-        <span className="mx-2">/</span>
-        <Link href={`/atlas/${c.domainSlug}`} className="hover:underline">
-          {c.domainNameCn}
-        </Link>
-        <span className="mx-2">/</span>
-        <span className="text-neutral-900">{c.nameCn}</span>
-      </nav>
+      {/* 头部：面包屑 + 风格名 + 元数据（AI 示意图已降级为页面底部的折叠区块） */}
+      <header className="max-w-3xl">
+        <nav className="font-mono text-xs uppercase tracking-[0.2em] text-neutral-500 mb-8">
+          <Link href="/" className="hover:underline">
+            风格图谱
+          </Link>
+          <span className="mx-2">/</span>
+          <Link href={`/atlas/${c.domainSlug}`} className="hover:underline">
+            {c.domainNameCn}
+          </Link>
+          <span className="mx-2">/</span>
+          <span className="text-neutral-900">{c.nameCn}</span>
+        </nav>
 
-      <div className="grid md:grid-cols-2 gap-10 lg:gap-14">
-        {/* 左：主图 */}
-        <div>
-          <div className="aspect-[4/3] bg-neutral-100 border border-neutral-200 relative overflow-hidden">
-            {c.image ? (
-              <Image
-                src={c.image}
-                alt={c.nameCn}
-                fill
-                priority
-                sizes="(max-width: 768px) 100vw, 50vw"
-                className="object-cover"
-              />
-            ) : (
-              <div className="w-full h-full flex items-center justify-center font-mono text-xs text-neutral-400">
-                NO IMAGE
-              </div>
-            )}
-          </div>
-          <p className="font-mono text-xs text-neutral-400 mt-3">
-            AI 复现示意 · {c.nameEn} —— 以 [主体] 替换为你自己的创作对象即可使用
-          </p>
+        <h1 className="text-4xl font-bold tracking-tight mb-2">{c.nameCn}</h1>
+        <p className="font-mono text-sm uppercase tracking-[0.2em] text-neutral-500 mb-1">
+          {c.nameEn}
+        </p>
+        {c.aliases && (
+          <p className="text-sm text-neutral-500 mb-8">又称：{c.aliases}</p>
+        )}
+        {!c.aliases && <div className="mb-8" />}
+        <div className="border-t-2 border-neutral-900">
+          <MetaRow label="类型 TYPE" value={c.type} />
+          <MetaRow label="年代 ERA" value={c.era} />
+          <MetaRow label="谱系 LINEAGE" value={c.lineageNameCn} />
+          <MetaRow label="媒介大类" value={c.mediumCategory} />
+          <MetaRow label="媒介 MEDIUM" value={c.medium} />
+          <MetaRow label="技法" value={c.technique} />
+          <MetaRow label="色彩 COLOR" value={c.color} />
+          <MetaRow label="光线 LIGHT" value={c.light} />
+          <MetaRow label="构图" value={c.composition} />
+          <MetaRow label="质感" value={c.texture} />
         </div>
-
-        {/* 右：元数据 */}
-        <div>
-          <h1 className="text-4xl font-bold tracking-tight mb-2">{c.nameCn}</h1>
-          <p className="font-mono text-sm uppercase tracking-[0.2em] text-neutral-500 mb-1">
-            {c.nameEn}
-          </p>
-          {c.aliases && (
-            <p className="text-sm text-neutral-500 mb-8">又称：{c.aliases}</p>
-          )}
-          {!c.aliases && <div className="mb-8" />}
-          <div className="border-t-2 border-neutral-900">
-            <MetaRow label="类型 TYPE" value={c.type} />
-            <MetaRow label="年代 ERA" value={c.era} />
-            <MetaRow label="谱系 LINEAGE" value={c.lineageNameCn} />
-            <MetaRow label="媒介大类" value={c.mediumCategory} />
-            <MetaRow label="媒介 MEDIUM" value={c.medium} />
-            <MetaRow label="技法" value={c.technique} />
-            <MetaRow label="色彩 COLOR" value={c.color} />
-            <MetaRow label="光线 LIGHT" value={c.light} />
-            <MetaRow label="构图" value={c.composition} />
-            <MetaRow label="质感" value={c.texture} />
-          </div>
-        </div>
-      </div>
+      </header>
 
       {/* 关键特征 */}
       {c.features && (
@@ -223,6 +197,41 @@ export default async function ConceptPage({
           <div className="mt-4">
             <CopyButton text={c.promptTemplate} />
           </div>
+        </section>
+      )}
+
+      {/* AI 复现示意（折叠降级：AI 生成，非真实作品） */}
+      {c.image && (
+        <section className="mt-14 max-w-3xl">
+          <details className="group border border-neutral-200">
+            <summary className="flex cursor-pointer items-center justify-between gap-4 px-5 py-4 list-none [&::-webkit-details-marker]:hidden hover:bg-neutral-50">
+              <span>
+                <span className="font-mono text-xs uppercase tracking-[0.25em] text-neutral-500">
+                  AI 复现示意 · AI Demo
+                </span>
+                <span className="block text-[11px] text-neutral-400 mt-1 leading-5">
+                  AI 生成，非真实作品 —— 真实代表作请见上方「真实案例」。点击展开查看。
+                </span>
+              </span>
+              <span className="font-mono text-xl leading-none text-neutral-400 select-none transition-transform duration-200 group-open:rotate-45">
+                +
+              </span>
+            </summary>
+            <div className="px-5 pb-5">
+              <div className="aspect-[4/3] bg-neutral-100 relative overflow-hidden max-w-xl">
+                <Image
+                  src={c.image}
+                  alt={`${c.nameCn} AI 复现示意`}
+                  fill
+                  sizes="(max-width: 768px) 100vw, 42vw"
+                  className="object-cover"
+                />
+              </div>
+              <p className="font-mono text-xs text-neutral-400 mt-3 leading-5">
+                AI 复现示意 · {c.nameEn} —— 以 [主体] 替换为你自己的创作对象即可使用
+              </p>
+            </div>
+          </details>
         </section>
       )}
 
