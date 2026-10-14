@@ -45,7 +45,7 @@
 
 ### Phase 2 好用
 - [x] P2-1 "按用途找风格" finder（恐怖/复古/可爱/科幻… → 推荐风格）（2026-10-14：新增 /finder 页 + data/finder.json（10 用途 × 6 策展风格，全部 slug 验链通过）；卡片配图优先真实案例图（87/111 有图），无图时 AI 图 + "AI 复现示意"徽标；每个风格一行"为什么适合"（含成本/工具提示）；首页新增深色"按用途找风格"入口区（10 chips）；sitemap 加入 /finder（priority 0.9）；tsc+build 通过，已部署、force seed 13/28/111、线上 /finder + 各用途页 + 首页 200 抽查通过）
-- [ ] P2-2 首页搜索框 + 用途词搜索（"恐怖游戏"能搜到 silhouette-game）
+- [x] P2-2 首页搜索框 + 用途词搜索（2026-10-14："恐怖游戏"→ horror 6 个策展风格（含 silhouette-game）+ 用途 banner 链 /finder；"复古"→ 13 结果双用途 + 名称匹配优先排序；新增 data/search-keywords.json（10 用途 × 关键词）；searchConcepts 返回 SearchHit（matchKind: name>alias>usage>feature 排序 + matchNote 策展理由）；DB 查询补上 aliases ILIKE；结果卡片优先真实案例图、AI 图标"AI 复现示意"徽标；无结果时给 finder 快捷入口；SearchBox 占位提示用途词示例；tsc+build 通过，已部署、线上抽查通过）
 - [ ] P2-3 词条页渐进披露（features 折叠、移动端优化）
 - [ ] P2-4 策展合集页（"8 种恐怖游戏美术风格"等，可分享）
 

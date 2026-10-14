@@ -93,6 +93,7 @@ export function getCasedConceptCount(): number {
 /* ============ 按用途找风格（Finder） ============ */
 
 import finderData from "@/data/finder.json";
+import searchKeywords from "@/data/search-keywords.json";
 
 export interface FinderStyle {
   slug: string;
@@ -244,12 +245,65 @@ export async function getConcept(slug: string): Promise<ConceptFull | null> {
   }, () => conceptFullFromSeed(slug));
 }
 
-export async function searchConcepts(q: string): Promise<Concept[]> {
+/** 搜索命中：附带命中方式与用途词策展理由 */
+export interface SearchHit extends Concept {
+  /** 命中方式：名称 / 别名 / 用途词 / 特征描述 */
+  matchKind: "name" | "alias" | "usage" | "feature";
+  /** 用途词命中时的策展理由（一句为什么适合） */
+  matchNote?: string;
+  /** 用途词命中时的用途中文名 / key（链向 /finder） */
+  matchedUse?: string;
+  matchedUseKey?: string;
+}
+
+interface UsageKeywordMap {
+  comment?: string;
+  mappings: { keywords: string[]; useCase: string }[];
+}
+
+const usageMappings = (searchKeywords as UsageKeywordMap).mappings;
+
+/**
+ * 用途词匹配：查询词包含（或被包含于）任一关键词即命中该 useCase。
+ * 如"恐怖游戏"→ horror，"复古"→ pixel-retro。短于 2 字不匹配，避免单字误伤。
+ */
+function matchUsageUseCases(q: string): FinderUseCase[] {
   const keyword = q.trim().toLowerCase();
-  if (!keyword) return [];
-  const like = `%${q.trim()}%`;
-  return dbOr(async (pool) => {
-    const { rows } = await pool.sql`
+  if (keyword.length < 2) return [];
+  const matched = new Set<string>();
+  for (const m of usageMappings) {
+    for (const kw of m.keywords) {
+      const k = kw.toLowerCase();
+      if (keyword.includes(k) || (k.length >= 2 && k.includes(keyword))) {
+        matched.add(m.useCase);
+        break;
+      }
+    }
+  }
+  return [...matched]
+    .map((key) => getFinderUseCase(key))
+    .filter((u): u is FinderUseCase => !!u);
+}
+
+export async function searchConcepts(q: string): Promise<SearchHit[]> {
+  const query = q.trim();
+  const keyword = query.toLowerCase();
+  if (!query) return [];
+
+  // 用途词 → 命中的 useCase（及其精选风格 + 策展 note）
+  const useCases = matchUsageUseCases(query);
+  const usageSlugs = new Map<string, { note: string; useCn: string; useKey: string }>();
+  for (const uc of useCases) {
+    for (const s of uc.styles) {
+      if (!usageSlugs.has(s.slug))
+        usageSlugs.set(s.slug, { note: s.note, useCn: uc.nameCn, useKey: uc.key });
+    }
+  }
+
+  const like = `%${query}%`;
+  const nameHits = await dbOr(
+    async (pool) => {
+      const { rows } = await pool.sql`
       SELECT c.slug, c.lineage_slug AS "lineageSlug", l.domain_slug AS "domainSlug",
              c.name_cn AS "nameCn", c.name_en AS "nameEn", c.type, c.era,
              c.medium_category AS "mediumCategory", c.medium, c.technique, c.color,
@@ -257,17 +311,60 @@ export async function searchConcepts(q: string): Promise<Concept[]> {
              c.features, c.key_points AS "keyPoints", c.prompt_template AS "promptTemplate",
              c.related_slugs AS "relatedSlugs", c.image, c.source
       FROM concepts c JOIN lineages l ON l.slug = c.lineage_slug
-      WHERE c.name_cn ILIKE ${like} OR c.name_en ILIKE ${like} OR c.features ILIKE ${like}
-      ORDER BY c.sort_order LIMIT 30`;
-    return rows as Concept[];
-  }, () =>
-    seed.concepts.filter(
-      (c) =>
-        c.nameCn.includes(q.trim()) ||
-        c.nameEn.toLowerCase().includes(keyword) ||
-        c.features.includes(q.trim())
-    )
+      WHERE c.name_cn ILIKE ${like} OR c.name_en ILIKE ${like}
+         OR c.aliases ILIKE ${like} OR c.features ILIKE ${like}
+      ORDER BY c.sort_order LIMIT 60`;
+      return rows as Concept[];
+    },
+    () =>
+      seed.concepts.filter(
+        (c) =>
+          c.nameCn.includes(query) ||
+          c.nameEn.toLowerCase().includes(keyword) ||
+          (c.aliases ?? "").includes(query) ||
+          c.features.includes(query)
+      )
   );
+
+  const kindOf = (c: Concept): SearchHit["matchKind"] => {
+    if (c.nameCn.includes(query) || c.nameEn.toLowerCase().includes(keyword))
+      return "name";
+    if ((c.aliases ?? "").includes(query)) return "alias";
+    if (usageSlugs.has(c.slug)) return "usage";
+    return "feature";
+  };
+  const rank = { name: 0, alias: 1, usage: 2, feature: 3 } as const;
+
+  const seen = new Set<string>();
+  const hits: SearchHit[] = [];
+  for (const c of nameHits) {
+    if (seen.has(c.slug)) continue;
+    seen.add(c.slug);
+    const u = usageSlugs.get(c.slug);
+    hits.push({
+      ...c,
+      matchKind: kindOf(c),
+      ...(u ? { matchNote: u.note, matchedUse: u.useCn, matchedUseKey: u.useKey } : {}),
+    });
+  }
+  // 用途词命中但名称/特征未命中的，按策展顺序补上
+  const conceptBySlug = new Map(seed.concepts.map((c) => [c.slug, c]));
+  for (const [slug, u] of usageSlugs) {
+    if (seen.has(slug)) continue;
+    seen.add(slug);
+    const c = conceptBySlug.get(slug);
+    if (c)
+      hits.push({
+        ...c,
+        matchKind: "usage",
+        matchNote: u.note,
+        matchedUse: u.useCn,
+        matchedUseKey: u.useKey,
+      });
+  }
+
+  hits.sort((a, b) => rank[a.matchKind] - rank[b.matchKind]);
+  return hits.slice(0, 30);
 }
 
 export async function getRandomConcept(): Promise<ConceptFull | null> {

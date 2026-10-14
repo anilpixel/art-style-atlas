@@ -27,7 +27,7 @@ export default function SearchBox({ big = false }: { big?: boolean }) {
       <input
         value={q}
         onChange={(e) => setQ(e.target.value)}
-        placeholder="搜索风格，如：巴洛克、浮世绘、赛博朋克…"
+        placeholder="搜索风格或用途，如：巴洛克、浮世绘、恐怖游戏、复古…"
         className="flex-1 h-full outline-none bg-transparent placeholder:text-neutral-400"
       />
       <button
