@@ -5,10 +5,11 @@ import { connection } from "next/server";
 import type { Metadata } from "next";
 
 export const instant = false;
-import { getConcept, getConceptCases, type RealCase } from "@/lib/lexicon";
+import { getConcept, getConceptCases, getViblabLink, type RealCase } from "@/lib/lexicon";
 import { JsonLd, breadcrumbJsonLd } from "@/lib/seo";
-import { SITE_URL } from "@/lib/site";
+import { SITE_URL, VIBLAB_URL } from "@/lib/site";
 import CopyButton from "@/components/CopyButton";
+import ShareCardButton from "@/components/ShareCardButton";
 
 // 每个词条页独立的 Title/Description：一页一需求词，
 // 方便"巴洛克风格 / baroque AI绘画"这类长尾词被搜索引擎命中。
@@ -34,13 +35,13 @@ export async function generateMetadata({
       title: `${c.nameCn} ${c.nameEn} | 风格图谱`,
       description,
       type: "article",
-      images: c.image ? [`${SITE_URL}${c.image}`] : undefined,
+      // 不设 images：由 app/concept/[slug]/opengraph-image.tsx
+      // 按风格动态生成品牌分享卡（P3-2），Next.js 文件约定自动接入。
     },
     twitter: {
       card: "summary_large_image",
       title: `${c.nameCn} ${c.nameEn} | 风格图谱`,
       description,
-      images: c.image ? [`${SITE_URL}${c.image}`] : undefined,
     },
   };
 }
@@ -146,6 +147,7 @@ export default async function ConceptPage({
     await Promise.all((c.relatedSlugs || []).map((s) => getConcept(s)))
   ).filter(Boolean);
   const cases = getConceptCases(slug);
+  const viblab = getViblabLink(slug);
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-12">
@@ -283,6 +285,11 @@ export default async function ConceptPage({
         </section>
       )}
 
+      {/* 一键分享卡（P3-2）：看完真实案例、决定采用风格后，自然的下一步就是分享 */}
+      <section className="mt-10 sm:mt-14 max-w-3xl">
+        <ShareCardButton slug={c.slug} nameCn={c.nameCn} />
+      </section>
+
       {/* 完整特征描述：默认折叠（渐进披露） */}
       {c.features && (
         <section className="mt-10 sm:mt-14 max-w-3xl">
@@ -308,6 +315,58 @@ export default async function ConceptPage({
           </div>
           <div className="mt-4">
             <CopyButton text={c.promptTemplate} />
+          </div>
+        </section>
+      )}
+
+      {/* Viblab 互链（P3-3）：提示词复制完 → 下一步去姊妹站把风格做成可玩游戏。
+          只对 6 个与 Viblab 风格页 1:1 对应的游戏词条显示，不硬凑。 */}
+      {viblab && (
+        <section className="mt-10 sm:mt-12 max-w-3xl">
+          <h2 className="font-mono text-xs uppercase tracking-[0.25em] text-neutral-500 mb-4">
+            用 AI 做出来 · Build it with AI
+          </h2>
+          <div className="border-2 border-neutral-900 p-4 sm:p-6 bg-neutral-50">
+            <p className="text-sm leading-6 text-neutral-600 mb-4">
+              在姊妹站 Viblab 把{c.nameCn}变成可玩游戏 —— 实战指南、可复制的提示词、可玩 demo。
+            </p>
+            <div className="flex flex-col gap-2.5">
+              <a
+                href={`${VIBLAB_URL}/styles/${viblab.styleSlug}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center justify-between gap-4 border border-neutral-900 bg-white px-4 py-3 hover:bg-neutral-900 hover:text-white transition-colors"
+              >
+                <span>
+                  <span className="font-bold group-hover:underline underline-offset-4">
+                    {viblab.styleName} 实战页 · Viblab
+                  </span>
+                  <span className="block text-xs text-neutral-500 group-hover:text-neutral-300 mt-1">
+                    vibe coding 难度评估 + 可复制美术提示词 + 可玩 demo
+                  </span>
+                </span>
+                <span aria-hidden className="shrink-0 font-mono">↗</span>
+              </a>
+              {viblab.guides.map((g) => (
+                <a
+                  key={g.slug}
+                  href={`${VIBLAB_URL}/guides/${g.slug}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group flex items-center justify-between gap-4 border border-neutral-300 bg-white px-4 py-3 hover:border-neutral-900 transition-colors"
+                >
+                  <span>
+                    <span className="font-bold group-hover:underline underline-offset-4">
+                      {g.label}
+                    </span>
+                    <span className="block text-xs text-neutral-500 mt-1">
+                      {g.note}
+                    </span>
+                  </span>
+                  <span aria-hidden className="shrink-0 font-mono text-neutral-400">↗</span>
+                </a>
+              ))}
+            </div>
           </div>
         </section>
       )}

@@ -51,8 +51,8 @@
 
 ### Phase 3 增长
 - [x] P3-1 SEO（sitemap、OG 分享卡片、结构化数据）（2026-10-14：默认 OG 分享卡图 app/opengraph-image.tsx（1200×630 品牌图，全站兜底，词条页自定义图覆盖）+ alt.txt；layout 加 twitter:summary_large_image 与 og:siteName；词条页 JSON-LD = CreativeWork（name/真实案例图 image/Wikipedia sameAs/授权关联 license/keywords）+ BreadcrumbList；首页 WebSite + SearchAction（/search?q={term}）；合集页 CreativeWork（ItemList 风格外链）+ BreadcrumbList；领域页 CollectionPage + BreadcrumbList；sitemap.xml（111 词条 URL）/robots.txt 已就绪；tsc+build 通过，已部署 dpl_7ejjigGtCRspFpdKZ9bdhMZZS6qB READY，7 个路由 + /sitemap.xml + /robots.txt + /opengraph-image 全部 200，词条页 og/twitter/ld+json 抽查通过。无数据变更，未 force seed）
-- [ ] P3-2 分享卡片图（每风格一键生成分享图）
-- [ ] P3-3 与 Viblab 互链（游戏风格词条 ↔ Viblab 指南）
+- [x] P3-2 分享卡片图（每风格一键生成分享图）（2026-10-14：已部署验证。线上 /concept/[slug]/opengraph-image 200，分享卡正常渲染）
+- [x] P3-3 与 Viblab 互链（游戏风格词条 ↔ Viblab 指南）（2026-10-14：6 个游戏风格词条 pixel-art/low-poly/voxel-art/ps1-lowfi/hd-2d/toon-shading 新增 Viblab 互链区块；Viblab 侧 6 个风格页回链；线上 6 页 200 且互链渲染正常）
 
 ### Phase 4 变现
 - [ ] P4-1 风格简报 PDF 导出（免费版带水印）

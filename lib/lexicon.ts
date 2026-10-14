@@ -126,6 +126,28 @@ export function getFinderCardImage(slug: string): { src: string; isAi: boolean }
   return { src: concept?.image ?? "", isAi: true };
 }
 
+/* ============ Viblab 互链（P3-3：游戏风格词条 ↔ Viblab 实战页/指南） ============ */
+
+import viblabLinksData from "@/data/viblab-links.json";
+
+export interface ViblabGuideLink {
+  slug: string;
+  label: string;
+  note: string;
+}
+
+export interface ViblabLink {
+  styleSlug: string;
+  styleName: string;
+  guides: ViblabGuideLink[];
+}
+
+/** 只有 6 个与 Viblab 风格页 1:1 精确对应的词条有互链，不硬凑 */
+export function getViblabLink(slug: string): ViblabLink | null {
+  const m = viblabLinksData as Record<string, ViblabLink>;
+  return m[slug] ?? null;
+}
+
 /* ============ 策展合集（P2-4：可分享的编辑精选清单） ============ */
 
 import collectionsData from "@/data/collections.json";
