@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 
 export const instant = false;
 import { getDomainDetail } from "@/lib/lexicon";
+import { JsonLd, breadcrumbJsonLd } from "@/lib/seo";
 import { SITE_URL } from "@/lib/site";
 
 const pad = (n: number) => String(n).padStart(2, "0");
@@ -43,8 +44,26 @@ export default async function DomainPage({
   if (!detail) notFound();
   const { domain, lineages } = detail;
 
+  const domainLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: `${domain.nameCn} ${domain.nameEn}`,
+    url: `${SITE_URL}/atlas/${domain.slug}`,
+    inLanguage: "zh-CN",
+    description: `「${domain.nameCn}（${domain.nameEn}）」领域的视觉风格词条：${lineages
+      .map((l) => l.nameCn)
+      .join("、")}。`,
+    publisher: { "@type": "Organization", name: "风格图谱 Style Atlas", url: SITE_URL },
+  };
+  const crumbs = breadcrumbJsonLd([
+    { name: "风格图谱", url: SITE_URL },
+    { name: domain.nameCn, url: `${SITE_URL}/atlas/${domain.slug}` },
+  ]);
+
   return (
     <div className="mx-auto max-w-6xl px-6 py-12">
+      <JsonLd data={domainLd} />
+      <JsonLd data={crumbs} />
       {/* 面包屑 */}
       <nav className="font-mono text-xs uppercase tracking-[0.2em] text-neutral-500 mb-8">
         <Link href="/" className="hover:underline">

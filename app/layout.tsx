@@ -15,11 +15,17 @@ export const metadata: Metadata = {
   title: "风格图谱 · Style Atlas",
   description: "艺术风格词典：按领域与谱系整理视觉风格，为 AI 绘画提供可复用的提示词参考。",
   openGraph: {
+    siteName: "风格图谱 Style Atlas",
     title: "风格图谱 · Style Atlas",
     description:
       "艺术风格词典：按领域与谱系整理视觉风格，为 AI 绘画提供可复用的提示词参考。",
     locale: "zh_CN",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "风格图谱 · Style Atlas",
+    description: "艺术风格词典：按领域与谱系整理视觉风格，为 AI 绘画提供可复用的提示词参考。",
   },
 };
 

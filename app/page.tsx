@@ -9,6 +9,7 @@ import {
   getCollections,
   getCollectionCoverImage,
 } from "@/lib/lexicon";
+import { JsonLd, websiteJsonLd } from "@/lib/seo";
 import SearchBox from "@/components/SearchBox";
 
 export const instant = false;
@@ -28,6 +29,7 @@ export default async function Home() {
 
   return (
     <main className="min-h-screen bg-white text-neutral-900">
+      <JsonLd data={websiteJsonLd()} />
       {/* Hero */}
       <section className="bg-neutral-950 text-white">
         <div className="mx-auto max-w-6xl px-6 py-16 md:py-24">

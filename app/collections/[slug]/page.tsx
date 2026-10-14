@@ -12,6 +12,7 @@ import {
   getConceptCases,
   getFinderCardImage,
 } from "@/lib/lexicon";
+import { JsonLd, breadcrumbJsonLd } from "@/lib/seo";
 import { SITE_URL } from "@/lib/site";
 import CopyButton from "@/components/CopyButton";
 
@@ -132,8 +133,32 @@ export default async function CollectionPage({
   const next = all[(idx + 1) % all.length];
   const shareUrl = `${SITE_URL}/collections/${c.slug}`;
 
+  const collectionLd = {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    name: c.nameCn,
+    alternateName: c.nameEn,
+    url: shareUrl,
+    inLanguage: "zh-CN",
+    description: `${c.tagline}${c.intro[0] ? ` ${c.intro[0].slice(0, 160)}` : ""}`,
+    audience: { "@type": "Audience", audienceType: c.audience },
+    itemListElement: c.styles.map((s, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      url: `${SITE_URL}/concept/${s.slug}`,
+    })),
+    publisher: { "@type": "Organization", name: "风格图谱 Style Atlas", url: SITE_URL },
+  };
+  const crumbs = breadcrumbJsonLd([
+    { name: "风格图谱", url: SITE_URL },
+    { name: "策展合集", url: `${SITE_URL}/collections` },
+    { name: c.nameCn, url: shareUrl },
+  ]);
+
   return (
     <main className="min-h-screen bg-white text-neutral-900">
+      <JsonLd data={collectionLd} />
+      <JsonLd data={crumbs} />
       {/* 頭部 */}
       <section className="bg-neutral-950 text-white">
         <div className="mx-auto max-w-6xl px-6 py-14 md:py-20">

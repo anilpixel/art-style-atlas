@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 
 export const instant = false;
 import { getConcept, getConceptCases, type RealCase } from "@/lib/lexicon";
+import { JsonLd, breadcrumbJsonLd } from "@/lib/seo";
 import { SITE_URL } from "@/lib/site";
 import CopyButton from "@/components/CopyButton";
 
@@ -35,7 +36,47 @@ export async function generateMetadata({
       type: "article",
       images: c.image ? [`${SITE_URL}${c.image}`] : undefined,
     },
+    twitter: {
+      card: "summary_large_image",
+      title: `${c.nameCn} ${c.nameEn} | 风格图谱`,
+      description,
+      images: c.image ? [`${SITE_URL}${c.image}`] : undefined,
+    },
   };
+}
+
+/** 词条页 JSON-LD：CreativeWork（真实案例图 + 授权 + Wikipedia 来源）+ 面包屑 */
+function ConceptJsonLd({ c }: { c: NonNullable<Awaited<ReturnType<typeof getConcept>>> }) {
+  const cases = getConceptCases(c.slug);
+  const realImages = cases
+    .filter((rc: RealCase) => rc.kind === "image" && rc.img)
+    .slice(0, 5)
+    .map((rc) => rc.img!);
+  const work = {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    name: `${c.nameCn} ${c.nameEn}`,
+    url: `${SITE_URL}/concept/${c.slug}`,
+    inLanguage: "zh-CN",
+    description: c.keyPoints?.[0] ?? c.features?.slice(0, 200),
+    keywords: c.aliases || undefined,
+    isPartOf: { "@type": "CreativeWork", name: `${c.lineageNameCn} · ${c.domainNameCn}` },
+    sameAs: c.source ? [c.source] : undefined,
+    image: realImages.length > 0 ? realImages : c.image ? [`${SITE_URL}${c.image}`] : undefined,
+    about: { "@type": "Thing", name: c.type || "艺术风格" },
+    publisher: { "@type": "Organization", name: "风格图谱 Style Atlas", url: SITE_URL },
+  };
+  const crumbs = breadcrumbJsonLd([
+    { name: "风格图谱", url: SITE_URL },
+    { name: c.domainNameCn, url: `${SITE_URL}/atlas/${c.domainSlug}` },
+    { name: c.nameCn, url: `${SITE_URL}/concept/${c.slug}` },
+  ]);
+  return (
+    <>
+      <JsonLd data={work} />
+      <JsonLd data={crumbs} />
+    </>
+  );
 }
 
 function MetaRow({ label, value }: { label: string; value: string }) {
@@ -108,6 +149,7 @@ export default async function ConceptPage({
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-12">
+      <ConceptJsonLd c={c} />
       {/* 头部：面包屑 + 风格名 + 3 个核心属性（其余属性折叠，渐进披露） */}
       <header className="max-w-3xl">
         <nav className="font-mono text-xs uppercase tracking-[0.2em] text-neutral-500 mb-6 sm:mb-8">

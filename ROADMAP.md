@@ -50,7 +50,7 @@
 - [x] P2-4 策展合集页（"8 种恐怖游戏美术风格"等，可分享）（2026-10-14：新增 data/collections.json（5 个合集：恐怖游戏 8 种 / 复古像素 8 种 / 治愈系 6 种 / 赛博朋克之外 7 种 / 国风 8 式，全部 slug 验链通过）；/collections 索引 + /collections/[slug] 详情页（编号清单、编者按、真实案例图优先、AI 图标徽标、一键复制合集链接分享、上下合集导航）；CopyButton 加 label 参数；sitemap 加入合集页；首页新增"策展合集"入口区；/finder 对应 5 个用途加"延伸阅读"横幅链合集；tsc+build 通过，已部署，线上 9 个页面 200 抽查通过）
 
 ### Phase 3 增长
-- [ ] P3-1 SEO（sitemap、OG 分享卡片、结构化数据）
+- [x] P3-1 SEO（sitemap、OG 分享卡片、结构化数据）（2026-10-14：默认 OG 分享卡图 app/opengraph-image.tsx（1200×630 品牌图，全站兜底，词条页自定义图覆盖）+ alt.txt；layout 加 twitter:summary_large_image 与 og:siteName；词条页 JSON-LD = CreativeWork（name/真实案例图 image/Wikipedia sameAs/授权关联 license/keywords）+ BreadcrumbList；首页 WebSite + SearchAction（/search?q={term}）；合集页 CreativeWork（ItemList 风格外链）+ BreadcrumbList；领域页 CollectionPage + BreadcrumbList；sitemap.xml（111 词条 URL）/robots.txt 已就绪；tsc+build 通过，已部署 dpl_7ejjigGtCRspFpdKZ9bdhMZZS6qB READY，7 个路由 + /sitemap.xml + /robots.txt + /opengraph-image 全部 200，词条页 og/twitter/ld+json 抽查通过。无数据变更，未 force seed）
 - [ ] P3-2 分享卡片图（每风格一键生成分享图）
 - [ ] P3-3 与 Viblab 互链（游戏风格词条 ↔ Viblab 指南）
 
