@@ -1,6 +1,7 @@
 import seedBase from "@/data/lexicon.json";
 import seedNew from "@/data/lexicon-new.json";
 import casesData from "@/data/cases.json";
+import casesData2 from "@/data/cases2.json";
 import { getPool } from "./db";
 
 /* ============ 类型 ============ */
@@ -70,7 +71,10 @@ export interface RealCase {
   note?: string;
 }
 
-const cases = casesData as Record<string, RealCase[]>;
+const cases: Record<string, RealCase[]> = {
+  ...(casesData as Record<string, RealCase[]>),
+  ...(casesData2 as Record<string, RealCase[]>),
+};
 
 /** 真实案例：Wikimedia Commons 免费授权图片 + 代表作外链 */
 export function getConceptCases(slug: string): RealCase[] {

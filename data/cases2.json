@@ -1,0 +1,1512 @@
+{
+ "silhouette-game": [
+  {
+   "creator": "Playdead",
+   "kind": "work",
+   "note": "剪影游戏开创作",
+   "title": "《地狱边境》",
+   "url": "https://zh.wikipedia.org/wiki/地狱边境",
+   "year": "2010"
+  },
+  {
+   "creator": "Playdead",
+   "kind": "work",
+   "note": "剪影叙事标杆",
+   "title": "《Inside》",
+   "url": "https://zh.wikipedia.org/wiki/Inside_(游戏)",
+   "year": "2016"
+  }
+ ],
+ "solarpunk": [
+  {
+   "creator": "The.lemonaut.ukr",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Solarpunk_cafeteria.png/960px-Solarpunk_cafeteria.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY 4.0",
+   "title": "太阳朋克食堂",
+   "url": "https://commons.wikimedia.org/wiki/File:Solarpunk_cafeteria.png"
+  },
+  {
+   "creator": "Scandinavian101",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Brighter_Future_-_Suburbs_Densification_-_Blue.jpeg/960px-Brighter_Future_-_Suburbs_Densification_-_Blue.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY-SA 4.0",
+   "title": "更光明的未来：郊区加密",
+   "url": "https://commons.wikimedia.org/wiki/File:Brighter_Future_-_Suburbs_Densification_-_Blue.jpeg"
+  }
+ ],
+ "steampunk": [
+  {
+   "creator": "Pseudopanax",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Aethertractor_at_Steampunk_HQ.jpg/960px-Aethertractor_at_Steampunk_HQ.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "蒸汽朋克 HQ：以太拖拉机",
+   "url": "https://commons.wikimedia.org/wiki/File:Aethertractor_at_Steampunk_HQ.jpg"
+  },
+  {
+   "creator": "ChiefRanger",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Steampunk-Computer.jpg/960px-Steampunk-Computer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY-SA 2.0",
+   "title": "蒸汽朋克改装电脑",
+   "url": "https://commons.wikimedia.org/wiki/File:Steampunk-Computer.jpg"
+  },
+  {
+   "creator": "Frank John-Lorenz",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Steampunk_Racer_Schrottkunst_20210612_190241.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "CC0",
+   "title": "废金属蒸汽朋克赛车（2021）",
+   "url": "https://commons.wikimedia.org/wiki/File:Steampunk_Racer_Schrottkunst_20210612_190241.jpg",
+   "year": "2021"
+  }
+ ],
+ "superflat": [
+  {
+   "creator": "Ithaka Darin Pappas",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Takashi_Murakami_at_Galerie_Mars_Tokyo_1992._Photo_by_Ithaka_Darin_Pappas.jpg/960px-Takashi_Murakami_at_Galerie_Mars_Tokyo_1992._Photo_by_Ithaka_Darin_Pappas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY-SA 4.0",
+   "title": "村上隆与早期超扁平作品（1992 年东京个展）",
+   "url": "https://commons.wikimedia.org/wiki/File:Takashi_Murakami_at_Galerie_Mars_Tokyo_1992._Photo_by_Ithaka_Darin_Pappas.jpg"
+  },
+  {
+   "creator": "村上隆",
+   "kind": "work",
+   "note": "超扁平运动创始人",
+   "title": "村上隆",
+   "url": "https://zh.wikipedia.org/wiki/村上隆",
+   "year": "1962–"
+  },
+  {
+   "creator": "村上隆",
+   "kind": "work",
+   "note": "运动定义与代表艺术家",
+   "title": "Superflat（超扁平运动）",
+   "url": "https://en.wikipedia.org/wiki/Superflat",
+   "year": "2000"
+  }
+ ],
+ "swiss-style": [
+  {
+   "creator": "Eduard Renggli",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/CH-000957-X-6776_Renggli.tif/lossy-page1-960px-CH-000957-X-6776_Renggli.tif.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "CH-000957-X-6776 Renggli.tif",
+   "url": "https://commons.wikimedia.org/wiki/File:CH-000957-X-6776_Renggli.tif"
+  },
+  {
+   "creator": "Jules-Ami Courvoisier (1884-1936)",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/CH-NB_Poster_Collection_SNL_TMC_226.jpg/960px-CH-NB_Poster_Collection_SNL_TMC_226.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "CH-NB Poster Collection SNL TMC 226.jpg",
+   "url": "https://commons.wikimedia.org/wiki/File:CH-NB_Poster_Collection_SNL_TMC_226.jpg"
+  }
+ ],
+ "symbolism": [
+  {
+   "creator": "居斯塔夫·莫罗",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Jupiter_and_Semele_by_Gustave_Moreau.jpg/960px-Jupiter_and_Semele_by_Gustave_Moreau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "朱庇特与塞墨勒",
+   "url": "https://commons.wikimedia.org/wiki/File:Jupiter_and_Semele_by_Gustave_Moreau.jpg",
+   "year": "1894–1895"
+  },
+  {
+   "creator": "居斯塔夫·莫罗",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Gustave_Moreau_Les_Licornes.jpg/960px-Gustave_Moreau_Les_Licornes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "独角兽",
+   "url": "https://commons.wikimedia.org/wiki/File:Gustave_Moreau_Les_Licornes.jpg",
+   "year": "约1885"
+  }
+ ],
+ "tang-tomb-murals": [
+  {
+   "creator": "佚名（唐代画工）",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Court_Ladies_of_the_Tang.jpg/960px-Court_Ladies_of_the_Tang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "唐代墓室壁画《仕女图》",
+   "url": "https://commons.wikimedia.org/wiki/File:Court_Ladies_of_the_Tang.jpg"
+  },
+  {
+   "creator": "佚名（唐代画工）",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Figures_in_a_cortege%2C_tomb_of_Li_Xian%2C_Tang_Dynasty.jpg/960px-Figures_in_a_cortege%2C_tomb_of_Li_Xian%2C_Tang_Dynasty.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "章怀太子（李贤）墓《仪仗图》",
+   "url": "https://commons.wikimedia.org/wiki/File:Figures_in_a_cortege,_tomb_of_Li_Xian,_Tang_Dynasty.jpg"
+  },
+  {
+   "creator": "佚名（唐代画工）",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/3/35/Tang_court_playing_Polo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "唐代墓室壁画《马球图》",
+   "url": "https://commons.wikimedia.org/wiki/File:Tang_court_playing_Polo.jpg"
+  }
+ ],
+ "three-strip-technicolor": [
+  {
+   "creator": "Technicolor",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Technicolor_Ten_Commandments.jpg/960px-Technicolor_Ten_Commandments.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "特艺七彩工艺样片《十诫》",
+   "url": "https://commons.wikimedia.org/wiki/File:Technicolor_Ten_Commandments.jpg"
+  },
+  {
+   "creator": "Warner Bros.",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Gold_Diggers_of_Broadway_Swedish_poster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《百老汇淘金女郎》瑞典海报",
+   "url": "https://commons.wikimedia.org/wiki/File:Gold_Diggers_of_Broadway_Swedish_poster.jpg",
+   "year": "1929"
+  }
+ ],
+ "toon-shading": [
+  {
+   "creator": "任天堂",
+   "kind": "work",
+   "note": "卡通渲染开山之作",
+   "title": "塞尔达传说 风之律动",
+   "url": "https://zh.wikipedia.org/wiki/薩爾達傳說_風之律動",
+   "year": "2002"
+  },
+  {
+   "creator": "Gearbox",
+   "kind": "work",
+   "note": "美漫风卡通渲染",
+   "title": "无主之地",
+   "url": "https://zh.wikipedia.org/wiki/無主之地",
+   "year": "2009"
+  }
+ ],
+ "ukiyo-e": [
+  {
+   "creator": "葛饰北斋",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/c/ca/%27The_Great_Wave_off_Kanagawa%27_by_Hokusai%2C_Honolulu_Museum_of_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "神奈川冲浪里",
+   "url": "https://commons.wikimedia.org/wiki/File:%27The_Great_Wave_off_Kanagawa%27_by_Hokusai,_Honolulu_Museum_of_Art.jpg",
+   "year": "1831"
+  },
+  {
+   "creator": "葛饰北斋",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Kanagawa_oki_nami_ura_LCCN2008661021.jpg/960px-Kanagawa_oki_nami_ura_LCCN2008661021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "神奈川冲浪里（国会图书馆藏本）",
+   "url": "https://commons.wikimedia.org/wiki/File:Kanagawa_oki_nami_ura_LCCN2008661021.jpg",
+   "year": "1831"
+  }
+ ],
+ "vienna-secession": [
+  {
+   "creator": "Gustav Klimt",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Klimt_-_Erstes_Ausstellungsplakat_der_Wiener_Secession_%28Theseus_und_Minotaurus%29.jpeg/960px-Klimt_-_Erstes_Ausstellungsplakat_der_Wiener_Secession_%28Theseus_und_Minotaurus%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "维也纳分离派首展海报（1898）",
+   "url": "https://commons.wikimedia.org/wiki/File:Klimt_-_Erstes_Ausstellungsplakat_der_Wiener_Secession_(Theseus_und_Minotaurus).jpeg",
+   "year": "1898"
+  },
+  {
+   "creator": "Gustav Klimt",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Gustav_Klimt_._Secession_-_XVIII_Ausstellung.jpg/960px-Gustav_Klimt_._Secession_-_XVIII_Ausstellung.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "第十八届分离派展览海报",
+   "url": "https://commons.wikimedia.org/wiki/File:Gustav_Klimt_._Secession_-_XVIII_Ausstellung.jpg"
+  },
+  {
+   "creator": "Gustav Klimt",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Klimt_-_Beethovenfries_-_Mittelwand.jpg/960px-Klimt_-_Beethovenfries_-_Mittelwand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《贝多芬横饰带》",
+   "url": "https://commons.wikimedia.org/wiki/File:Klimt_-_Beethovenfries_-_Mittelwand.jpg",
+   "year": "1902"
+  }
+ ],
+ "voxel-art": [
+  {
+   "creator": "Hipster Whale",
+   "kind": "work",
+   "note": "体素风独立游戏代表作",
+   "title": "Crossy Road",
+   "url": "https://en.wikipedia.org/wiki/Crossy_Road",
+   "year": "2014"
+  },
+  {
+   "creator": "Tuxedo Labs",
+   "kind": "work",
+   "note": "全破坏体素沙盒",
+   "title": "Teardown",
+   "url": "https://en.wikipedia.org/wiki/Teardown_(video_game)",
+   "year": "2022"
+  }
+ ],
+ "watercolor": [
+  {
+   "creator": "J.M.W. 特纳",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Canal_Scene_with_Shipping_-_ABDAG003696.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "运河与船只",
+   "url": "https://commons.wikimedia.org/wiki/File:Canal_Scene_with_Shipping_-_ABDAG003696.jpg",
+   "year": "约1820"
+  },
+  {
+   "creator": "J.M.W. 特纳",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/%28Barcelona%29_Sunrise_-_Whiting_Fishing_at_Margate_-_William_Turner_Tate_Britain.jpg/960px-%28Barcelona%29_Sunrise_-_Whiting_Fishing_at_Margate_-_William_Turner_Tate_Britain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "日出·马盖特捕鱼",
+   "url": "https://commons.wikimedia.org/wiki/File:(Barcelona)_Sunrise_-_Whiting_Fishing_at_Margate_-_William_Turner_Tate_Britain.jpg",
+   "year": "约1835"
+  }
+ ],
+ "woodcut-print": [
+  {
+   "creator": "歌川国贞",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Utagawa_Kunisada_-_Woodcut_-_Google_Art_Project.jpg/960px-Utagawa_Kunisada_-_Woodcut_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "歌川国贞木刻版画",
+   "url": "https://commons.wikimedia.org/wiki/File:Utagawa_Kunisada_-_Woodcut_-_Google_Art_Project.jpg",
+   "year": "19世纪"
+  },
+  {
+   "creator": "迭戈·里维拉",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Diego_Rivera_Woodcut-1916_Maximilian_Voloshin_Ex_libris.jpg/960px-Diego_Rivera_Woodcut-1916_Maximilian_Voloshin_Ex_libris.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "木刻藏书票",
+   "url": "https://commons.wikimedia.org/wiki/File:Diego_Rivera_Woodcut-1916_Maximilian_Voloshin_Ex_libris.jpg",
+   "year": "1916"
+  }
+ ],
+ "yamato-e": [
+  {
+   "creator": "菱川师宣",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/NDL-DC_1288363_Yamato-e_tsukushi_0023_0000crd.jpg/960px-NDL-DC_1288363_Yamato-e_tsukushi_0023_0000crd.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《大和绘尽》（其廿三）",
+   "url": "https://commons.wikimedia.org/wiki/File:NDL-DC_1288363_Yamato-e_tsukushi_0023_0000crd.jpg",
+   "year": "17世纪"
+  },
+  {
+   "creator": "菱川师宣",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/%E5%A4%A7%E5%92%8C%E7%B5%B5%E3%81%A5%E3%81%8F%E3%81%97-Compendium_of_Yamato-e_Painting_Themes_%28Yamato-e_zukushi%29_MET_JIB84_001.jpg/960px-%E5%A4%A7%E5%92%8C%E7%B5%B5%E3%81%A5%E3%81%8F%E3%81%97-Compendium_of_Yamato-e_Painting_Themes_%28Yamato-e_zukushi%29_MET_JIB84_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC0",
+   "title": "《大和绘尽》（卷一）",
+   "url": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E5%92%8C%E7%B5%B5%E3%81%A5%E3%81%8F%E3%81%97-Compendium_of_Yamato-e_Painting_Themes_(Yamato-e_zukushi)_MET_JIB84_001.jpg",
+   "year": "17世纪"
+  }
+ ],
+ "bauhaus-typography": [
+  {
+   "creator": "Theo van Doesburg",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Theo_van_Doesburg_Design_for_a_poster.jpg/960px-Theo_van_Doesburg_Design_for_a_poster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "特奥·范·杜斯堡海报设计稿",
+   "url": "https://commons.wikimedia.org/wiki/File:Theo_van_Doesburg_Design_for_a_poster.jpg",
+   "note": "风格派/包豪斯同时期海报"
+  },
+  {
+   "creator": "Susanlenox from España",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Draft_of_a_poster_%27Workshops_of_Fine_Arts_G.m.b.H.%27_%2840562034993%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《美术工坊有限公司》海报草稿",
+   "url": "https://commons.wikimedia.org/wiki/File:Draft_of_a_poster_%27Workshops_of_Fine_Arts_G.m.b.H.%27_(40562034993).jpg",
+   "note": "包豪斯时期平面设计"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "设计学校与风格源头",
+   "title": "包豪斯",
+   "url": "https://zh.wikipedia.org/wiki/包豪斯",
+   "year": "1919–1933"
+  }
+ ],
+ "gothic-revival": [
+  {
+   "creator": "Bmzuckerman",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Gothic_Revival_-_Newport%2C_RI_-_Kingscote_%289%29.jpg/960px-Gothic_Revival_-_Newport%2C_RI_-_Kingscote_%289%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY 4.0",
+   "title": "金斯科特别墅（罗德岛纽波特）",
+   "url": "https://commons.wikimedia.org/wiki/File:Gothic_Revival_-_Newport,_RI_-_Kingscote_(9).jpg",
+   "note": "哥特复兴式住宅"
+  },
+  {
+   "creator": "Donaldytong",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/St_Patrick%27s_Cathedral-Gothic_Revival_Style_%28East_Side%29.jpg/960px-St_Patrick%27s_Cathedral-Gothic_Revival_Style_%28East_Side%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY-SA 3.0",
+   "title": "纽约圣帕特里克大教堂",
+   "url": "https://commons.wikimedia.org/wiki/File:St_Patrick%27s_Cathedral-Gothic_Revival_Style_(East_Side).jpg",
+   "note": "哥特复兴式教堂"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "风格定义与代表建筑",
+   "title": "Gothic Revival architecture",
+   "url": "https://en.wikipedia.org/wiki/Gothic_Revival_architecture",
+   "year": "19世纪"
+  }
+ ],
+ "beaux-arts": [
+  {
+   "creator": "Ryan Schwark",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Grand_Central_Terminal_facade.jpg/960px-Grand_Central_Terminal_facade.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC0",
+   "title": "纽约中央车站正立面",
+   "url": "https://commons.wikimedia.org/wiki/File:Grand_Central_Terminal_facade.jpg",
+   "note": "布杂艺术代表建筑"
+  },
+  {
+   "creator": "PortableNYCTours",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Grand_Central_facade_detail_01.jpg/960px-Grand_Central_facade_detail_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY-SA 4.0",
+   "title": "中央车站立面细部",
+   "url": "https://commons.wikimedia.org/wiki/File:Grand_Central_facade_detail_01.jpg",
+   "note": "古典柱式与雕塑装饰"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "风格定义与代表建筑",
+   "title": "Beaux-Arts architecture",
+   "url": "https://en.wikipedia.org/wiki/Beaux-Arts_architecture",
+   "year": "19世纪末"
+  }
+ ],
+ "deconstructivism": [
+  {
+   "creator": "Jon Sullivan",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Architecture_buildings_Disney_concert_halls.jpg/960px-Architecture_buildings_Disney_concert_halls.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "迪士尼音乐厅（洛杉矶）",
+   "url": "https://commons.wikimedia.org/wiki/File:Architecture_buildings_Disney_concert_halls.jpg",
+   "note": "弗兰克·盖里，2003"
+  },
+  {
+   "creator": "Adam Carr / Adam Carr at English Wikipedia",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Jewish_Museum_Berlin_%282%29.jpg/960px-Jewish_Museum_Berlin_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "柏林犹太博物馆",
+   "url": "https://commons.wikimedia.org/wiki/File:Jewish_Museum_Berlin_(2).jpg",
+   "note": "丹尼尔·里伯斯金，2001"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "风格定义与代表建筑",
+   "title": "解构主义建筑",
+   "url": "https://zh.wikipedia.org/wiki/解构主义建筑",
+   "year": "1980年代–"
+  }
+ ],
+ "parametricism": [
+  {
+   "creator": "GuentherZ",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/3/34/GuentherZ_2008-03-29_0703_Wien_Zaha-Hadid-Haus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "CC BY-SA 3.0",
+   "title": "扎哈·哈迪德住宅（维也纳）",
+   "url": "https://commons.wikimedia.org/wiki/File:GuentherZ_2008-03-29_0703_Wien_Zaha-Hadid-Haus.jpg",
+   "note": "参数化曲面住宅"
+  },
+  {
+   "creator": "Gerardus",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Videopaviljoen_by_Zaha_Hadid_in_Appingedam%2C_February_2008.jpg/960px-Videopaviljoen_by_Zaha_Hadid_in_Appingedam%2C_February_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "影像馆（阿平厄丹）",
+   "url": "https://commons.wikimedia.org/wiki/File:Videopaviljoen_by_Zaha_Hadid_in_Appingedam,_February_2008.jpg",
+   "note": "扎哈·哈迪德早期参数化作品"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "参数主义代表人物",
+   "title": "扎哈·哈迪德",
+   "url": "https://zh.wikipedia.org/wiki/扎哈·哈迪德",
+   "year": "1950–2016"
+  }
+ ],
+ "metabolism": [
+  {
+   "creator": "Ilkka Simomaa",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Nakagin_Capsule_Tower_2016-12-17.jpg/960px-Nakagin_Capsule_Tower_2016-12-17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY 4.0",
+   "title": "中银胶囊塔（东京，2016）",
+   "url": "https://commons.wikimedia.org/wiki/File:Nakagin_Capsule_Tower_2016-12-17.jpg",
+   "note": "黑川纪章，1972"
+  },
+  {
+   "creator": "monoprixgourmet",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Capsule_of_Nakagin_Capsule_Tower.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "CC BY 2.0",
+   "title": "中银胶囊塔胶囊单元",
+   "url": "https://commons.wikimedia.org/wiki/File:Capsule_of_Nakagin_Capsule_Tower.jpg",
+   "note": "可替换居住胶囊"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "运动定义与代表建筑",
+   "title": "Metabolism (architecture)",
+   "url": "https://en.wikipedia.org/wiki/Metabolism_(architecture)",
+   "year": "1960年代–"
+  }
+ ],
+ "scandinavian-design": [
+  {
+   "creator": "14GTR",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Paimio_armchair_by_Alvar_Aalto_01.jpg/960px-Paimio_armchair_by_Alvar_Aalto_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC0",
+   "title": "帕伊米奥扶手椅",
+   "url": "https://commons.wikimedia.org/wiki/File:Paimio_armchair_by_Alvar_Aalto_01.jpg",
+   "note": "阿尔瓦·阿尔托，1932"
+  },
+  {
+   "creator": "Gotogo",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Armchair_400_%E2%80%9CTank%E2%80%9C._Designed_by_Alvar_Aalto_1936.jpg/960px-Armchair_400_%E2%80%9CTank%E2%80%9C._Designed_by_Alvar_Aalto_1936.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC0",
+   "title": "400 型\"Tank\"扶手椅",
+   "url": "https://commons.wikimedia.org/wiki/File:Armchair_400_%E2%80%9CTank%E2%80%9C._Designed_by_Alvar_Aalto_1936.jpg",
+   "note": "阿尔托，1936"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "北欧设计代表人物",
+   "title": "阿尔瓦·阿尔托",
+   "url": "https://zh.wikipedia.org/wiki/阿尔瓦·阿尔托",
+   "year": "1898–1976"
+  }
+ ],
+ "mid-century-modern": [
+  {
+   "creator": "(User:Wgreaves)",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Mid-century_modern_house_in_Palm_Springs.jpg/960px-Mid-century_modern_house_in_Palm_Springs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY-SA 4.0",
+   "title": "棕榈泉世纪中期现代住宅",
+   "url": "https://commons.wikimedia.org/wiki/File:Mid-century_modern_house_in_Palm_Springs.jpg",
+   "note": "开放平面与大玻璃"
+  },
+  {
+   "creator": "GeorgeLouis",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/California_Mid-Century_Modern_Home_with_open-beam_ceiling_1960.jpg/960px-California_Mid-Century_Modern_Home_with_open-beam_ceiling_1960.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY-SA 3.0",
+   "title": "加州世纪中期现代住宅（1960）",
+   "url": "https://commons.wikimedia.org/wiki/File:California_Mid-Century_Modern_Home_with_open-beam_ceiling_1960.jpg",
+   "note": "外露梁柱结构"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "世纪中期现代代表人物",
+   "title": "Charles and Ray Eames",
+   "url": "https://en.wikipedia.org/wiki/Charles_and_Ray_Eames",
+   "year": "1940s–1970s"
+  }
+ ],
+ "dieter-rams-functionalism": [
+  {
+   "creator": "With Associates",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Braun_SK_4.1.jpg/960px-Braun_SK_4.1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY-SA 2.0",
+   "title": "博朗 SK 4.1 音响",
+   "url": "https://commons.wikimedia.org/wiki/File:Braun_SK_4.1.jpg",
+   "note": "迪特·拉姆斯设计"
+  },
+  {
+   "creator": "Pinot Dita from Kuwait",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/1987_Braun_calculator_ET66_by_Dieter_Rams_%2813964223413%29.jpg/960px-1987_Braun_calculator_ET66_by_Dieter_Rams_%2813964223413%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY-SA 2.0",
+   "title": "博朗 ET66 计算器（1987）",
+   "url": "https://commons.wikimedia.org/wiki/File:1987_Braun_calculator_ET66_by_Dieter_Rams_(13964223413).jpg",
+   "note": "拉姆斯功能主义"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "功能主义设计十诫",
+   "title": "迪特·拉姆斯",
+   "url": "https://zh.wikipedia.org/wiki/迪特·拉姆斯",
+   "year": "1932–"
+  }
+ ],
+ "cloisonne-enamel": [
+  {
+   "creator": "",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/4/43/Chinese_Cloisonn%C3%A9_Enamel_Tubular_Lug_Vase_-_ABDMS014483.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "掐丝珐琅筒形耳瓶",
+   "url": "https://commons.wikimedia.org/wiki/File:Chinese_Cloisonn%C3%A9_Enamel_Tubular_Lug_Vase_-_ABDMS014483.jpg",
+   "note": "中国掐丝珐琅"
+  },
+  {
+   "creator": "Daderot",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Vase_in_the_shape_of_a_double_gourd%2C_China%2C_1750_to_early_1800s%2C_copper%2C_cloisonne_enamel%2C_applications_-_Germanisches_Nationalmuseum_-_Nuremberg%2C_Germany_-_DSC03189.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "清代掐丝珐琅葫芦瓶",
+   "url": "https://commons.wikimedia.org/wiki/File:Vase_in_the_shape_of_a_double_gourd,_China,_1750_to_early_1800s,_copper,_cloisonne_enamel,_applications_-_Germanisches_Nationalmuseum_-_Nuremberg,_Germany_-_DSC03189.jpg",
+   "note": "1750–1800 年代"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "工艺定义与历史",
+   "title": "掐丝珐琅",
+   "url": "https://zh.wikipedia.org/wiki/掐丝珐琅",
+   "year": ""
+  }
+ ],
+ "meenakari": [
+  {
+   "creator": "Interesting009",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Meenakaari_art_from_Iran.jpg/960px-Meenakaari_art_from_Iran.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY-SA 4.0",
+   "title": "伊朗米纳卡里珐琅",
+   "url": "https://commons.wikimedia.org/wiki/File:Meenakaari_art_from_Iran.jpg",
+   "note": "米纳卡里工艺示例"
+  },
+  {
+   "creator": "SpeakingArch",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/3/32/Himachali_Gold_Necklace_with_Meenakari%2C_Kangra_Culture%2C_Himachal_Pradesh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "CC BY-SA 4.0",
+   "title": "喜马偕尔金项链",
+   "url": "https://commons.wikimedia.org/wiki/File:Himachali_Gold_Necklace_with_Meenakari,_Kangra_Culture,_Himachal_Pradesh.jpg",
+   "note": "米纳卡里镶嵌，康格拉"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "工艺定义与产地",
+   "title": "Meenakari",
+   "url": "https://en.wikipedia.org/wiki/M%C4%ABn%C4%81k%C4%81r%C4%AB",
+   "year": ""
+  }
+ ],
+ "filigree": [
+  {
+   "creator": "Daderot",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Rose_brooch%2C_17th_century_AD%2C_gold_filigree_and_baroque_pearls_-_Museo_Nacional_de_Artes_Decorativas_-_Madrid%2C_Spain_-_DSC08021.JPG/960px-Rose_brooch%2C_17th_century_AD%2C_gold_filigree_and_baroque_pearls_-_Museo_Nacional_de_Artes_Decorativas_-_Madrid%2C_Spain_-_DSC08021.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "17 世纪金花丝玫瑰胸针",
+   "url": "https://commons.wikimedia.org/wiki/File:Rose_brooch,_17th_century_AD,_gold_filigree_and_baroque_pearls_-_Museo_Nacional_de_Artes_Decorativas_-_Madrid,_Spain_-_DSC08021.JPG",
+   "note": "金花丝与巴洛克珍珠"
+  },
+  {
+   "creator": "Unknown authorUnknown author",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/2/26/Filigree_necklace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "花丝项链",
+   "url": "https://commons.wikimedia.org/wiki/File:Filigree_necklace.jpg",
+   "note": "金银丝编织工艺"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "工艺定义与历史",
+   "title": "Filigree",
+   "url": "https://en.wikipedia.org/wiki/Filigree",
+   "year": ""
+  }
+ ],
+ "art-nouveau-jewelry": [
+  {
+   "creator": "René Lalique",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Lorgnette_and_chain_MET_65.154ab.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "CC0",
+   "title": "拉利克长柄眼镜链",
+   "url": "https://commons.wikimedia.org/wiki/File:Lorgnette_and_chain_MET_65.154ab.jpg",
+   "note": "勒内·拉利克，大都会博物馆藏"
+  },
+  {
+   "creator": "René Lalique",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Lorgnette_and_chain_MET_DP159697.jpg/960px-Lorgnette_and_chain_MET_DP159697.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC0",
+   "title": "拉利克长柄眼镜链（细部）",
+   "url": "https://commons.wikimedia.org/wiki/File:Lorgnette_and_chain_MET_DP159697.jpg",
+   "note": "新艺术珠宝代表作"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "新艺术珠宝代表人物",
+   "title": "René Lalique",
+   "url": "https://en.wikipedia.org/wiki/Ren%C3%A9_Lalique",
+   "year": "1860–1945"
+  }
+ ],
+ "fahai-temple-murals": [
+  {
+   "creator": "Xuan Che",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Fahai_Temple_Bodhisattvas.jpg/960px-Fahai_Temple_Bodhisattvas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY 2.0",
+   "title": "法海寺菩萨壁画",
+   "url": "https://commons.wikimedia.org/wiki/File:Fahai_Temple_Bodhisattvas.jpg",
+   "note": "明代壁画"
+  },
+  {
+   "creator": "Rolfmueller",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Mahesvara%2C_Fahai_Temple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "CC BY-SA 4.0",
+   "title": "法海寺大自在天壁画",
+   "url": "https://commons.wikimedia.org/wiki/File:Mahesvara,_Fahai_Temple.jpg",
+   "note": "明代壁画"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "寺庙与壁画介绍",
+   "title": "法海寺",
+   "url": "https://zh.wikipedia.org/wiki/法海寺",
+   "year": "明正统年间"
+  }
+ ],
+ "kizil-caves": [
+  {
+   "creator": "Painter: 7th century CE\n\nPhotographer: Undetermined",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Cave_of_the_Seafarers_%28cave_212%2C_complete_mural%29_Kizil_Caves.jpg/960px-Cave_of_the_Seafarers_%28cave_212%2C_complete_mural%29_Kizil_Caves.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "第 212 窟（航海者窟）壁画",
+   "url": "https://commons.wikimedia.org/wiki/File:Cave_of_the_Seafarers_(cave_212,_complete_mural)_Kizil_Caves.jpg",
+   "note": "7 世纪"
+  },
+  {
+   "creator": "Painter: 5th century CE\n\nPhotograph: undetermined",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Kizil_Cave_83_mural.jpg/960px-Kizil_Cave_83_mural.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "第 83 窟壁画",
+   "url": "https://commons.wikimedia.org/wiki/File:Kizil_Cave_83_mural.jpg",
+   "note": "5 世纪"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "石窟与壁画介绍",
+   "title": "克孜尔千佛洞",
+   "url": "https://zh.wikipedia.org/wiki/克孜尔千佛洞",
+   "year": "3–9世纪"
+  }
+ ],
+ "atsu-nuri-thick-paint": [
+  {
+   "creator": "Behemot53 Autor Roman Michalowski",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Impasto-detailed_example..jpg/960px-Impasto-detailed_example..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "厚涂油画肌理特写",
+   "url": "https://commons.wikimedia.org/wiki/File:Impasto-detailed_example..jpg",
+   "note": "厚重油彩的堆积感"
+  },
+  {
+   "creator": "TheGoodEndedHappily",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Impasto_detail.jpg/960px-Impasto_detail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY-SA 4.0",
+   "title": "厚涂颜料断面特写",
+   "url": "https://commons.wikimedia.org/wiki/File:Impasto_detail.jpg",
+   "note": "刮刀堆出的颜料层"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "颜料堆积的画法",
+   "title": "厚塗",
+   "url": "https://zh.wikipedia.org/wiki/厚塗",
+   "year": ""
+  },
+  {
+   "creator": "文森特·梵高",
+   "kind": "work",
+   "note": "厚涂代表作",
+   "title": "《星夜》",
+   "url": "https://zh.wikipedia.org/wiki/星夜",
+   "year": "1889"
+  }
+ ],
+ "playful-rounded-product": [
+  {
+   "creator": "sailko",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Ettore_sottsass%2C_menta.JPG/960px-Ettore_sottsass%2C_menta.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY-SA 3.0",
+   "title": "索特萨斯彩色叠层陶塑",
+   "url": "https://commons.wikimedia.org/wiki/File:Ettore_sottsass,_menta.JPG",
+   "note": "孟菲斯式趣味造型"
+  },
+  {
+   "creator": "Caffe_Paradiso",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Memphis_On_the_left_Casablanca_by_Ettore_Sottsass.jpg/960px-Memphis_On_the_left_Casablanca_by_Ettore_Sottsass.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY 2.0",
+   "title": "孟菲斯展厅与「卡萨布兰卡」边柜",
+   "url": "https://commons.wikimedia.org/wiki/File:Memphis_On_the_left_Casablanca_by_Ettore_Sottsass.jpg",
+   "note": "孟菲斯代表作展陈"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "圆润趣味设计运动",
+   "title": "孟菲斯集團",
+   "url": "https://zh.wikipedia.org/wiki/孟菲斯集團",
+   "year": "1981–1987"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "孟菲斯集团创始人",
+   "title": "埃托雷·索特萨斯",
+   "url": "https://zh.wikipedia.org/wiki/埃托雷·索特萨斯",
+   "year": "1917–2007"
+  }
+ ],
+ "swiss-new-wave": [
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "瑞士朋克排印先驱",
+   "title": "沃尔夫冈·魏因加特",
+   "url": "https://en.wikipedia.org/wiki/Wolfgang_Weingart",
+   "year": "1941–"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "新浪潮平面设计",
+   "title": "艾普里尔·格里曼",
+   "url": "https://en.wikipedia.org/wiki/April_Greiman",
+   "year": "1948–"
+  }
+ ],
+ "ulm-school": [
+  {
+   "creator": "Andreas Bohnenstengel",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Hochschule_f%C3%BCr_Gestaltung_Ulm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "CC BY-SA 3.0 de",
+   "title": "乌尔姆设计学院校舍",
+   "url": "https://commons.wikimedia.org/wiki/File:Hochschule_f%C3%BCr_Gestaltung_Ulm.jpg",
+   "note": "马克斯·比尔设计校舍"
+  },
+  {
+   "creator": "Andreas Bohnenstengel",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Hochschule_f%C3%BCr_Gestaltung_Ulm_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "CC BY-SA 3.0 de",
+   "title": "乌尔姆设计学院标识牌",
+   "url": "https://commons.wikimedia.org/wiki/File:Hochschule_f%C3%BCr_Gestaltung_Ulm_01.jpg",
+   "note": "学院视觉识别一角"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "理性主义设计教育",
+   "title": "乌尔姆造型学院",
+   "url": "https://zh.wikipedia.org/wiki/乌尔姆造型学院",
+   "year": "1953–1968"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "学院代表人物",
+   "title": "奥托·艾舍",
+   "url": "https://zh.wikipedia.org/wiki/奥托·艾舍",
+   "year": "1922–1991"
+  }
+ ],
+ "punk-flyer": [
+  {
+   "creator": "Steve Albini",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Big_Black%2C_Urge_Overkill%2C_%26_Squirrel_Bait_at_the_Jockey_Club_%281985-05-26_concert_flyer%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "1985年朋克演出传单",
+   "url": "https://commons.wikimedia.org/wiki/File:Big_Black,_Urge_Overkill,_%26_Squirrel_Bait_at_the_Jockey_Club_(1985-05-26_concert_flyer).jpg",
+   "note": "手写粗黑字DIY传单"
+  },
+  {
+   "creator": "Coastal Elite from Halifax, Canada",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Punk_Rock_Show_Flyer_%2833411069975%29.jpg/960px-Punk_Rock_Show_Flyer_%2833411069975%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY-SA 2.0",
+   "title": "街头拼贴朋克传单",
+   "url": "https://commons.wikimedia.org/wiki/File:Punk_Rock_Show_Flyer_(33411069975).jpg",
+   "note": "黑白手绘涂鸦拼贴"
+  },
+  {
+   "creator": "Sex Pistols",
+   "kind": "work",
+   "note": "朋克运动代表乐队",
+   "title": "《性手枪》",
+   "url": "https://zh.wikipedia.org/wiki/性手枪",
+   "year": "1975–"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "朋克传单的美学源头",
+   "title": "《朋克摇滚》",
+   "url": "https://zh.wikipedia.org/wiki/朋克摇滚",
+   "year": ""
+  }
+ ],
+ "zine-culture": [
+  {
+   "creator": "Jake from Manchester, UK",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/1970s_fanzines_%2821224199545%29.jpg/960px-1970s_fanzines_%2821224199545%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY 2.0",
+   "title": "70年代朋克小志合集",
+   "url": "https://commons.wikimedia.org/wiki/File:1970s_fanzines_(21224199545).jpg",
+   "note": "剪报拼贴小志经典"
+  },
+  {
+   "creator": "Lionel June",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Fanzine_%C3%9Btins_en_langue_wallonne.jpg/960px-Fanzine_%C3%9Btins_en_langue_wallonne.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC0",
+   "title": "手写迷你小志",
+   "url": "https://commons.wikimedia.org/wiki/File:Fanzine_%C3%9Btins_en_langue_wallonne.jpg",
+   "note": "纯手工自印小册子"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "小志文化的百科定义",
+   "title": "《Fanzine》",
+   "url": "https://en.wikipedia.org/wiki/Fanzine",
+   "year": ""
+  },
+  {
+   "creator": "Mark Perry",
+   "kind": "work",
+   "note": "英国第一本朋克小志",
+   "title": "《Sniffin' Glue》",
+   "url": "https://en.wikipedia.org/wiki/Sniffin'_Glue",
+   "year": "1976–1977"
+  }
+ ],
+ "bollywood-musical": [
+  {
+   "creator": "佚名",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/7/7d/An_early_Bollywood_film_%281942%29_about_the_episode_another_poster.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "1942年印度电影海报",
+   "url": "https://commons.wikimedia.org/wiki/File:An_early_Bollywood_film_(1942)_about_the_episode_another_poster.jpg",
+   "note": "手绘歌舞片海报"
+  },
+  {
+   "creator": "佚名",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/f/fd/An_early_Bollywood_film_%281942%29_about_the_episode.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《Bharat Milap》电影歌本",
+   "url": "https://commons.wikimedia.org/wiki/File:An_early_Bollywood_film_(1942)_about_the_episode.jpg",
+   "note": "老电影宣传册封面"
+  },
+  {
+   "creator": "拉兹·卡普尔",
+   "kind": "work",
+   "note": "印度歌舞片黄金时代代表",
+   "title": "《流浪者》",
+   "url": "https://en.wikipedia.org/wiki/Awaara",
+   "year": "1951"
+  },
+  {
+   "creator": "梅博·罕",
+   "kind": "work",
+   "note": "印度电影史诗级歌舞片",
+   "title": "《印度母亲》",
+   "url": "https://zh.wikipedia.org/wiki/印度母親",
+   "year": "1957"
+  }
+ ],
+ "shanghai-1930s-musical": [
+  {
+   "creator": "袁牧之",
+   "kind": "work",
+   "note": "时代曲电影代表作",
+   "title": "《马路天使》",
+   "url": "https://zh.wikipedia.org/wiki/马路天使",
+   "year": "1937"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "时代曲歌后",
+   "title": "《周璇》",
+   "url": "https://zh.wikipedia.org/wiki/周璇",
+   "year": "1920–1957"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "月份牌广告画源流",
+   "title": "《月份牌》",
+   "url": "https://zh.wikipedia.org/wiki/月份牌",
+   "year": ""
+  }
+ ],
+ "chanchada-musical": [
+  {
+   "creator": "unknown (20th Century Fox)",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Carmen_Miranda_in_That_Night_in_Rio_%281941%29.jpg/960px-Carmen_Miranda_in_That_Night_in_Rio_%281941%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《里约热恋夜》中的卡门·米兰达",
+   "url": "https://commons.wikimedia.org/wiki/File:Carmen_Miranda_in_That_Night_in_Rio_(1941).jpg",
+   "note": "标志性水果帽歌舞造型"
+  },
+  {
+   "creator": "Fox Studios",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Carmen_Miranda%2C_no_filme_Serenata_Tropical.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "CC BY-SA 4.0",
+   "title": "《热带小夜曲》中的卡门·米兰达",
+   "url": "https://commons.wikimedia.org/wiki/File:Carmen_Miranda,_no_filme_Serenata_Tropical.jpg",
+   "note": "电影剧照拉美歌舞造型"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "巴西歌舞喜剧电影类型",
+   "title": "《尚加达》",
+   "url": "https://en.wikipedia.org/wiki/Chanchada",
+   "year": ""
+  },
+  {
+   "creator": "卡门·米兰达",
+   "kind": "work",
+   "note": "米兰达好莱坞歌舞代表作",
+   "title": "《里约热恋夜》",
+   "url": "https://en.wikipedia.org/wiki/That_Night_in_Rio",
+   "year": "1941"
+  }
+ ],
+ "french-new-wave": [
+  {
+   "creator": "Gary Stevens",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Jean-Luc_Godard_at_Berkeley%2C_1968.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "CC BY 2.0",
+   "title": "戈达尔在伯克利（1968）",
+   "url": "https://commons.wikimedia.org/wiki/File:Jean-Luc_Godard_at_Berkeley,_1968.jpg",
+   "note": "新浪潮旗手戈达尔"
+  },
+  {
+   "creator": "让-吕克·戈达尔",
+   "kind": "work",
+   "note": "新浪潮开山代表作",
+   "title": "《筋疲力尽》",
+   "url": "https://en.wikipedia.org/wiki/Breathless",
+   "year": "1960"
+  },
+  {
+   "creator": "弗朗索瓦·特吕弗",
+   "kind": "work",
+   "note": "特吕弗导演处女作",
+   "title": "《四百击》",
+   "url": "https://en.wikipedia.org/wiki/The_400_Blows",
+   "year": "1959"
+  }
+ ],
+ "isometric-art": [
+  {
+   "creator": "Propeterson",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Isometric_Pixel_Art_by_Peterson_Freitas.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "CC BY-SA 4.0",
+   "title": "等距像素街景",
+   "url": "https://commons.wikimedia.org/wiki/File:Isometric_Pixel_Art_by_Peterson_Freitas.gif",
+   "note": "等距俯视繁华街景"
+  },
+  {
+   "creator": "Insnesnakos",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Isometric_Pixel_art_of_Cone%2C_Rectangle%2C_Sphere.png/960px-Isometric_Pixel_art_of_Cone%2C_Rectangle%2C_Sphere.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY-SA 4.0",
+   "title": "等距几何体像素画",
+   "url": "https://commons.wikimedia.org/wiki/File:Isometric_Pixel_art_of_Cone,_Rectangle,_Sphere.png",
+   "note": "菱形透视几何体"
+  },
+  {
+   "creator": "ustwo games",
+   "kind": "work",
+   "note": "等距错觉解谜游戏",
+   "title": "《纪念碑谷》",
+   "url": "https://en.wikipedia.org/wiki/Monument_Valley",
+   "year": "2014"
+  },
+  {
+   "creator": "Blizzard",
+   "kind": "work",
+   "note": "等距视角动作RPG",
+   "title": "《暗黑破坏神》",
+   "url": "https://zh.wikipedia.org/wiki/%E6%9A%97%E9%BB%91%E7%A0%B4%E5%9D%8F%E7%A5%9E",
+   "year": "1996"
+  }
+ ],
+ "cutout-animation": [
+  {
+   "creator": "Lotte Reiniger/Primrose Productions",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Lotte_Reiniger_Prinz_Achmed_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "CC BY-SA 4.0",
+   "title": "《阿赫迈德王子》剪影剧照",
+   "url": "https://commons.wikimedia.org/wiki/File:Lotte_Reiniger_Prinz_Achmed_001.jpg",
+   "note": "剪纸剪影动画剧照"
+  },
+  {
+   "creator": "Lotte Reiniger/Primrose Productions",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/0/01/Lotte_Reiniger_Prinz_Achmed_004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "CC BY-SA 4.0",
+   "title": "《阿赫迈德王子》对弈剧照",
+   "url": "https://commons.wikimedia.org/wiki/File:Lotte_Reiniger_Prinz_Achmed_004.jpg",
+   "note": "精致剪影镂空细节"
+  },
+  {
+   "creator": "洛特·赖尼格尔",
+   "kind": "work",
+   "note": "现存最早动画长片之一",
+   "title": "《阿赫迈德王子历险记》",
+   "url": "https://en.wikipedia.org/wiki/The_Adventures_of_Prince_Achmed",
+   "year": "1926"
+  },
+  {
+   "creator": "Trey Parker & Matt Stone",
+   "kind": "work",
+   "note": "剪纸风喜剧动画",
+   "title": "《南方公园》",
+   "url": "https://en.wikipedia.org/wiki/South_Park",
+   "year": "1997"
+  }
+ ],
+ "paint-on-glass-animation": [
+  {
+   "creator": "亚历山大·彼得罗夫",
+   "kind": "work",
+   "note": "奥斯卡最佳动画短片",
+   "title": "《老人与海》",
+   "url": "https://en.wikipedia.org/wiki/The_Old_Man_and_the_Sea_(1999_film)",
+   "year": "1999"
+  },
+  {
+   "creator": "亚历山大·彼得罗夫",
+   "kind": "work",
+   "note": "油彩玻璃动画长片",
+   "title": "《My Love》",
+   "url": "https://en.wikipedia.org/wiki/My_Love_(2006_film)",
+   "year": "2006"
+  }
+ ],
+ "puppet-stop-motion": [
+  {
+   "creator": "Chemical Engineer",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Barry_Purves_Puppets_NMM_2016.jpg/960px-Barry_Purves_Puppets_NMM_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY-SA 4.0",
+   "title": "定格动画大师人偶展品",
+   "url": "https://commons.wikimedia.org/wiki/File:Barry_Purves_Puppets_NMM_2016.jpg",
+   "note": "定格动画人偶展品"
+  },
+  {
+   "creator": "蒂姆·波顿",
+   "kind": "work",
+   "note": "逐帧人偶动画经典",
+   "title": "《圣诞夜惊魂》",
+   "url": "https://zh.wikipedia.org/wiki/%E5%9C%A3%E8%AF%9E%E5%A4%9C%E6%83%8A%E9%AD%82",
+   "year": "1993"
+  },
+  {
+   "creator": "韦斯·安德森",
+   "kind": "work",
+   "note": "韦斯·安德森定格片",
+   "title": "《犬之岛》",
+   "url": "https://zh.wikipedia.org/wiki/%E7%8A%AC%E4%B9%8B%E5%B2%9B",
+   "year": "2018"
+  }
+ ],
+ "brickfilm": [
+  {
+   "creator": "Thomas Bresson",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/2020-11-07_21-19-29_brickfilm-commemo.jpg/960px-2020-11-07_21-19-29_brickfilm-commemo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY 4.0",
+   "title": "积木定格拍摄现场",
+   "url": "https://commons.wikimedia.org/wiki/File:2020-11-07_21-19-29_brickfilm-commemo.jpg",
+   "note": "积木定格拍摄现场"
+  },
+  {
+   "creator": "Harald Hoyer",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Making_of_Lego_draw-bridge_buildup_%284484833137%29.jpg/960px-Making_of_Lego_draw-bridge_buildup_%284484833137%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY-SA 2.0",
+   "title": "乐高积木幕后制作",
+   "url": "https://commons.wikimedia.org/wiki/File:Making_of_Lego_draw-bridge_buildup_(4484833137).jpg",
+   "note": "乐高积木幕后制作"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "积木动画大电影",
+   "title": "《乐高大电影》",
+   "url": "https://zh.wikipedia.org/wiki/%E4%B9%90%E9%AB%98%E5%A4%A7%E7%94%B5%E5%BD%B1",
+   "year": "2014"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "乐高定格续作",
+   "title": "《乐高蝙蝠侠电影》",
+   "url": "https://zh.wikipedia.org/wiki/%E4%B9%90%E9%AB%98%E8%9D%99%E8%9D%A0%E4%BE%A0%E7%94%B5%E5%BD%B1",
+   "year": "2017"
+  }
+ ],
+ "pixilation": [
+  {
+   "creator": "Jack Long",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Norman_McLaren_drawing_on_film_-_1944.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "麦克拉伦手绘胶片",
+   "url": "https://commons.wikimedia.org/wiki/File:Norman_McLaren_drawing_on_film_-_1944.jpg",
+   "note": "麦克拉伦手绘胶片"
+  },
+  {
+   "creator": "诺曼·麦克拉伦",
+   "kind": "work",
+   "note": "麦克拉伦真人定格",
+   "title": "《Neighbours》",
+   "url": "https://en.wikipedia.org/wiki/Neighbours%20%281952%20film%29",
+   "year": "1952"
+  },
+  {
+   "creator": "诺曼·麦克拉伦",
+   "kind": "work",
+   "note": "逐帧舞蹈动画经典",
+   "title": "《Pas de deux》",
+   "url": "https://en.wikipedia.org/wiki/Pas%20de%20deux%20%28film%29",
+   "year": "1968"
+  }
+ ],
+ "skeuomorphism": [
+  {
+   "creator": "Delicje",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Apple_Newsstand_on_iOS_6_on_an_iPhone_3GS.jpg/960px-Apple_Newsstand_on_iOS_6_on_an_iPhone_3GS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY-SA 4.0",
+   "title": "iOS 6 木质书架界面",
+   "url": "https://commons.wikimedia.org/wiki/File:Apple_Newsstand_on_iOS_6_on_an_iPhone_3GS.jpg",
+   "note": "iOS 6 木质书架界面"
+  },
+  {
+   "creator": "苹果",
+   "kind": "work",
+   "note": "拟物风巅峰系统",
+   "title": "iOS 6",
+   "url": "https://zh.wikipedia.org/wiki/iOS%206",
+   "year": "2012"
+  },
+  {
+   "creator": "苹果",
+   "kind": "work",
+   "note": "绿色毡布游戏中心",
+   "title": "Game Center",
+   "url": "https://zh.wikipedia.org/wiki/Game%20Center",
+   "year": "2010"
+  }
+ ],
+ "flat-design": [
+  {
+   "creator": "Nihemj",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Flat_icon_ear.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "CC BY-SA 4.0",
+   "title": "无渐变扁平风图标",
+   "url": "https://commons.wikimedia.org/wiki/File:Flat_icon_ear.png",
+   "note": "无渐变扁平风图标"
+  },
+  {
+   "creator": "微软",
+   "kind": "work",
+   "note": "微软扁平设计语言",
+   "title": "Metro 设计语言",
+   "url": "https://zh.wikipedia.org/wiki/Metro%20%28%E8%AE%BE%E8%AE%A1%E8%AF%AD%E8%A8%80%29",
+   "year": ""
+  },
+  {
+   "creator": "苹果",
+   "kind": "work",
+   "note": "苹果转向扁平风",
+   "title": "iOS 7",
+   "url": "https://zh.wikipedia.org/wiki/iOS%207",
+   "year": "2013"
+  }
+ ],
+ "material-design": [
+  {
+   "creator": "Google",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Material_you_dark.png/960px-Material_you_dark.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY-SA 4.0",
+   "title": "Material You 深色组件",
+   "url": "https://commons.wikimedia.org/wiki/File:Material_you_dark.png",
+   "note": "深色组件示意"
+  },
+  {
+   "creator": "Google",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Material_you_light.png/960px-Material_you_light.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY 4.0",
+   "title": "Material You 浅色组件",
+   "url": "https://commons.wikimedia.org/wiki/File:Material_you_light.png",
+   "note": "浅色组件示意"
+  },
+  {
+   "creator": "Google",
+   "kind": "work",
+   "note": "Google 设计语言",
+   "title": "Material Design",
+   "url": "https://zh.wikipedia.org/wiki/Material%20Design",
+   "year": "2014"
+  }
+ ],
+ "bento-grid-ui": [
+  {
+   "creator": "苹果",
+   "kind": "work",
+   "note": "官网便当盒式排版",
+   "title": "Apple Inc.",
+   "url": "https://zh.wikipedia.org/wiki/%E8%8B%B9%E6%9E%9C%E5%85%AC%E5%8F%B8",
+   "year": ""
+  },
+  {
+   "creator": "Notion Labs",
+   "kind": "work",
+   "note": "官网模块化展示",
+   "title": "Notion",
+   "url": "https://zh.wikipedia.org/wiki/Notion",
+   "year": ""
+  }
+ ],
+ "neo-brutalist-web": [
+  {
+   "creator": "Gumroad",
+   "kind": "work",
+   "note": "粗野风官网改版",
+   "title": "Gumroad",
+   "url": "https://en.wikipedia.org/wiki/Gumroad",
+   "year": "2021"
+  },
+  {
+   "creator": "leaf corcoran",
+   "kind": "work",
+   "note": "独立游戏粗野网页",
+   "title": "itch.io",
+   "url": "https://en.wikipedia.org/wiki/Itch.io",
+   "year": ""
+  }
+ ],
+ "dark-immersive-ui": [
+  {
+   "creator": "Netflix",
+   "kind": "work",
+   "note": "深色沉浸式界面",
+   "title": "Netflix",
+   "url": "https://zh.wikipedia.org/wiki/Netflix",
+   "year": ""
+  },
+  {
+   "creator": "Spotify",
+   "kind": "work",
+   "note": "深色模式音乐 App",
+   "title": "Spotify",
+   "url": "https://zh.wikipedia.org/wiki/Spotify",
+   "year": ""
+  }
+ ],
+ "dieselpunk": [
+  {
+   "creator": "Stefan Prohaczka",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/5/59/Diesel_Forces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "CC BY-SA 3.0",
+   "title": "柴油朋克拼贴海报",
+   "url": "https://commons.wikimedia.org/wiki/File:Diesel_Forces.jpg",
+   "note": "柴油朋克拼贴海报"
+  },
+  {
+   "creator": "The Magic Tuba Pixie",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Lego_MOC_Dieselpunk_Wolf_Spider.jpg/960px-Lego_MOC_Dieselpunk_Wolf_Spider.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC BY 2.0",
+   "title": "乐高柴油朋克飞行器",
+   "url": "https://commons.wikimedia.org/wiki/File:Lego_MOC_Dieselpunk_Wolf_Spider.jpg",
+   "note": "乐高柴油朋克飞行器"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "柴油朋克电影代表",
+   "title": "《天空上尉与明日世界》",
+   "url": "https://zh.wikipedia.org/wiki/%E5%A4%A9%E7%A9%BA%E4%B8%8A%E5%B0%89%E4%B8%8E%E6%98%8E%E6%97%A5%E4%B8%96%E7%95%8C",
+   "year": "2004"
+  },
+  {
+   "creator": "KING Art",
+   "kind": "work",
+   "note": "柴油朋克即时战略",
+   "title": "《Iron Harvest》",
+   "url": "https://en.wikipedia.org/wiki/Iron%20Harvest",
+   "year": "2020"
+  }
+ ],
+ "biopunk": [
+  {
+   "creator": "Prototyperspective",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Biopunk_world_of_%27The_Windup_Girl%27_%E2%80%93_megodont_in_Thailand_megacity.png/960px-Biopunk_world_of_%27The_Windup_Girl%27_%E2%80%93_megodont_in_Thailand_megacity.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "CC0",
+   "title": "基因改造巨象街景",
+   "url": "https://commons.wikimedia.org/wiki/File:Biopunk_world_of_%27The_Windup_Girl%27_%E2%80%93_megodont_in_Thailand_megacity.png",
+   "note": "基因改造巨象街景"
+  },
+  {
+   "creator": "Amy Karle",
+   "img": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Regenerative_Reliquary_by_Amy_Karle_2016_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "kind": "image",
+   "license": "CC BY 4.0",
+   "title": "生物反应器骨骼艺术",
+   "url": "https://commons.wikimedia.org/wiki/File:Regenerative_Reliquary_by_Amy_Karle_2016_01.jpg",
+   "note": "生物反应器骨骼艺术"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "基因改造海底城",
+   "title": "《生化奇兵》",
+   "url": "https://zh.wikipedia.org/wiki/%E7%94%9F%E5%8C%96%E5%A5%87%E5%85%B5",
+   "year": "2007"
+  },
+  {
+   "creator": "保罗·巴奇加卢皮",
+   "kind": "work",
+   "note": "生化朋克代表作",
+   "title": "《发条女孩》",
+   "url": "https://zh.wikipedia.org/wiki/%E5%8F%91%E6%9D%A1%E5%A5%B3%E5%AD%A9",
+   "year": "2009"
+  }
+ ],
+ "lunarpunk": [
+  {
+   "creator": "AI 生成",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Lunarpunk_%28AI_illustration%3B_first_and_only_free_media_example_of_the_genre%3B_thumbnail-sized%29.png/960px-Lunarpunk_%28AI_illustration%3B_first_and_only_free_media_example_of_the_genre%3B_thumbnail-sized%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "月夜生态朋克示意图",
+   "url": "https://commons.wikimedia.org/wiki/File:Lunarpunk_(AI_illustration;_first_and_only_free_media_example_of_the_genre;_thumbnail-sized).png",
+   "note": "AI 生成的月夜生态图"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "月夜生态朋克词条",
+   "title": "Lunarpunk",
+   "url": "https://en.wikipedia.org/wiki/Lunarpunk",
+   "year": ""
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "姊妹流派太阳朋克",
+   "title": "Solarpunk",
+   "url": "https://en.wikipedia.org/wiki/Solarpunk",
+   "year": ""
+  }
+ ],
+ "afrofuturism": [
+  {
+   "creator": "Impulse! Records",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Sun_Ra_%281973_publicity_photo_-_Impulse_ABC_Dunhill%29.jpg/960px-Sun_Ra_%281973_publicity_photo_-_Impulse_ABC_Dunhill%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "Sun Ra 经典宣传照",
+   "url": "https://commons.wikimedia.org/wiki/File:Sun_Ra_(1973_publicity_photo_-_Impulse_ABC_Dunhill).jpg",
+   "note": "Sun Ra 经典宣传照"
+  },
+  {
+   "creator": "North American Star System Production",
+   "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Sun_Ra_Space_is_the_Place_1974_film_poster.jpg/960px-Sun_Ra_Space_is_the_Place_1974_film_poster.jpg?utm_source=commons.wikimedia.org/wiki/File:Sun_Ra_Space_is_the_Place_1974_film_poster.jpg",
+   "kind": "image",
+   "license": "Public domain",
+   "title": "《Space Is the Place》海报",
+   "url": "https://commons.wikimedia.org/wiki/File:Sun_Ra_Space_is_the_Place_1974_film_poster.jpg",
+   "note": "1974 电影海报"
+  },
+  {
+   "creator": "",
+   "kind": "work",
+   "note": "黑人未来主义大片",
+   "title": "《黑豹》",
+   "url": "https://zh.wikipedia.org/wiki/%E9%BB%91%E8%B1%B9%20%28%E7%94%B5%E5%BD%B1%29",
+   "year": "2018"
+  },
+  {
+   "creator": "Sun Ra",
+   "kind": "work",
+   "note": "Sun Ra 太空歌剧片",
+   "title": "《Space Is the Place》",
+   "url": "https://en.wikipedia.org/wiki/Space%20Is%20the%20Place",
+   "year": "1974"
+  }
+ ]
+}
