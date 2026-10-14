@@ -5,6 +5,7 @@ import {
   getAtlasOverview,
   getFeaturedConcepts,
   getConceptCount,
+  getFinderUseCases,
 } from "@/lib/lexicon";
 import SearchBox from "@/components/SearchBox";
 
@@ -20,6 +21,7 @@ export default async function Home() {
   ]);
   const conceptCount = getConceptCount();
   const totalLineages = domains.reduce((s, d) => s + d.lineageCount, 0);
+  const useCases = getFinderUseCases();
 
   return (
     <main className="min-h-screen bg-white text-neutral-900">
@@ -52,6 +54,33 @@ export default async function Home() {
               <b className="text-2xl font-bold text-white">{conceptCount}</b>
               <span className="ml-2 text-neutral-400">风格 STYLES</span>
             </span>
+          </div>
+        </div>
+      </section>
+
+      {/* 按用途找风格 */}
+      <section className="bg-neutral-950 text-white">
+        <div className="mx-auto max-w-6xl px-6 py-14">
+          <p className="font-mono text-xs uppercase tracking-[0.3em] text-neutral-400">
+            Find your style
+          </p>
+          <h2 className="mt-2 text-2xl font-black tracking-tight">按用途找风格</h2>
+          <p className="mt-2 max-w-2xl text-sm leading-7 text-neutral-400">
+            111 种风格太多？先选你要做的东西——每个用途只推荐 6 个最对味的风格，附一句为什么适合。
+          </p>
+          <div className="mt-8 flex flex-wrap gap-3">
+            {useCases.map((uc) => (
+              <Link
+                key={uc.key}
+                href={`/finder?u=${uc.key}`}
+                className="group border border-neutral-700 px-5 py-3 transition-colors hover:border-white hover:bg-white hover:text-neutral-900"
+              >
+                <span className="text-sm font-bold">{uc.nameCn}</span>
+                <span className="ml-2 inline-block text-neutral-500 transition-transform group-hover:translate-x-1 group-hover:text-neutral-900">
+                  →
+                </span>
+              </Link>
+            ))}
           </div>
         </div>
       </section>

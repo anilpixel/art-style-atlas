@@ -44,7 +44,7 @@
 - [x] P1-5 每个词条标注资料来源链接（2026-10-14：111/111 词条入库 `source`（URL），73+8 来自 candidates 文档、30 个原词条逐条经 Wikipedia API 核验修正（16 个 404 替换为正确条目，如 Watercolor_painting / 135_film / Low_poly / Claymation）；词条页元数据区新增"资料来源 SOURCE"外链行（Wikipedia/Medium/GitHub 等按 host 显示）；运维教训：source 加入后 lexicon-new.json 达 116KB、base64 后超 argv 上限 → 拆为 lexicon-new.json（40）+ lexicon-new2.json（41），lib/lexicon.ts 与 /api/seed 合并读取；concepts 表新增 source 列（ALTER IF NOT EXISTS）；tsc+build 通过，已部署、force seed 13/28/111、抽查 4 个词条页 + 图片 200）
 
 ### Phase 2 好用
-- [ ] P2-1 "按用途找风格" finder（恐怖/复古/可爱/科幻… → 推荐风格）
+- [x] P2-1 "按用途找风格" finder（恐怖/复古/可爱/科幻… → 推荐风格）（2026-10-14：新增 /finder 页 + data/finder.json（10 用途 × 6 策展风格，全部 slug 验链通过）；卡片配图优先真实案例图（87/111 有图），无图时 AI 图 + "AI 复现示意"徽标；每个风格一行"为什么适合"（含成本/工具提示）；首页新增深色"按用途找风格"入口区（10 chips）；sitemap 加入 /finder（priority 0.9）；tsc+build 通过，已部署、force seed 13/28/111、线上 /finder + 各用途页 + 首页 200 抽查通过）
 - [ ] P2-2 首页搜索框 + 用途词搜索（"恐怖游戏"能搜到 silhouette-game）
 - [ ] P2-3 词条页渐进披露（features 折叠、移动端优化）
 - [ ] P2-4 策展合集页（"8 种恐怖游戏美术风格"等，可分享）

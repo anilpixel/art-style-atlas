@@ -90,6 +90,41 @@ export function getCasedConceptCount(): number {
   return Object.keys(cases).length;
 }
 
+/* ============ 按用途找风格（Finder） ============ */
+
+import finderData from "@/data/finder.json";
+
+export interface FinderStyle {
+  slug: string;
+  note: string;
+}
+
+export interface FinderUseCase {
+  key: string;
+  nameCn: string;
+  nameEn: string;
+  tagline: string;
+  styles: FinderStyle[];
+}
+
+/** 按用途找风格：10 个用途 × 6 个精选风格（data/finder.json 策展） */
+export function getFinderUseCases(): FinderUseCase[] {
+  return (finderData as { useCases: FinderUseCase[] }).useCases;
+}
+
+export function getFinderUseCase(key: string): FinderUseCase | null {
+  return getFinderUseCases().find((u) => u.key === key) ?? null;
+}
+
+/** Finder 卡片配图：优先真实案例图（Wikimedia），没有则用词条 AI 图 */
+export function getFinderCardImage(slug: string): { src: string; isAi: boolean } {
+  const cs = getConceptCases(slug);
+  const real = cs.find((c) => c.kind === "image" && c.img);
+  if (real?.img) return { src: real.img, isAi: false };
+  const concept = seed.concepts.find((c) => c.slug === slug);
+  return { src: concept?.image ?? "", isAi: true };
+}
+
 /** 内置数据：lexicon.json（30）+ lexicon-new.json（40）+ lexicon-new2.json（41）合并 */
 const seed: SeedShape = {
   domains: seedBaseTyped.domains,
