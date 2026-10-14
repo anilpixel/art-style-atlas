@@ -46,7 +46,7 @@
 ### Phase 2 好用
 - [x] P2-1 "按用途找风格" finder（恐怖/复古/可爱/科幻… → 推荐风格）（2026-10-14：新增 /finder 页 + data/finder.json（10 用途 × 6 策展风格，全部 slug 验链通过）；卡片配图优先真实案例图（87/111 有图），无图时 AI 图 + "AI 复现示意"徽标；每个风格一行"为什么适合"（含成本/工具提示）；首页新增深色"按用途找风格"入口区（10 chips）；sitemap 加入 /finder（priority 0.9）；tsc+build 通过，已部署、force seed 13/28/111、线上 /finder + 各用途页 + 首页 200 抽查通过）
 - [x] P2-2 首页搜索框 + 用途词搜索（2026-10-14："恐怖游戏"→ horror 6 个策展风格（含 silhouette-game）+ 用途 banner 链 /finder；"复古"→ 13 结果双用途 + 名称匹配优先排序；新增 data/search-keywords.json（10 用途 × 关键词）；searchConcepts 返回 SearchHit（matchKind: name>alias>usage>feature 排序 + matchNote 策展理由）；DB 查询补上 aliases ILIKE；结果卡片优先真实案例图、AI 图标"AI 复现示意"徽标；无结果时给 finder 快捷入口；SearchBox 占位提示用途词示例；tsc+build 通过，已部署、线上抽查通过）
-- [ ] P2-3 词条页渐进披露（features 折叠、移动端优化）
+- [x] P2-3 词条页渐进披露（features 折叠、移动端优化）（2026-10-14：头部元数据只留 类型/年代/谱系 3 行可见，其余 7 行 + 资料来源折叠进「更多属性」；新增「一眼看懂 At a Glance」首屏 3 个关键特征要点；features 全文移入默认收起的「完整特征描述」折叠；真实案例前置到首屏区域；顺序 = 头部 → 3 要点 → 真实案例 → 完整特征(折叠) → 提示词(保持展开) → AI 示意(折叠) → 相关风格；移动端：px-4/py-8、h1 text-3xl、MetaRow 标签列 72px、栅格/卡片间距 gap-3、全部用原生 <details> 无 JS；tsc+build 通过，已部署、线上 3 个词条页 + 图片 200 抽查通过）
 - [ ] P2-4 策展合集页（"8 种恐怖游戏美术风格"等，可分享）
 
 ### Phase 3 增长

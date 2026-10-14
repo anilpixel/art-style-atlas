@@ -41,12 +41,26 @@ export async function generateMetadata({
 function MetaRow({ label, value }: { label: string; value: string }) {
   if (!value) return null;
   return (
-    <div className="grid grid-cols-[88px_1fr] gap-4 py-3 border-b border-neutral-200 text-sm">
+    <div className="grid grid-cols-[72px_1fr] sm:grid-cols-[88px_1fr] gap-3 sm:gap-4 py-3 border-b border-neutral-200 text-sm">
       <span className="font-mono text-xs uppercase tracking-[0.15em] text-neutral-500 pt-0.5">
         {label}
       </span>
       <span className="leading-6">{value}</span>
     </div>
+  );
+}
+
+/** 渐进披露用的折叠区块标题行：原生 <details>，无 JS，移动端友好 */
+function FoldSummary({ children }: { children: React.ReactNode }) {
+  return (
+    <summary className="flex cursor-pointer items-center justify-between gap-4 px-5 py-4 list-none [&::-webkit-details-marker]:hidden hover:bg-neutral-50 select-none">
+      <span className="font-mono text-xs uppercase tracking-[0.25em] text-neutral-500">
+        {children}
+      </span>
+      <span className="font-mono text-xl leading-none text-neutral-400 transition-transform duration-200 group-open:rotate-45">
+        +
+      </span>
+    </summary>
   );
 }
 
@@ -93,10 +107,10 @@ export default async function ConceptPage({
   const cases = getConceptCases(slug);
 
   return (
-    <div className="mx-auto max-w-6xl px-6 py-12">
-      {/* 头部：面包屑 + 风格名 + 元数据（AI 示意图已降级为页面底部的折叠区块） */}
+    <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 sm:py-12">
+      {/* 头部：面包屑 + 风格名 + 3 个核心属性（其余属性折叠，渐进披露） */}
       <header className="max-w-3xl">
-        <nav className="font-mono text-xs uppercase tracking-[0.2em] text-neutral-500 mb-8">
+        <nav className="font-mono text-xs uppercase tracking-[0.2em] text-neutral-500 mb-6 sm:mb-8">
           <Link href="/" className="hover:underline">
             风格图谱
           </Link>
@@ -108,61 +122,75 @@ export default async function ConceptPage({
           <span className="text-neutral-900">{c.nameCn}</span>
         </nav>
 
-        <h1 className="text-4xl font-bold tracking-tight mb-2">{c.nameCn}</h1>
+        <h1 className="text-3xl sm:text-4xl font-bold tracking-tight mb-2">
+          {c.nameCn}
+        </h1>
         <p className="font-mono text-sm uppercase tracking-[0.2em] text-neutral-500 mb-1">
           {c.nameEn}
         </p>
         {c.aliases && (
-          <p className="text-sm text-neutral-500 mb-8">又称：{c.aliases}</p>
+          <p className="text-sm text-neutral-500 mb-6 sm:mb-8">又称：{c.aliases}</p>
         )}
-        {!c.aliases && <div className="mb-8" />}
+        {!c.aliases && <div className="mb-6 sm:mb-8" />}
         <div className="border-t-2 border-neutral-900">
           <MetaRow label="类型 TYPE" value={c.type} />
           <MetaRow label="年代 ERA" value={c.era} />
           <MetaRow label="谱系 LINEAGE" value={c.lineageNameCn} />
-          <MetaRow label="媒介大类" value={c.mediumCategory} />
-          <MetaRow label="媒介 MEDIUM" value={c.medium} />
-          <MetaRow label="技法" value={c.technique} />
-          <MetaRow label="色彩 COLOR" value={c.color} />
-          <MetaRow label="光线 LIGHT" value={c.light} />
-          <MetaRow label="构图" value={c.composition} />
-          <MetaRow label="质感" value={c.texture} />
-          <SourceRow url={c.source} />
         </div>
+        {/* 更多属性：默认折叠 */}
+        {(c.mediumCategory ||
+          c.medium ||
+          c.technique ||
+          c.color ||
+          c.light ||
+          c.composition ||
+          c.texture ||
+          c.source) && (
+          <details className="group border-b border-neutral-200">
+            <FoldSummary>更多属性 · More Attributes</FoldSummary>
+            <div className="pb-2">
+              <MetaRow label="媒介大类" value={c.mediumCategory} />
+              <MetaRow label="媒介 MEDIUM" value={c.medium} />
+              <MetaRow label="技法" value={c.technique} />
+              <MetaRow label="色彩 COLOR" value={c.color} />
+              <MetaRow label="光线 LIGHT" value={c.light} />
+              <MetaRow label="构图" value={c.composition} />
+              <MetaRow label="质感" value={c.texture} />
+              <SourceRow url={c.source} />
+            </div>
+          </details>
+        )}
       </header>
 
-      {/* 关键特征 */}
-      {c.features && (
-        <section className="mt-14 max-w-3xl">
+      {/* 一眼看懂：首屏只留 3 个关键特征 */}
+      {c.keyPoints && c.keyPoints.length > 0 && (
+        <section className="mt-10 sm:mt-14 max-w-3xl">
           <h2 className="font-mono text-xs uppercase tracking-[0.25em] text-neutral-500 mb-4">
-            关键特征 · Key Features
+            一眼看懂 · At a Glance
           </h2>
-          <p className="text-lg leading-9 mb-6">{c.features}</p>
-          {c.keyPoints && c.keyPoints.length > 0 && (
-            <ul className="space-y-3">
-              {c.keyPoints.map((k, idx) => (
-                <li key={idx} className="flex gap-3 leading-7">
-                  <span className="font-mono text-sm text-neutral-400 shrink-0">
-                    {String(idx + 1).padStart(2, "0")}
-                  </span>
-                  <span>{k}</span>
-                </li>
-              ))}
-            </ul>
-          )}
+          <ul className="space-y-3">
+            {c.keyPoints.slice(0, 3).map((k, idx) => (
+              <li key={idx} className="flex gap-3 leading-7">
+                <span className="font-mono text-sm text-neutral-400 shrink-0">
+                  {String(idx + 1).padStart(2, "0")}
+                </span>
+                <span className="text-base sm:text-lg">{k}</span>
+              </li>
+            ))}
+          </ul>
         </section>
       )}
 
-      {/* 真实案例 */}
+      {/* 真实案例：前置到首屏区域（渐进披露：只留 3 个关键特征 + 真实案例） */}
       {cases.length > 0 && (
-        <section className="mt-14">
+        <section className="mt-10 sm:mt-14">
           <h2 className="font-mono text-xs uppercase tracking-[0.25em] text-neutral-500 mb-2">
             真实案例 · Real Cases
           </h2>
           <p className="text-sm text-neutral-500 mb-6">
             真实作品，不是 AI 生成。图片来自 Wikimedia Commons（免费授权），点击查看来源与授权。
           </p>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3 sm:gap-6">
             {cases.map((rc, idx) => (
               <a
                 key={idx}
@@ -181,15 +209,15 @@ export default async function ConceptPage({
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                   ) : (
-                    <div className="p-6 text-center">
-                      <div className="font-bold text-lg leading-7">{rc.title}</div>
+                    <div className="p-4 sm:p-6 text-center">
+                      <div className="font-bold text-base sm:text-lg leading-7">{rc.title}</div>
                       {rc.note && (
                         <div className="text-sm text-neutral-500 mt-2 leading-6">{rc.note}</div>
                       )}
                     </div>
                   )}
                 </div>
-                <div className="p-4">
+                <div className="p-3 sm:p-4">
                   <div className="font-bold group-hover:underline underline-offset-4 leading-6">
                     {rc.title}
                   </div>
@@ -213,14 +241,28 @@ export default async function ConceptPage({
         </section>
       )}
 
-      {/* 提示词 */}
+      {/* 完整特征描述：默认折叠（渐进披露） */}
+      {c.features && (
+        <section className="mt-10 sm:mt-14 max-w-3xl">
+          <details className="group border border-neutral-200">
+            <FoldSummary>完整特征描述 · Full Description</FoldSummary>
+            <p className="px-5 pb-6 leading-8 sm:leading-9 text-base sm:text-lg">
+              {c.features}
+            </p>
+          </details>
+        </section>
+      )}
+
+      {/* 提示词（保持展开：vibe coder 要直接复制） */}
       {c.promptTemplate && (
-        <section className="mt-12 max-w-3xl">
+        <section className="mt-10 sm:mt-12 max-w-3xl">
           <h2 className="font-mono text-xs uppercase tracking-[0.25em] text-neutral-500 mb-4">
             提示词 · Prompt
           </h2>
-          <div className="border-2 border-neutral-900 p-6 bg-neutral-50">
-            <p className="leading-8 whitespace-pre-wrap">{c.promptTemplate}</p>
+          <div className="border-2 border-neutral-900 p-4 sm:p-6 bg-neutral-50">
+            <p className="leading-7 sm:leading-8 whitespace-pre-wrap text-[15px] sm:text-base">
+              {c.promptTemplate}
+            </p>
           </div>
           <div className="mt-4">
             <CopyButton text={c.promptTemplate} />
@@ -230,7 +272,7 @@ export default async function ConceptPage({
 
       {/* AI 复现示意（折叠降级：AI 生成，非真实作品） */}
       {c.image && (
-        <section className="mt-14 max-w-3xl">
+        <section className="mt-10 sm:mt-14 max-w-3xl">
           <details className="group border border-neutral-200">
             <summary className="flex cursor-pointer items-center justify-between gap-4 px-5 py-4 list-none [&::-webkit-details-marker]:hidden hover:bg-neutral-50">
               <span>
@@ -265,11 +307,11 @@ export default async function ConceptPage({
 
       {/* 相关风格 */}
       {related.length > 0 && (
-        <section className="mt-14">
+        <section className="mt-10 sm:mt-14">
           <h2 className="font-mono text-xs uppercase tracking-[0.25em] text-neutral-500 mb-6">
             相关风格 · Related
           </h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-6">
             {related.map(
               (r) =>
                 r && (
@@ -293,7 +335,7 @@ export default async function ConceptPage({
                         </div>
                       )}
                     </div>
-                    <div className="p-4">
+                    <div className="p-3 sm:p-4">
                       <div className="font-bold group-hover:underline underline-offset-4">
                         {r.nameCn}
                       </div>
