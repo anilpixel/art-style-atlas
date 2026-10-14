@@ -38,7 +38,7 @@
 
 ### Phase 1 真实化
 - [x] P1-1 真实案例数据模型 + Commons 管线脚本（2026-10-14：data/cases.json + scripts/fetch-commons-cases.py，10 个词条试点共 22 条案例）
-- [ ] P1-2 111 词条真实案例全量填充（分批，每批 ~15 个）—— 进展：2026-10-14 批次4完成，70/111 词条已有案例（+15：pbr、npr、pre-rendered-bg、hd-2d、silhouette-game、paper-craft-game、ps1-lowfi、80s-retro-anime、90s-ova-aesthetic、superflat、gekiga、limited-animation、rotoscoping、literati-painting、tang-tomb-murals；共 +38 条案例；atsu-nuri-thick-paint 因 Commons 无可用厚涂示例（候选皆业余动漫插画，与概念错配，已目检剔除），改用 tang-tomb-murals；pbr/npr 无可用锚点图，仅收录代表作外链；全部 31 个 Wikipedia 外链经 API 验链；共 162 条案例）。批次3：55/111（124 条案例）。
+- [ ] P1-2 111 词条真实案例全量填充（分批，每批 ~15 个）—— 进展：2026-10-14 批次5完成，85/111 词条已有案例（+15：bauhaus-typography、gothic-revival、beaux-arts、deconstructivism、parametricism、metabolism、scandinavian-design、mid-century-modern、dieter-rams-functionalism、cloisonne-enamel、meenakari、filigree、art-nouveau-jewelry、fahai-temple-murals、kizil-caves；共 +45 条案例；beaux-arts 首轮 query 错配（返回美术馆藏画），改 query "Grand Central Terminal facade" 重拉；全部 15 个 Wikipedia 外链经 API 验链（含 6 个 en 兜底：Gothic Revival architecture、Beaux-Arts architecture、Metabolism (architecture)、Charles and Ray Eames、Meenakari、René Lalique；Filigree；花丝中文无词条用 en）；共 207 条案例）。批次4：70/111（162 条案例）。批次3：55/111（124 条案例）。
 - [x] P1-3 词条页"真实案例"区块 UI（2026-10-14：真实图优先 + 授权标注 + 外链；AI 图改标"AI 复现示意"）
 - [ ] P1-4 AI 示例图降级为"AI 复现示意"（标签 + 折叠）（标签已改，折叠待做）
 - [ ] P1-5 每个词条标注资料来源链接
