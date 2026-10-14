@@ -10,7 +10,7 @@ import json, os, sys, urllib.parse, urllib.request
 OUT = os.path.join(os.path.dirname(__file__), "commons-raw")
 os.makedirs(OUT, exist_ok=True)
 
-OK_LICENSES = ("public domain", "cc-by-sa", "cc-by", "cc0")
+OK_LICENSES = ("publicdomain", "ccbysa", "ccby", "cc0")
 
 def fetch(query, limit=12):
     params = {
@@ -32,8 +32,9 @@ def main():
     for page in (data.get("query") or {}).get("pages", {}).values():
         ii = (page.get("imageinfo") or [{}])[0]
         meta = ii.get("extmetadata") or {}
-        lic = (meta.get("LicenseShortName") or {}).get("value", "").lower()
-        if not any(k in lic for k in OK_LICENSES):
+        lic = (meta.get("LicenseShortName") or {}).get("value", "")
+        lic_norm = lic.lower().replace("-", "").replace(" ", "")
+        if not any(k in lic_norm for k in OK_LICENSES):
             continue
         artist = (meta.get("Artist") or {}).get("value", "")
         # 去掉 HTML 标签

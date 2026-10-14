@@ -38,7 +38,7 @@
 
 ### Phase 1 真实化
 - [x] P1-1 真实案例数据模型 + Commons 管线脚本（2026-10-14：data/cases.json + scripts/fetch-commons-cases.py，10 个词条试点共 22 条案例）
-- [ ] P1-2 111 词条真实案例全量填充（分批，每批 ~15 个）
+- [ ] P1-2 111 词条真实案例全量填充（分批，每批 ~15 个）—— 进展：2026-10-14 批次1完成，25/111 词条已有案例（+15：mannerism、impressionism、blue-green-landscape、rococo、neoclassicism、post-impressionism、symbolism、shuimo-xieyi、art-nouveau-architecture、postmodern-architecture、graffiti、watercolor、anime、toon-shading、german-expressionist-cinema；共 53 条案例）。附带修复：fetch-commons-cases.py 授权过滤 bug（"CC BY-SA" 含空格导致被误过滤，现做归一化比对）。
 - [x] P1-3 词条页"真实案例"区块 UI（2026-10-14：真实图优先 + 授权标注 + 外链；AI 图改标"AI 复现示意"）
 - [ ] P1-4 AI 示例图降级为"AI 复现示意"（标签 + 折叠）（标签已改，折叠待做）
 - [ ] P1-5 每个词条标注资料来源链接
